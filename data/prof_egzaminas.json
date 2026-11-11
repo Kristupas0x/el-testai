@@ -1,0 +1,2975 @@
+[
+    {
+        "klausimas": "Kaip jungiami apšvietimo lempos laidai dvilaidėje apšvietimo sistemoje?",
+        "atsakymai": [
+            "Fazinis laidas prie lempos jungiamas per jungiklį, o nulinis – tiesiai prie lempos",
+            "Nulinis laidas prie lempos jungiamas per jungiklį, o fazinis -  tiesiai prie lempos",
+            "Abu laidai prie lempos jungiami per dviejų kontaktų jungiklį",
+            "Fazinis ir nulinis laidai jungiami prie lempos per atskirus jungiklius"
+        ],
+        "teisingas": [0],
+        "tipas": "single",
+        "vaizdas": ""
+    },
+    {
+        "klausimas": "Kaip sudaroma variklio apvijos sujungimo schema “Trikampis”?",
+        "atsakymai": [
+            "Apvijos ričių galai X,Y,Z (U2,V2,W2) prijungiami prie trifazio tinklo, o pradžios  - A,B,C – (U1,V1,W1) sujungiamos į vieną neutralųjį mazgą",
+            "Apvijos ričių galai A,Z,B,X,C,Y sujungiami kartu",
+            "Apvijos ričių galai X,Y,Z (U2,V2,W2) sujungiami į vieną neutralųjį mazgą, o pradžios – A,B,C (U1,V1,W1) prijungiamos prie trifazio tinklo",
+            "Apvijų ričių galai A su Z , B su X ir C su Y , gautos išvadų poros prijungiamos prie trifazio tinklo"
+        ],
+        "teisingas": [3],
+        "tipas": "single",
+        "vaizdas": ""
+    },
+    {
+        "klausimas": "Nuo ko suveikia termobimetalinė rėlė?",
+        "atsakymai": [
+            "Paspaudus jungimo mygtuką",
+            "Nuo viršįtampių",
+            "Nuo sumažėjusios įtampos",
+            "Nuo padidintos srovės"
+        ],
+        "teisingas": [3],
+        "tipas": "single",
+        "vaizdas": ""
+    },
+    {
+        "klausimas": "Nuo ko priklauso statoriaus magnetinio lauko sukimosi kryptis?",
+        "atsakymai": [
+            "Nuo prijungtos prie statoriaus apvijos įtampos fazių vertės",
+            "Nuo fazių kiekio",
+            "Nuo automatinio jungiklio nominalios vertės",
+            "Nuo prijungtos prie statoriaus apvijos įtampos fazių sekos"
+        ],
+        "teisingas": [3],
+        "tipas": "single",
+        "vaizdas": ""
+    },
+    {
+        "klausimas": "Iš kokios medžiagos gaminami elektros mašinų kontaktiniai šepečiai?",
+        "atsakymai": [
+            "Iš aliuminio",
+            "Iš kvarcinio smėlio",
+            "Iš plastiko",
+            "Iš grafito"
+        ],
+        "teisingas": [3],
+        "tipas": "single",
+        "vaizdas": ""
+    },
+    {
+        "klausimas": "Kaip vadinamas varžų jungimo būdas, kai galima įžvelgti ir nuoseklųjį, ir lygiagretųjį laidininkų jungimo būdus?",
+        "atsakymai": [
+            "Sudėtiniu",
+            "Mišriuoju",
+            "Kombinuotuoju",
+            "Alternatyviuoju"
+        ],
+        "teisingas": [1],
+        "tipas": "single",
+        "vaizdas": ""
+    },
+                           {
+                               "klausimas": "Įtampa pirminėje apvijoje lygi 35 kV, o antrinėje apvijoje – 10 kV. Koks yra įtampos transformacijos koeficientas?",
+                               "atsakymai": [
+                                   "3,5",
+                                   "0,35",
+                                   "350",
+                                   "35"
+                               ],
+                               "teisingas": [0],
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Koks būdas taikomas nuolatinės srovės variklio greičiui reguliuoti?",
+                               "atsakymai": [
+                                   "Keičiant srovės dažnį",
+                                   "Keičiant variklio veleno apkrovą",
+                                   "Keičiant prijungtų fazių seką",
+                                   "Keičiant prijungtos įtampos dydį"
+                               ],
+                               "teisingas": [3],
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Koks yra varžų jungimo būdas, kai visų laidininkų vieni galai sujungti viename taške, kiti galai – kitame?",
+                               "atsakymai": [
+                                   "Mišrus",
+                                   "Lygiagretus",
+                                   "Nuoseklus",
+                                   "Jungimas Žvaigžde"
+                               ],
+                               "teisingas": [1],
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kur teisingai prijungtas ampermetras?",
+                               "atsakymai": [
+                                   "A",
+                                   "B",
+                                   "C",
+                                   "D"
+                               ],
+                               "teisingas": [1],
+                               "vaizdas": "media/image1.png"
+                           },
+                           {
+                               "klausimas": "Ką reiškia elektros schemoje pavaizduotas šis simbolis?",
+                               "atsakymai": [
+                                   "Normalia atviras kontaktas NO",
+                                   "Normaliai uždaras kontaktas NC",
+                                   "Vienpolis išjungiklis",
+                                   "Mechaninis mygtukas"
+                               ],
+                               "teisingas": [1],
+                               "vaizdas": "media/image2.png"
+                           },
+                           {
+                               "klausimas": "Kokia yra galima kontaktoriaus elektromagneto ritės perdegimo priežastis?",
+                               "atsakymai": [
+                                   "Per didelė maitinimo įtampa",
+                                   "Per didelė apkrova",
+                                   "Vietomis sukeisti maitinimo laidai",
+                                   "Aukšta temperatūra"
+                               ],
+                               "teisingas": [0],
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kam naudojamos nuotekio rėlės?",
+                               "atsakymai": [
+                                   "Apsaugai nuo trumpo jungimo",
+                                   "Įrenginiams įjungti iš skirtingų vietų",
+                                   "Įtampai atjungti įvykus srovės nuotekiui",
+                                   "Įrenginiam valdyti nuotoliniu būdu"
+                               ],
+                               "teisingas": [2],
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Ką reiškia elektrosaugoje vartojamas terminas „apsauginis atskyrimas“?",
+                               "atsakymai": [
+                                   "Imtuvų maitinimas per skiriamąjį transformatorių",
+                                   "Imtuvų fizinis atskyrimas nustatytu atstumu",
+                                   "Imtuvų maitinimas nuo atskirų apsauginių automatinių jungiklių",
+                                   "Imtuvų suskirstymas pagal apsaugos klases"
+                               ],
+                               "teisingas": [0],
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kokios pagrindinės kontaktoriaus dalys (pasirinkti tinkamą atsakymo variantą)?",
+                               "atsakymai": [
+                                   "1. Papildomi kontaktai, 2. Kontaktinis tiltelis, 3. Inkaras (judamoji šerdies dalis), 4. Plastikinė traversa, 5. Kontaktinės plokštelės, 6. Šerdis, 7. Apvija (ritės), 8. Pagrindinis kontaktas",
+                                   "1.Pagrindinis kontaktas, 2. Kontaktinis tiltelis, 3. Kontaktinės plokštelės, 4. Plastikinė traversa, 5. Inkaras (judamoji šerdies dalis), 6. Apviuja ritės, 7. Šerdis, 8. Papildomi kontaktai",
+                                   "1. Pagrindinis kontaktas, 2. Šerdis, 3. Kontaktinės plokštelės, 4. Papildomi kontaktai, 5. Inkaras (judamoji šerdies dalis), 6. Plastikinė traversa, 7. Apvija, 8. Kontaktinis tiltelis",
+                                   "1. Kontaktinis tiltelis, 2. Inkaras (judamoji šerdies dalis), 3. Pagrindinis kontaktas, 4. Plastikinė traversa, 5. Kontaktinės plokštelės, 6. Apvija(ritės), 7. Šerdis, 8. Papildomi kontaktai"
+                               ],
+                               "teisingas": [1],
+                               "vaizdas": "media/image3.gif"
+                           },
+                           {
+                               "klausimas": "Kokia yra įtampos ir srovės matavimo transformatorių paskirtis?",
+                               "atsakymai": [
+                                   "Didinti įtampą ir srovę",
+                                   "Keisti srovės dažnį",
+                                   "Praplėsti prietaisų matavimo ribas",
+                                   "Tiekti energiją esant avariniam rėžimui"
+                               ],
+                               "teisingas": [2],
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kuriame paveikslėlyje pavaizduotas nuosekliojo žadinimo nuolatinės srovės variklis? ",
+                               "atsakymai": [
+                                   "a",
+                                   "b",
+                                   "c",
+                                   "d"
+                               ],
+                               "teisingas": [1],
+                               "vaizdas": "media/image4.png"
+                           },
+                           {
+                               "klausimas": "Kaip iššifruojamas laidininko tipas YDY 3x2,5?",
+                               "atsakymai": [
+                                   "Aliuminis daugiagyslis laidas su poliviniline izoliacija ir poliviniliniu apvalkalu , 3 – jų gyslų , 2,5mm2 skerspjūvio",
+                                   "Varinis viengyslis laidas su poliviniline izoliacija ir poliviniliniu apvalkalu , 3 – jų gyslų , 2,5 mm2 skerspjūvio",
+                                   "Aliuminis daugiagyslis 2 – jų gyslų laidas , su triguba piliviniline izoliacija ir poliviniliniu apvalkalu",
+                                   "Daugiagyslis laidas su poliviniline izoliacija ir poliviniliniu apvalkalu, 2 – jų gyslų , 3mm2 skerspjūvio"
+                               ],
+                               "teisingas": [1],
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Pirminė transformatoriaus apvija turi 10 vijų, o antrinė – 100 vijų. Įtampa pirminėje apvijoje lygi 110V. Kokia įtampa yra antrinėje apvijoje?",
+                               "atsakymai": [
+                                   "11V",
+                                   "110 kV",
+                                   "1,1 kV",
+                                   "11 Kv"
+                               ],
+                               "teisingas": [2],
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kaip vadinama elektros tinklo sistema, kurioje vienas taškas (šaltinio neutralė) yra tiesiogiai įžeminta, o elektros įrenginių pasyvios dalys sujungtos su vietiniu įžeminimo įrenginiu?",
+                               "atsakymai": [
+                                   "TN",
+                                   "TT",
+                                   "IT",
+                                   "NT"
+                               ],
+                               "teisingas": [1],
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kokia įtampa yra žemoji?",
+                               "atsakymai": [
+                                   "Įtampa nuo 50 V iki 380 V kintamos srovės ir nuo 75 V iki 1000 V nuolatinės srovės įtampos",
+                                   "Įtampa nuo 100 V iki 1000 V kintamosios srovės ir nuo 200 V iki 1500 V nuolatinės srovės įtampos",
+                                   "Įtampa nuo 230 V iki 400 V kintamosios srovės ir nuo 100 V iki 750 V nuolatinės srovės įtampos",
+                                   "Įtampa nuo 50 V iki 1000 V kintamosios srovės ir nuo 75 V iki 1500 V nuolatinės srovės įtampos"
+                               ],
+                               "teisingas": [3],
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Ką reiškia ant elektros įrenginio žymėjimas IP (angl. interelement protection)",
+                               "atsakymai": [
+                                   "Įrenginio eksplotavimo sąlygos",
+                                   "Apsauga nuo prisilietimo ir vandens",
+                                   "Įrenginio montavimo sąlygos",
+                                   "Izoliacijos atsparumo klasė"
+                               ],
+                               "teisingas": [1],
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kas pavaizduota paveiksle?",
+                               "atsakymai": [
+                                   "Sinchroninis elektros variklis",
+                                   "Žingsninis elektros variklis",
+                                   "Transformatorius ir jo pirminė ir antrinė apvijos",
+                                   "Asinchroninis variklis"
+                               ],
+                               "teisingas": [3],
+                               "vaizdas": "media/image8.jpeg"
+                           },
+                           {
+                               "klausimas": "Žingsninio variklio dalys. Kokia žingsninio variklio dalis paveiksle pažymėta Nr 9?",
+                               "atsakymai": [
+                                   "Rotorius su magnetais",
+                                   "Pagrindinis korpusas",
+                                   "Statorius su apvijom",
+                                   "Enkoderio korpusas"
+                               ],
+                               "teisingas": [2],
+                               "vaizdas": "media/image9.png"
+                           },
+                           {
+                               "klausimas": "Kokio srovės stiprio prireiktų norint perduoti pilnutinę galią S=100kVA, esant įtampai U=400V?",
+                               "atsakymai": [
+                                   "I=25 A",
+                                   "I=250 A",
+                                   "I=2.5 A",
+                                   "I = 25Ka"
+                               ],
+                               "teisingas": [1],
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kokia schema pavaizduota paveiksle?",
+                               "atsakymai": [
+                                   "Struktūrinė schema",
+                                   "Blokinė schema",
+                                   "Daugialinijinė schema",
+                                   "Vienlinijinė schema"
+                               ],
+                               "teisingas": [2],
+                               "vaizdas": "media/image10.jpg"
+                           },
+                           {
+                               "klausimas": "Kokia raide žymima elektros tinklų sistema, kurios visos maitinimo tinklo srovinės dalys yra tiesiogiai įžemintos?",
+                               "atsakymai": [
+                                   "T",
+                                   "I",
+                                   "N",
+                                   "S"
+                               ],
+                               "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kuriai darbų kategorijai, elektros pavojaus atžvilgiu priskiriami darbai, vykdomi neatjungus įtampos , toli nuo įtampą turinčių dalių?",
+                               "atsakymai": [
+                                   "I kategorijai",
+                                   "II kategorijai",
+                                   "III kategorijai",
+                                   "IV kategorijai"
+                               ],
+                               "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kas yra kontaktorius ir kam jis skirtas?",
+                               "atsakymai": [
+                                   "Elektromagnetinis aparatas , skirtas grandinėms valdyti nuotoliniu būdu",
+                                   "Elektrinis prietaisas skirtas kontaktų priežiūrai",
+                                   "Rankinis prietaisas skirtas kontaktams reguliuoti",
+                                   "Rankinis prietaisas skirtas grandinėms valdyti"
+                               ],
+                               "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kaip nuo transformatoriaus vijų skaičiaus priklauso gaunamos įtampos dydis?",
+                               "atsakymai": [
+                                   "Vijų skaičius lygus įtampai",
+                                   "Vijų skaičius atvirkščiai proporcingas įtampai",
+                                   "Įtampa nepriklausoma nuo vijų skaičiaus",
+                                   "Vijų skaičius tiesiogiai proporcingas įtampai"
+                               ],
+                               "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Koks yra leidžiamas 230 V įtampos maitinimo tinklo įtampos svyravimas (%), esant nominaliajam dažniui 50±1 Hz?",
+                               "atsakymai": [
+                                   "-25 iki +20",
+                                   "-5 iki +5",
+                                   "-1 iki +1",
+                                   "-15 iki +10"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kiek vatų sudaro vieną megavatą?",
+                               "atsakymai": [
+                                   "1000 000 W",
+                                   "0,001 W",
+                                   "1000 W",
+                                   "10 000 W"
+                               ],
+                               "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kam reikalingas nulinis laidas keturlaidėje trifazėje grandinėje?",
+                               "atsakymai": [
+                                   "Įrenginiui įnulinti",
+                                   "Apkrovos asimetriškumui kompensuoti",
+                                   "Naudojamas kaip atsarginis laidininkas",
+                                   "Įrenginiui įžeminti"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Ką reiškia DC žymėjimas matavimo įrenginiuose?",
+                               "atsakymai": [
+                                   "Galios matavimas",
+                                   "Kintamosios srovės matavimas",
+                                   "Nuolatinės srovės matavimas",
+                                   "Dažnio matavimas"
+                               ],
+                               "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kokiais matavimo vienetais matuojama elektrovaros jėga?",
+                               "atsakymai": [
+                                   "Vatais",
+                                   "Voltais",
+                                   "Amperais",
+                                   "Faradais"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kokiais dydžiais išreiškiama talpinė varža?",
+                               "atsakymai": [
+                                   "ωLI",
+                                   "1/ωC",
+                                   "U/I",
+                                   "U/R"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "30 Ω varžos rezistorius prijungtas prie tam tikros įtampos šaltinio. Rezistoriumi teka 0,80 A stiprio srovė. Kokia yra šaltinio įtampa?",
+                               "atsakymai": [
+                                   "34 V",
+                                   "24 V",
+                                   "2,4 V",
+                                   "240 V"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Koks įrenginys pavaizduotas paveiksle?",
+                               "atsakymai": [
+                                   "Įtampos pažemėjimo apsauga",
+                                   "Automatinis jungtuvas",
+                                   "Nuotekio rėlė",
+                                   "Kontaktorius"
+                               ],
+                               "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": "media/image11.jpg"
+                           },
+                           {
+                               "klausimas": "Kiek puslaidininkių diodų sudaro vienfazio dvipusio tiltelinio lygintuvo lyginimo grandinę?",
+                               "atsakymai": [
+                                   "6",
+                                   "2",
+                                   "3",
+                                   "4"
+                               ],
+                               "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kokiais vienetais matuojama reaktyvioji galia?",
+                               "atsakymai": [
+                                   "VA",
+                                   "Var",
+                                   "V",
+                                   "W"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Koks elektromechaninis prietaisas pavaizduotas paveiksle?",
+                               "atsakymai": [
+                                   "Kontaktorius",
+                                   "Jungtuvas",
+                                   "Automatinis jungiklis",
+                                   "Transformatorius"
+                               ],
+                               "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": "media/image12.jpg"
+                           },
+                           {
+                               "klausimas": "Kas yra termopora?",
+                               "atsakymai": [
+                                   "Nuo temperatūrinio ar cheminio poveikio atsiradusi metalo paviršiaus defekto rūšis",
+                                   "Du skirtingose vietose išdėstyti elektroniniai termometrai temperatūrų skirtumui stebėti",
+                                   "Skirtingų metalų lydinys su išvadais dideliam temperatūrų diapazonui matuoti",
+                                   "Temperatūrai atspari izoliacinė medžiaga"
+                               ],
+                               "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kas yra transformatoriaus pirminės apvijos gnybtuose esancios įtampos santykis su antrinės apvijos gnybtuose esančia įtampa, nustatyta esant laisvajai eigai?",
+                               "atsakymai": [
+                                   "Santykinė pereinamoji įtampa",
+                                   "Vardinis transformacijos koeficientas",
+                                   "Transformatoriaus efektyvumas",
+                                   "Naudingumo koeficientas"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kokio variklio konstrukcija pažymėta paveiksle?",
+                               "atsakymai": [
+                                   "Trifazis asinchroninis variklis su narveliniu ( trumpai įjungtu) rotorium. Susideda iš dviejų pagrindinių dalių – nejudamos dalies statoriaus ir judamosios – rotoriaus.",
+                                   "Trifazis sinchroninis variklis su faziniu rotoriumi. Susideda iš dviejų pagrindinių dalių – nejudamos dalies statoriaus ir judančiosios dalies rotoriaus, kuris sujungtas slydimo žiedais.",
+                                   "Vienfazis asinchroninis variklis su kondensatoriniu paleidimu. Jį sudaro nejudamoji dalis – statorius bei besisukanti dalis – rotorius, skirtas mechaninei energijai perduoti.",
+                                   "Trifazis elektros generatorius su faziniu rotoriumi. Susideda iš stacionariosios dalies statoriaus ir besisukančiosios dalies rotoriaus, kuriame sukuriamas elektromagnetinis laukas."
+                               ],
+                               "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": "media/image13.jpg"
+                           },
+                           {
+                               "klausimas": "Kokios yra kirtiklio sudedamosios dalys?",
+                               "atsakymai": [
+                                   "1. nejudamasis kontaktas, 2. judamasis kontaktas, 3. rankena, 4. gnybtai komutuojamai grandinei pajungti",
+                                   "1. rankena, 2. nejudamasis kontaktas, 3. gnybtai komutuojamai grandinei pajungti, 4. judamasis kontaktas",
+                                   "1. judamasis kontaktas, 2. gnybtai komutuojamai grandinei pajungti, 3. nejudamasis kontaktas, 4. rankena",
+                                   "1. gnybtai komutuojamai grandinei pajungti, 2. judamasis kontaktas, 3. rankena, 4. nejudamasis kontaktas"
+                               ],
+                               "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": "media/image14.jpg"
+                           },
+                           {
+                               "klausimas": "Kuriam iš šių transformatorių draudžiama įžeminti antrinę apvija?",
+                               "atsakymai": [
+                                   "Autotransformatoriui",
+                                   "Skiriamajam",
+                                   "Įtampą aukštinančiam",
+                                   "Matavimo"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kuriame paveikslėlyje pavaizduota elektros tinklo su įžeminta neutrale aukštos įtampos pusėje ir izoliuota žemos įtampos pusėje principinė schema?",
+                               "atsakymai": [
+                                   "a",
+                                   "b",
+                                   "c",
+                                   "d"
+                               ],
+                               "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": "media/image15.png"
+                           },
+                           {
+                               "klausimas": "Ką reiškia užrašas 15A ant tirpiojo saugiklio?",
+                               "atsakymai": [
+                                   "Saugiklio tirpuko vardinė srovė",
+                                   "Apsaugos klasė",
+                                   "Saugiklio gabaritai",
+                                   "Saugiklio perdegimo srovė"
+                               ],
+                               "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kodėl saugiklio įdėklas (kamštis) yra pripildytas smėlio?",
+                               "atsakymai": [
+                                   "Kad saugiklis tarnautų ilgiau",
+                                   "Kad gesintų elektros lauką, kuris susidaro saugikliui perdegus",
+                                   "Specialus smėlis su priemaišomis gerai praleidžia elektros srovę",
+                                   "Kad neveiktų korozija"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kaip pasikeis dirbančio generatoriaus įtampa atjungus dalį elektros vartotojų?",
+                               "atsakymai": [
+                                   "Įtampa padidės",
+                                   "Įtampa sumažės",
+                                   "Įtampa nepasikeis",
+                                   "Įtampa artės prie 0V reikšmės"
+                               ],
+                               "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Pirminė transformatoriaus apvija prijungta prie 10 KV įtampos tinklo. Transformacijos koeficientas KT =25. Kokia įtampa yra antrinėje transformatoriaus apvijoje?",
+                               "atsakymai": [
+                                   "U=0.4KV",
+                                   "U=0.25KV",
+                                   "U=40V",
+                                   "U=4.0KV"
+                               ],
+                               "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Srovės matavimo transformatoriaus antrinės apvijos vardinė srovė yra penki amperai. Transformacijos koeficientas KT=300. Kokią maksimalią srovę galima išmatuoti šiuo ampermetru?",
+                               "atsakymai": [
+                                   "I=15A",
+                                   "I=150A",
+                                   "I=1500A",
+                                   "I=60A"
+                               ],
+                               "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Dėl kokių priežasčių variklis nepasiekia nominalaus sukimosi dažnio ir gaudžia?",
+                               "atsakymai": [
+                                   "Dėl didelės drėgmės",
+                                   "Dėl perkrovos",
+                                   "Dėl padidėjusios įtampos",
+                                   "Dėl trumpojo jungimo"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Esant kintamąjai trifazei srovei, šynos turi būti žymimos:",
+                               "atsakymai": [
+                                   "L1 fazė – raudona spalva, L2 fazė – žalia  spalva,L3 fazė – geltona  spalva, N – mėlyna spalva , PEN – žalios spalvos juostomis",
+                                   "L1 fazė – ruda spalva,  L2 fazė – pilka spalva,   L3 fazė – juoda spalva,  N - mėlyna spalva , PEN –geltonos ir žalios spalvos juostomis.",
+                                   "L1 fazė – pilka spalva, L2 fazė – ruda spalva,  L3 fazė – juoda spalva,  N – geltonos ir žalios spalvos juostomis, PEN – mėlyna spalva",
+                                   "L1 fazė – geltona spalva, L2 fazė – žalia spalva,  L3 fazė – raudona spalva, N – mėlyna spalva, PEN – geltonos ir žalios spalvos juostomis"
+                               ],
+                               "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Ką reiškia šis principinėje schemoje pažymėtas simbolis?",
+                               "atsakymai": [
+                                   "1 fazės elektros variklis",
+                                   "3 fazių elektros variklis",
+                                   "Generatorius",
+                                   "Transformatorius su įžeminta neutrale"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": "media/image17.jpeg"
+                           },
+                           {
+                               "klausimas": "Kaip turi būti pažymėti apsauginio įžeminimo laidininkai?",
+                               "atsakymai": [
+                                   "Raudona spalva, skersinėmis juostomis",
+                                   "Geltona ir žalia spalva",
+                                   "Sidabrinė metalo spalva",
+                                   "Mėlyna spalva"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kokia yra trumpojo jungimo srovės ribojimo reaktoriaus konstrukcija?",
+                               "atsakymai": [
+                                   "Ritė iš varinės arba aliuminės šynos, užvyniotos ant izoliuojančio laikiklio",
+                                   "Ant dielektriko sumontuotos aliuminio plokštės su tarpeliais aušinimui",
+                                   "Nuo korozijos apsaugotas plieno strypas, įkasamas į žemę šalia atramos (stulpo)",
+                                   "Dvi varinės plokštės su izoliatoriumi tarp jų"
+                               ],
+                               "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kokia aukštos įtampos skyrikliu paskirtis?",
+                               "atsakymai": [
+                                   "Įjungti arba išjungti grandines be srovės",
+                                   "Apsaugoti įrenginius nuo viršįtampių",
+                                   "Įjungti arba išjungti grandines su srove",
+                                   "Atskirti aukštąją įtampą nuo žemos įtampos"
+                               ],
+                               "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kuo skiriasi asinchroninė mašina nuo sinchroninės mašinos?",
+                               "atsakymai": [
+                                   "Statoriaus ir rotoriaus gabaritais",
+                                   "Statoriaus magnetinio lauko ir rotoriaus sūkių santykiu",
+                                   "Elektros maitinimo maksimalia įtampa",
+                                   "Elektros maitinimo prijungimo būdu"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kokiu atveju automatinis atjungimo įrenginys (automatas)  neturi suveikti?",
+                               "atsakymai": [
+                                   "Esant tarpfaziniam susijungimui tarp dviejų fazių",
+                                   "Esant tarpfaziniam susijungimui tarp trijų fazių",
+                                   "Fazei susijungus su korpusu",
+                                   "Sumažėjus tinkle tekančiai srovei"
+                               ],
+                               "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Koks prietaisas naudojamas įtampų fazių sutapimui nustatyti,jungiant generatorius lygiagrečiam darbui?",
+                               "atsakymai": [
+                                   "Sinchronoskopas",
+                                   "Voltmetras",
+                                   "Vatmetras",
+                                   "Tachometras"
+                               ],
+                               "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kaip tarpusavyje jungiami keli sinchroniniai generatoriai elektrinėse?",
+                               "atsakymai": [
+                                   "Pagal tiltelio schemą",
+                                   "Pagal žvaigždės jungimo schemą",
+                                   "Nuosekliai",
+                                   "Lygiagrečiai"
+                               ],
+                               "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Pažymėkite teisingą atsakymą.",
+                               "atsakymai": [
+                                   "TN–S - dvilaidė instaliacijos sistema",
+                                   "TN–S - penkialaidė instaliacijos sistema",
+                                   "TN-S – keturlaidė instaliacijos sistema",
+                                   "TN–S – trilaidė instaliacijos sistema"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kokie laidai naudojami aukštos įtampos linijose?",
+                               "atsakymai": [
+                                   "Volframinia ir plieniniai",
+                                   "Variniai",
+                                   "Plieniniai",
+                                   "Plieniniai ir aliuminiai"
+                               ],
+                               "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kas pateiktame paveikslėlyje yra pažymėta 6 – uoju  numeriu? ",
+                               "atsakymai": [
+                                   "Magnetolaidis",
+                                   "Šerdis",
+                                   "Ritės apvija",
+                                   "Inkaras (judamoji šerdies dalis)"
+                               ],
+                               "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": "media/image3.gif"
+                           },
+                           {
+                               "klausimas": "Kas pavaizduota paveiksle?",
+                               "atsakymai": [
+                                   "Asinchroninis elektros variklis",
+                                   "Sinchroninis elektros variklis",
+                                   "Žingsninis elektros variklis",
+                                   "Transformatorius ir jo pirminė ir antrinė apvijos"
+                               ],
+                               "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": "media/image18.jpg"
+                           },
+                           {
+                               "klausimas": "Ką reikia daryti,kai dirbant su rankinėmis elektros mašinomis nutruksta srovės tiekimas?",
+                               "atsakymai": [
+                                   "Palikti darbo vietą, nieko nepakeitus",
+                                   "Visas veikusias rankines elektros mašinas būtina atjungti nuo elektros tinklo",
+                                   "Periodiškai junginėti paleidimo mygtuką ir laukti, ko atiras srovė",
+                                   "Laukti darbo vietoje įtampos atsiradimo nieko joje nekeičiant"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kas yra pažymėta 3 – iuoju numeriu neizoliuotų laidų oro linijos ir atšakos įvadui schemoje?",
+                               "atsakymai": [
+                                   "Izoliuotas laido sujungimas",
+                                   "Ženklinimo lentelė",
+                                   "Saugiklis",
+                                   "Tempiamasis gnybtas"
+                               ],
+                               "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": "media/image19.jpeg"
+                           },
+                           {
+                               "klausimas": "Kas yra vaizduojama paveiksluose?",
+                               "atsakymai": [
+                                   "Draudžiamieji plakatai (Be leidimo dirbti draudžiama)",
+                                   "Netinkamo elgesio pavyzdžiai",
+                                   "Įspėjamieji plakatai (prie įrenginių nesiartinti)",
+                                   "Nukentėjusiojo nuo elektros srovės išlaisvinimo būdai"
+                               ],
+                               "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": "media/image20.jpg"
+                           },
+                           {
+                               "klausimas": "Elektros energijos sunaudojimas (srovės darbas) matuojamas:",
+                               "atsakymai": [
+                                   "Voltmetru",
+                                   "Multimetru",
+                                   "Vatmetru",
+                                   "Elektros energijos skaitikliu"
+                               ],
+                               "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kaip prie maitinimo tinklo prijungiamos trifazio variklio apvijos taikant jungimą „žvaigžde“?",
+                               "atsakymai": [
+                                   "Dvi apvijos jungiamos nuosekliai, trečia – lygiagrečiai dviejų nuoseklių apvijų atžvilgiu, o prie gautų trijų taškų jungiami trys faziniai laidai",
+                                   "Visos trys apvijos jungiamos nuosekliai, o visos grandinės galai – prie dviejų fazinių laidų",
+                                   "Pirmieji visų trijų apvijų galai prijungiami prie atitinkamų fazinių laidų, o antrieji – sujungiami tarpusavyje",
+                                   "Visos trys apvijos jungiamos lygiagrečiai , o prie bendrų gnybtų – du faziniai laidai"
+                               ],
+                               "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kaip keičiasi sinchroninio variklio rotoriaus sukimosi greitis didinant veleno apkrovą?",
+                               "atsakymai": [
+                                   "Greitis mažėja",
+                                   "Greitis didėja",
+                                   "Greitis nesikeičia",
+                                   "Greitis mažėja ir didėja periodiškai"
+                               ],
+                               "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Ar galima pakeisti sinchroninio variklio rotoriaus sukimosi greitį?",
+                               "atsakymai": [
+                                   "Galima keičiant prijungtos srovės dydį",
+                                   "Galima keičiant apkrovos dydį",
+                                   "Galima keičiant prijungtos srovės dažnį",
+                                   "Sinchroninio variklio greitis nekeičiamas"
+                               ],
+                               "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                           {
+                               "klausimas": "Kas pavaizduota paveiksle?",
+                               "atsakymai": [
+                                   "Automatinio jungiklio kontaktai",
+                                   "Trifazis transformatorius",
+                                   "Šiluminės relės aktyvioji dalis",
+                                   "Tripolis automatinis jungiklis"
+                               ],
+                               "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": "media/image21.jpg"
+                           },
+                               {
+                                   "klausimas": "Ar leidžiama prie avarinio apšvietimo tinklo prijungti elektros vartotojus, nepriklausančius avariniam apšvietimui?",
+                                   "atsakymai": [
+                                       "Leidžiama tik laikinai",
+                                       "Draudžiama",
+                                       "Leidžiama tik vienfaziam tinkle",
+                                       "Leidžiama iki 1 kW"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                                   "vaizdas": ""
+                               },
+                               {
+                                   "klausimas": "Kas yra žymima pateiktame paveikslėlyje nurodytais ženklinimais?",
+                                   "atsakymai": [
+                                       "Vienfazis laidininkas su triguba izoliacija, jo ilgis (m) ir skaičiuojamoji srovė",
+                                       "Vienfazis laidininkas, jo skerspjūvis ir skaičiuojamoji srovė",
+                                       "Trifazis laidininkas, jo skerspjūvis ir skaičiuojamoji srovė",
+                                       "Įžeminimo laidininkas, jo skerspjūvis ir skaičiuojamoji srovė"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image22.jpeg"
+                               },
+                               {
+                                   "klausimas": "Nuo ko apsaugo tirpieji saugikliai?",
+                                   "atsakymai": [
+                                       "Nuo trumpo jungimo elektros grandinėse",
+                                       "Nuo prisilietimo prie srovinių dalių",
+                                       "Nuo trumpalaikio elektros grandinės perkrovimo",
+                                       "Nuo įtampos svyravimų tinkle"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Remdamiesi principinėje schemoje nurodytomis reikšmėmis, nustatykite, kokią srovę rodys ampermetras A3.",
+                                   "atsakymai": [
+                                       "50 mA",
+                                       "200 mA",
+                                       "75 mA",
+                                       "100 mA"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image23.jpeg"
+                               },
+                               {
+                                   "klausimas": "Ką reiškia elektros schemoje pavaizduotas šis simbolis?",
+                                   "atsakymai": [
+                                       "Tripolis automatinis jungiklis",
+                                       "Bimetalinis kontaktas",
+                                       "Šiluminė relė",
+                                       "Kontaktoriaus kontaktas"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image24.png"
+                               },
+                               {
+                                   "klausimas": "Kokia yra transformatorinės alyvos paskirtis?",
+                                   "atsakymai": [
+                                       "Sutepti judamąsias dalis",
+                                       "Perimti šilumą iš magnetolaidžio ir apvijų bei perduoti ją bako sienelėms ir radiatoriaus vamzdžiams",
+                                       "Perimti šilumą iš bako sienelės ir perduoti ją apvijoms",
+                                       "Alyva transformatoriuose nenaudojama"
+                                   ],
+                                  "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Ką reiškia elektros schemoje pavaizduotas šis simbolis?",
+                                  "atsakymai": [
+                                       "Tripolis saugiklis jungiklis",
+                                       "Tripolis automatinis jungiklis",
+                                       "Trifazio variklio apkrova",
+                                       "Šiluminė relė"
+                                   ],
+                                "teisingas": [0], 
+                               "tipas": "single",
+                                "vaizdas": "media/image25.png"
+                               },
+                               {
+                                   "klausimas": "Kas yra plienas?",
+                                   "atsakymai": [
+                                       "Metalas su tam tikromis priemaišomis",
+                                       "Geležies ir anglies lydinys",
+                                       "Metalas",
+                                       "Vario ir aliuminio lydinys"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Į ką atsižvelgiama parenkant laido srovinės gyslos skerspjūvį?",
+                                   "atsakymai": [
+                                       "Į leidžiamąją varžą",
+                                       "Į leidžiamąją srovę",
+                                       "Į leidžiamąją temperatūrą",
+                                       "Tik į eksploatavimo sąlygas"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Nurodykite pagrindines 4-ias autonominės saulės jėgainės dalis pagal loginę seką.",
+                                   "atsakymai": [
+                                       "1. Fotovoltiniai moduliai 2. Akumuliatoriai 3. Inverteris 4. Įkrovimo valdiklis",
+                                       "1. Fotovoltiniai moduliai 2. Įkrovimo valdiklis 3. Inverteris 4. Akumuliatoriai",
+                                       "1. Fotovoltiniai moduliai 2. Įkrovimo valdiklis 3. Akumuliatoriai 4. Inverteris",
+                                       "1. Fotovoltiniai moduliai 2. Inverteris 3. Akumuliatoriai 4. Įkrovimo valdiklis"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kas yra vadinama tarpatraminiu linijos atstumu?",
+                                   "atsakymai": [
+                                       "Vertikalus atstumas nuo žemės iki laido",
+                                       "Laido ilgis įvertinus išlinkimą",
+                                       "Atstumas tarp dviejų linijų",
+                                       "Atstumas tarp dviejų gretimų atramų"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Prie ko prijungti nuolatinės srovės elektros mašinos inkaro apvijos galai?",
+                                   "atsakymai": [
+                                       "Prie kolektoriaus",
+                                       "Prie rotoriaus",
+                                       "Prie statoriaus",
+                                       "Prie polių"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kaip reikia pastatyti kabelio būgną išvyniojant kabelį?",
+                                   "atsakymai": [
+                                       "Kad kabelis būtų vyniojamas nuo apačios",
+                                       "Būtina būgną įtvirtinti horizontalioje padėtyje",
+                                       "Nesvarbu, priklauso nuo situacijos",
+                                       "Kad kabelis būtų vyniojamas nuo viršaus"
+                                   ],
+                                   "teisingas": [1,3],
+                                   "tipas": "multiple",
+                                   "vaizdas": ""
+                               },
+                               {
+                                   "klausimas": "Kokiu darbo režimu gali veikti sinchroninės mašinos?",
+                                   "atsakymai": [
+                                       "Generatoriaus ir variklio režimu",
+                                       "Tik variklio režimu",
+                                       "Tik ekonominiu variklio režimu, kai apkrova – ne daugiau kaip 60 proc.",
+                                       "Tik generatoriaus režimu"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kas prijungiama prie asinchroninio variklio fazinio rotoriaus apvijos?",
+                                   "atsakymai": [
+                                       "Paleidimo reostatas",
+                                       "Nuolatinė srovė",
+                                       "Paleidimo srovė",
+                                       "Stabdymo reostatas"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Pirminė transformatoriaus apvija turi 10 vijų. Įtampa pirminėje apvijoje lygi 110 V. Kokia įtampa yra antrinėje apvijoje?",
+                                   "atsakymai": [
+                                       "110 kV",
+                                       "1,1 kV",
+                                       "11 kV",
+                                       "11 V"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Ką reiškia COM žymėjimas matavimo prietaisuose?",
+                                   "atsakymai": [
+                                       "Interneto sąsaja",
+                                       "Bendrasis gnybtas",
+                                       "Matavimo režimas",
+                                       "Gnybtas prietaiso komutavimui su kompiuteriu"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kas atsitinka kontaktoriui, kai trumpam dingsta jo valdymo įtampa?",
+                                   "atsakymai": [
+                                       "Kontaktorius išsijungia",
+                                       "Užsiblokuoja kontaktai ir kontaktorius veikia toliau",
+                                       "Kontaktorius nereaguoja",
+                                       "Perkaista kontaktoriaus apvija"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokie reikalavimai taikomi elektros varikliams, naudojamiems drėgnose ir labai drėgnose patalpose?",
+                                   "atsakymai": [
+                                       "Turėti papildomą apvalką",
+                                       "Pakanka užklijuoto specialaus ženklinimo",
+                                       "Turi būti apsaugoti nuo vandens ir vandens purslų patekimo ant srovinių dalių",
+                                       "Nėra specialių reikalavimų"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokiu prietaisu matuojama izoliacijos varža?",
+                                   "atsakymai": [
+                                       "Voltmetru",
+                                       "Vatmetru",
+                                       "Ommetru",
+                                       "Megometru"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Apvija, prie kurios prijungiama maitinimo įtampa, vadinama:",
+                                   "atsakymai": [
+                                       "Antrinė",
+                                       "Prioritetinė",
+                                       "Pagrindinė",
+                                       "Pirminė"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kaip sumažinami nuostoliai transformatoriuje dėl sūkurinių srovių?",
+                                   "atsakymai": [
+                                       "Magnetolaidis gaminamas iš geležies plokščių, izoliuotų viena nuo kitos",
+                                       "Naudojamas vienalytis geležinis magnetolaidis",
+                                       "Magnetolaidis gaminamas iš vario arba jo lydinių",
+                                       "Magnetolaidis papildomai įžeminamas"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Koks asinchroninio variklio jungimo būdas pavaizduotas paveiksle?",
+                                   "atsakymai": [
+                                       "Jungimas trikampiu",
+                                       "Jungimas žvaigžde",
+                                       "Tiltelio jungimas",
+                                       "Mišrus jungimas"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image26.jpeg"
+                               },
+                               {
+                                   "klausimas": "Ką reiškia elektros schemoje pavaizduotas šis simbolis (kvadratas su zigzagais ar brūkšniais)?",
+                                   "atsakymai": [
+                                       "Šiluminė relė",
+                                       "Šaldymo elementas",
+                                       "Fotovoltinė baterija",
+                                       "Šildymo elementas"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image27.png"
+                               },
+                               {
+                                   "klausimas": "Kokią funkciją atlieka nuolatinės srovės mašinos kolektorius?",
+                                   "atsakymai": [
+                                       "Paskirsto srovę į inkaro apvijas",
+                                       "Sukuria magnetinį lauką",
+                                       "Paskirsto srovę į žadinimo apvijas",
+                                       "Mažina trikdžius dėl kibirkščiavimo"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokia yra bendroji varža lygiagrečiosios grandinės, jeigu R1 = R2 = 2 Ω?",
+                                   "atsakymai": [
+                                       "1 Ω",
+                                       "2 Ω",
+                                       "4 Ω",
+                                       "2.5 Ω"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Prie 6 Ω rezistoriaus prijungta 3V įtampa. Kokia srovė tekės rezistoriumi?",
+                                   "atsakymai": [
+                                       "0,5 Ω",
+                                       "5 A",
+                                       "2 A",
+                                       "0,5 A"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokios elektros tiekimo tinklo sistemos schema pavaizduota paveiksle?",
+                                   "atsakymai": [
+                                       "TS sistemos",
+                                       "TN – C sistemos",
+                                       "TT sistemos",
+                                       "IT sistemos"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image28.jpeg"
+                               },
+                               {
+                                   "klausimas": "Kaip galima padidinti induktyvumą ritėje?",
+                                   "atsakymai": [
+                                       "Padidinti vijų skaičių",
+                                       "Sumažinti vijų skaičių",
+                                       "Padidinti įtampą",
+                                       "Sumažinti įtampą"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Elektros srovės pavojingumo atžvilgiu patalpos klasifikuojamos į:",
+                                   "atsakymai": [
+                                       "Pavojingas ir normalias",
+                                       "Nepavojingas ir specialiąsias",
+                                       "Pavojingas ir nepavojingas",
+                                       "Pavojingas, labai pavojingas ir normalias"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokia yra maitinimo įtampa esant lygiagrečiam varžų jungimui?",
+                                   "atsakymai": [
+                                       "Dalijasi tarp varžų lygiomis dalimis",
+                                       "Padidėja priklausomai nuo varžų skaičiaus ir dydžio",
+                                       "Proporcingai dalijasi tarp varžų",
+                                       "Lieka ta pati visose varžose"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kuris šiuo simboliu pavaizduoto elemento parametras kinta priklausomai nuo jo apšvietos?",
+                                   "atsakymai": [
+                                       "Įtampa",
+                                       "Induktyvumas",
+                                       "Elektrinė varža",
+                                       "Matmenys"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image29.jpg"
+                               },
+                               {
+                                   "klausimas": "Kokių pasekmių gali būti dėl neapsaugotų aliuminio laidų sujungimų?",
+                                   "atsakymai": [
+                                       "Gali padidėti induktyvumas laiduose",
+                                       "Gali padidėti pereinamoji varža",
+                                       "Gali sumažėti pereinamoji varža",
+                                       "Gali padidėti specifinė varža"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Parinkite pateiktai formulei tinkamas skaitines elektrinių dydžių reikšmes: I = U : R = ?",
+                                   "atsakymai": [
+                                       "1V / 10 kΩ = 0.1mA",
+                                       "1V / 10 kΩ = 0.01mA",
+                                       "1V / 10 kΩ = 10mA",
+                                       "1V / 10 kΩ = 100mA"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image5.png"
+                               },
+                               {
+                                   "klausimas": "Kokiai klasei priskiriami įrankiai, kuriuose apsaugą nuo pavojingo elektros poveikio užtikrina dviguboji arba sustiprintoji izoliacija?",
+                                   "atsakymai": [
+                                       "III klasei",
+                                       "0 klasei",
+                                       "II klasei",
+                                       "I klasei"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kuri formulė skirta kintamosios srovės aktyvinei galiai apskaičiuoti?",
+                                   "atsakymai": [
+                                       "P = U / I · cosφ",
+                                       "S = U · I",
+                                       "P = U · I · cosφ",
+                                       "Q = U · I · sinφ"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kas yra įnulinimas?",
+                                   "atsakymai": [
+                                       "Elektros įrenginio laidžių korpusų elektrinis sujungimas su žeme",
+                                       "Elektros įrenginio prijungimas laidininkais, kurių varžų vertės artimos nuliui",
+                                       "Elektros įrenginio laidžių korpusų elektrinis sujungimas su faze",
+                                       "Elektros srovei laidžių korpusų elektrinis sujungimas su įžemintu maitinimo tinklo nuliniu laidu"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kaip induktyvioji varža priklauso nuo dažnio?",
+                                   "atsakymai": [
+                                       "Kuo mažesnis dažnis, tuo didesnė varža",
+                                       "Kuo didesnis dažnis, tuo didesnė varža",
+                                       "Induktyvioji varža nepriklauso nuo dažnio",
+                                       "Induktyvioji varža didėja tik esant aukštam virš 10kHz dažniui"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Koks fizikinis dydis apibūdina pašalinių jėgų darbą elektros šaltinyje?",
+                                   "atsakymai": [
+                                       "Srovė",
+                                       "Galia",
+                                       "Elektrovara",
+                                       "Įtampa"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Koks elektros įrenginys automatiškai išjungia elektros grandines ,kai įvyksta trumpas jungimas arba pavojinga perkrova ir kurio trumpoji jungimo (elektromagnetinis) atkabiklis suveikia , kai Iatj   3-5 kartus daugiau už In?",
+                                   "atsakymai": [
+                                       "Automatinis jungiklis su srovės charakteristika – D",
+                                       "Automatinis jungiklis su srovės charakteristika - A",
+                                       "Saugiklis su srovės charakteristika – C",
+                                       "Automatinis jungiklis su srovės charakteristika - B"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kodėl magnetinio paleidiklio šerdis surenkama iš elektrotechninio plieno plokštelių?",
+                                   "atsakymai": [
+                                       "Kad sumažėtų sūkurinės srovės",
+                                       "Tokia konstrukcija pigesnė",
+                                       "Kad sumažėtų srovės virpesiai",
+                                       "Kad padidėtų sūkurinės srovės"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokias medžiagas sulydžius gaunamas žalvaris?",
+                                   "atsakymai": [
+                                       "Šviną ir alavą",
+                                       "Varį ir cinką",
+                                       "Varį, aliuminį, silicį",
+                                       "Varį ir alavą"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokios yra visos 3 bipolinio tranzistoriaus jungtys?",
+                                   "atsakymai": [
+                                       "Emiteris, kolektorius, užtūra",
+                                       "Emiteris, kolektorius, bazė",
+                                       "Emiteris, anodas, užtūra",
+                                       "Bazė, anodas, katodas"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokia pagrindine savybe pasižymi universalus variklis?",
+                                   "atsakymai": [
+                                       "Apsukos tik šiek tiek kinta veikiant apkrovai",
+                                       "Veikia be komutavimo",
+                                       "Rotorius gali suktis tiek viena, tiek kita kryptimi",
+                                       "Gali veikti tiek nuo nuolatinės, tiek nuo kintamosios srovės"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Koks santykis tarp autotransformatoriaus pirminės ir antrinės apvijos?",
+                                   "atsakymai": [
+                                       "Elektriškai nėra sujungtos",
+                                       "Magnetiškai sujungtos",
+                                       "Elektriškai sujungtos ir turi bendrų vijų",
+                                       "Vyniojamos priešingomis kryptimis, bet nėra sujungtos"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokia mažiausia dalelė turi nedalomą neigiamą krūvį?",
+                                   "atsakymai": [
+                                       "Elektronas",
+                                       "Atomas",
+                                       "Teigiamas jonas",
+                                       "Neigiamas jonas"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Koks simbolis pavaizduotas paveiksle?",
+                                   "atsakymai": [
+                                       "Pjezo elementas",
+                                       "Kondensatorius",
+                                       "Rezistorius",
+                                       "Diodas"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image30.png"
+                               },
+                               {
+                                   "klausimas": "Kam naudojamas polivinilchlorido (PVC) plastikas?",
+                                   "atsakymai": [
+                                       "Relių apvijų laidų izoliacijai",
+                                       "Transformatorių apvijų laidų izoliacijai",
+                                       "Variklio apvijų laidų izoliacijai",
+                                       "Elektros laidų izoliacijai"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Ką vadiname apsauginiu įžeminimu?",
+                                   "atsakymai": [
+                                       "Elektros įrenginio korpuso elektrinį sujungimą su žeme",
+                                       "Elektros įrenginio neutraliojo taško sujungimą su žeme",
+                                       "Žymų įtampos pažemėjimą elektros perdavimo sistemose",
+                                       "Elektros įrenginio laidininkų sujungimą su žeme"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kuriame žmogaus kūnu tekančios srovės kelyje varža yra mažiausia?",
+                                   "atsakymai": [
+                                       "Ranka – krūtinė",
+                                       "Koja – koja",
+                                       "Ranka – ranka",
+                                       "Ranka – koja"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image31.jpg"
+                               },
+                               {
+                                   "klausimas": "Kokios yra galimos komutacinių įrenginių kontaktų perkaitimo priežastys?",
+                                   "atsakymai": [
+                                       "Kontaktų paviršiaus užterštumas bei deformavimas",
+                                       "Susilpnėjusi sudrėkusi izoliacija",
+                                       "Sumažėjusi komutuojama srovė",
+                                       "Susilpnėjęs elektromagneto šerdies plieninių lakštų tvirtinimas"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kam yra skirtas kolektorius nuolatinės srovės variklyje?",
+                                   "atsakymai": [
+                                       "Kolektorius apsaugo variklio valdymo elementus nuo perkrovos",
+                                       "Kolektorius naudojamas kaip guolis",
+                                       "Kolektoriaus funkcija – prijungti prie maitinimo įtampos apvijų sekciją",
+                                       "Kolektorius skirtas varikliui apsaugoti nuo trumpųjų jungimų"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Ką vadiname vardine arba nominaliąja imtuvo įtampa?",
+                                   "atsakymai": [
+                                       "Imtuvo veikimui nekenksmingą maksimalią įtampą",
+                                       "Įtampą, nustatomą prietaisais",
+                                       "Įtampą nurodomą imtuvo pase",
+                                       "Imtuvo veikimui pakankamą minimalią įtampą"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kas sudaro transformatoriaus vidinę varžą?",
+                                   "atsakymai": [
+                                       "Įėjimo ir išėjimo apvijų varžos",
+                                       "Ominė apvijų varža ir reaktyvioji varža",
+                                       "Aktyvioji laidų varža",
+                                       "Reaktyvioji varža ir apkrovos varža"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kuris teiginys apie aliuminio laidų litavimą yra teisingas?",
+                                   "atsakymai": [
+                                       "Aliuminio laidus galima sulituoti tik naudojant dujinį lituoklį",
+                                       "Aliuminio laidų neįmanoma sulituoti",
+                                       "Aliuminio laidus galima sulituoti naudojant specifinius lydmetalius ir fliusus",
+                                       "Aliuminio laidus galima sulituoti naudojant įprastus lydmetalius ir fliusus"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Dėl kokių priežasčių neapkrauto variklio neįmanoma paleisti?",
+                                   "atsakymai": [
+                                       "Per didelė kontaktoriaus nominalioji srovė",
+                                       "Nutrūkusi viena variklio statoriaus fazės apvija",
+                                       "Nesubalansuotas rotorius",
+                                       "Per stipri srovė statoriaus apvijose"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokiu greičiu sukasi trifazio variklio magnetinis laukas, jeigu variklis yra prijungtas prie kintamosios srovės 50 Hz dažnio maitinimo tinklo (kai p = 1)?",
+                                   "atsakymai": [
+                                       "750 aps/min",
+                                       "3600 aps/min",
+                                       "3000 aps/min",
+                                       "1500 aps/min"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kuris iš išvardintų laidininkų pasižymi didžiausiu elektriniu laidumu?",
+                                   "atsakymai": [
+                                       "Varis",
+                                       "Sidabras",
+                                       "Bronza",
+                                       "Aliuminis"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokie įrenginiai elektrinėse schemose žymimi šiais simboliais?",
+                                   "atsakymai": [
+                                       "Srovės matavimo transformatoriai",
+                                       "Dviejų ir trijų apvijų transformatoriai",
+                                       "Srovės matavimo prietaisai aukštos įtampos elektros tinkluose",
+                                       "Vienfaziai ir trifaziai generatoriai"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image32.png"
+                               },
+                               {
+                                   "klausimas": "Kas yra prijungta prie nuolatinės srovės variklio kolektoriaus?",
+                                   "atsakymai": [
+                                       "Sūkių matavimo jutiklis",
+                                       "Žadinimo įtampa",
+                                       "Reostatas",
+                                       "Maitinimo įtampa"
+                                   ],
+                                   "teisingas": [0, 1, 2, 3], 
+                               "tipas": "multiple",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokia konstrukcinė transformatorių grupė pavaizduota paveiksle?",
+                                   "atsakymai": [
+                                       "Konstrukcinė grupė „žvaigždė – žvaigždė“",
+                                       "Konstrukcinė grupė „trikampis – žvaigždė“",
+                                       "Konstrukcinė grupė „žvaigždė – trikampis“",
+                                       "Konstrukcinė grupė „Trikampis – trikampis“"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image33.jpeg"
+                               },
+                               {
+                                   "klausimas": "Ar reikia įžeminti ar įnulinti elektros imtuvus, kurie turi dvigubą izoliaciją arba yra prijungti per skiriamąjį transformatorių?",
+                                   "atsakymai": [
+                                       "Būtina įžeminti",
+                                       "Reikia įžeminti ir įnulinti",
+                                       "Nereikia",
+                                       "Reikia įnulinti"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokiais prietaisais nuo įtampos pažemėjimo apsaugomi žemosios įtampos elektros įrenginiai?",
+                                   "atsakymai": [
+                                       "Tirpiaisiais saugikliais",
+                                       "Šiluminėmis relėmis",
+                                       "Automatiniais jungikliais",
+                                       "Įtampos pažemėjimo relėmis"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Pažymėkite teisingą teiginį.",
+                                   "atsakymai": [
+                                       "Kuo didesnė specifinė varža, tuo didesnė elektrinė varža",
+                                       "Kuo mažesnė specifinė varža, tuo didesnė elektrinė varža",
+                                       "Kuo mažesnė specifinė varža, tuo mažesnė elektrinė varža",
+                                       "Specifinė varža neturi įtakos elektrinei varžai"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokiu atveju suveikia skirtuminė nuotėkio srovės relė?",
+                                   "atsakymai": [
+                                       "Padidėjus tinklo įtampai daugiau nei 5 %",
+                                       "Sumažėjus tinklo įtampai daugiau nei 10%",
+                                       "Padidėjus srovei grandinėje 2 kartus",
+                                       "Įvykus srovės nutekėjimui į žemę/korpusą"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Trumpojo jungimo srovės atkabiklis išsijungia, kai:",
+                                   "atsakymai": [
+                                       "Srovė gerokai didesnė už nuostato srovės vertę",
+                                       "Įtampa gerokai didesnė už nuostato įtampos vertę",
+                                       "Dažnis gerokai didesnis už nuostato srovės vertę",
+                                       "Srovė gerokai mažesnė už nuostato srovės vertę"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kaip naudojant lempinį sinchronoskopą nustatomas generatorių sinchroniškas darbas?",
+                                   "atsakymai": [
+                                       "Įjungtos lempos mirga",
+                                       "Įjungtos lempos mirksi paeiliui",
+                                       "Įjungtos lempos užgęsta",
+                                       "Įjungtos lempos šviečia ryškiau"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kas elektros energijos gamybos ir perdavimo sistemą vaizduojančiame paveiksle yra pažymėta 2-uoju numeriu?",
+                                   "atsakymai": [
+                                       "Šildymo katilas",
+                                       "Turbina",
+                                       "Transformatorius",
+                                       "Generatorius"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image34.png"
+                               },
+                               {
+                                   "klausimas": "Kaip išdėstytos statoriaus apvijos trifaziame variklyje viena kitos atžvilgiu?",
+                                   "atsakymai": [
+                                       "120° kampu",
+                                       "270° kampu",
+                                       "90° kampu",
+                                       "180° kampu"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kuri apsauginė priemonė neapsaugo nuo elektros traumos?",
+                                   "atsakymai": [
+                                       "Dielektriniai batai",
+                                       "Dielektriniai kaliošai",
+                                       "Dielektrinės pirštinės",
+                                       "Antistatinis įžeminimas"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokios sistemos principinė schema pavaizduota paveiksle?",
+                                   "atsakymai": [
+                                       "Apšvietimo valdymo iš 2–jų vietų principinė schema",
+                                       "Kištukinių lizdų prijungimo principinė schema",
+                                       "Apšvietimo valdymo iš n vietų principinė schema",
+                                       "Apsaugos automatų išdėstymo apšvietimo grandinėje schema"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image35.jpeg"
+                               },
+                               {
+                                   "klausimas": "Koks įrenginys pavaizduotas paveiksle?",
+                                   "atsakymai": [
+                                       "Įvadinis skydas",
+                                       "Skirstymo skydas",
+                                       "Komutacinis blokas",
+                                       "Energijos apskaitos skydas"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image36.jpeg"
+                               },
+                               {
+                                   "klausimas": "Ką matuoja multimetre įjungtas režimas (200mA)?",
+                                   "atsakymai": [
+                                       "Įtampą iki 200 milivoltų",
+                                       "Įtampą virš 200 milivoltų",
+                                       "Srovę iki 200 miliamperų",
+                                       "Srovę virš 200 mikroamperų"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kaip nuo transformatoriaus vijų skaičiaus priklauso gaunamos įtampos dydis?",
+                                   "atsakymai": [
+                                       "Vijų skaičius tiesiogiai proporcingas įtampai",
+                                       "Vijų skaičius lygus įtampai",
+                                       "Vijų skaičius atvirkščiai proporcingas įtampai",
+                                       "Įtampa nepriklauso nuo vijų skaičiaus"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kam reikalingas nulinis laidas keturlaidėje trifazėje grandinėje?",
+                                   "atsakymai": [
+                                       "Naudojamas kaip atsarginis laidininkas",
+                                       "Įnulinimui",
+                                       "Įžeminimui",
+                                       "Apkrovos nesimetriškumui kompensuoti"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kaip žymimos trifazio asinchroninio variklio apvijų pradžios?",
+                                   "atsakymai": [
+                                       "A, B, C",
+                                       "U, V, W",
+                                       "X, Y, Z",
+                                       "U1, V1, W1"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokie laidai yra vienfazėje dvilaidėje kintamosios srovės sistemoje?",
+                                   "atsakymai": [
+                                       "Vienfazis ir dvifazis",
+                                       "Apsauginis ir nulinis",
+                                       "Fazinis ir nulinis",
+                                       "Pliusinis ir minusinis"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kaip apibūdinama IT tinklo sistema?",
+                                   "atsakymai": [
+                                       "Maitinimo tinklo srovinės dalys yra izoliuotos nuo žemės, korpusai turi tiesioginį ryšį su žeme",
+                                       "Maitinimo tinklo srovinės dalys yra tiesiogiai įžemintos neutralės tinklais, korpusai turi tiesioginį ryšį su žeme",
+                                       "Elektros energijos suvartojimo apskaita atliekama naudojant informacines technologijas",
+                                       "Elektros energijos suvartojimas apribojamas pagal vartotojo pasirinktą planą"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokios automatinio jungiklio dalys pažymėtos skaičiais 2, 5, 6, 7, 9?",
+                                   "atsakymai": [
+                                       "2 – gnybtai, 5 – elektromagnetinis atkabiklis, 6 – lanko gesinimo sistema, 7 – pavaros svirtis, 9 – bimetalinė juostelė",
+                                       "2 – elektromagnetinis atkabiklis, 5 – gnybtai, 6 – lanko gesinimo sistema, 7 – bimetalinė juostelė, 9 – Pavaros svirtis",
+                                       "2 – kanalas su skyle, 5 – bimetalinė juostelė, 6 – elektromagnetinis atkabiklis, 7 – lanko gesinimo sistema, 9 – jėgos kontaktai",
+                                       "2 – kanalas su skyle, 5 – elektromagnetinis atkabiklis, 6 – bimetalinė juostelė, 7 – jėgos kontaktai, 9 – šiluminis reguliavimo sraigtas"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image40.jpeg"
+                               },
+                               {
+                                   "klausimas": "Ką reikia atlikti, norint pakeisti vienfazio variklio rotoriaus sukimosi kryptį?",
+                                   "atsakymai": [
+                                       "Reikia prijungti kondensatorių",
+                                       "To padaryti negalima",
+                                       "Reikia pakeisti srovės kryptį paleidimo apvijoje arba darbinėje apvijoje",
+                                       "Reikia pakeisti srovės kryptį abiejose apvijose kartu"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Koks įrenginys pavaizduotas paveiksle?",
+                                   "atsakymai": [
+                                       "Kontaktorius",
+                                       "Automatinis jungiklis",
+                                       "Relė",
+                                       "Nuotėkio relė"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image42.jpg"
+                               },
+                               {
+                                   "klausimas": "Kas yra transformatoriaus vardinė galia?",
+                                   "atsakymai": [
+                                       "Maksimali transformatoriaus galia",
+                                       "Minimali transformatoriaus galia",
+                                       "Ta galia, kurią transformatorius gali išlaikyti ne ilgiau kaip 1 val.",
+                                       "Tokia galia, kuria apkrautas transformatorius gali ilgai ir nepertraukiamai veikti"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kuriame paveiksle pavaizduota kintamojo induktyvumo ritė?",
+                                   "atsakymai": [
+                                       "C",
+                                       "B",
+                                       "D",
+                                       "A"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image43.jpeg"
+                               },
+                               {
+                                   "klausimas": "Kuriuo atveju elektrinėje grandinėje įvyksta trumpasis jungimas?",
+                                   "atsakymai": [
+                                       "Kai grandinėje yra du vartotojai, laidai ir srovės šaltinis",
+                                       "Kai grandinėje yra tik srovės šaltinis ir laidai",
+                                       "Kai grandinėje yra bent vienas vartotojas, laidai ir srovės šaltinis",
+                                       "Kai grandinėje yra daugiau kaip 5 vartotojai, laidai ir srovės šaltinis"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kuri formulė taikoma bendrai srovei apskaičiuoti",
+                                   "atsakymai": [
+                                       "A)",
+                                       "B)",
+                                       "C)",
+                                       "D)"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image44.png"
+                               },
+                               {
+                                   "klausimas": "Kokiais vienetais matuojamas induktyvumas?",
+                                   "atsakymai": [
+                                       "Faradais",
+                                       "Henriais",
+                                       "Vėberiais",
+                                       "Kulonais"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kaip elektros grandinėje jungiamas ampermetras matuojant elektros srovės stiprį?",
+                                   "atsakymai": [
+                                       "Lygiagrečiai, jeigu matuojama kintamoji srovė",
+                                       "Lygiagrečiai jeigu matuojama nuolatinė srovė",
+                                       "Nuosekliai visais atvejais",
+                                       "Nuosekliai, jeigu matuojama ne didesnė, kaip 1A srovė"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Koks yra termobimetalinės relės veikimo principas?",
+                                   "atsakymai": [
+                                       "Atsiradus perkrovai, tekanti srovė įkaitina termobimetalinį elementą ir jis išsilenkia taip, kad perjungia kontaktą",
+                                       "Prijungus įtampą, elektromagnetas perjungia kontaktą",
+                                       "Praėjus nustatytam laikui, relė perjungia kontaktus",
+                                       "Relė suveikia, jeigu aplinkos temperatūra viršija nustatytą vertę"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokią įtaką plieno savybėms turi anglies kiekis jame?",
+                                   "atsakymai": [
+                                       "Mažėjant anglies kiekiui, plienas tampa trapesnis",
+                                       "Plieno sudėtyje negali būti daugiau kaip 0,1 proc. anglies",
+                                       "Plieno savybės nepriklauso nuo anglies kiekio jame",
+                                       "Didėjant anglies kiekiui plienas tampa trapesnis"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Remdamiesi pateikta schema ir duotomis reikšmėmis, nustatykite, kokią įtampą rodys voltmetras.",
+                                   "atsakymai": [
+                                       "1 V",
+                                       "0.1 V",
+                                       "10 V",
+                                       "100 V"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image45.png"
+                               },
+                               {
+                                   "klausimas": "Iššifruokite laido ženklinimą: YDY 3x3,0.",
+                                   "atsakymai": [
+                                       "2-jų gyslų 3mm2 skerspjūvio daugiavielis laidas",
+                                       "2-jų gyslų su triguba poliviniline izoliacija",
+                                       "3-jų gyslų 3,0mm2 skerspjūvio aliumininis daugiavielis laidas",
+                                       "3-jų gyslų 3,0mm2 skerspjūvio varinis monolitinis laidas"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Koks elektros aparatas su metalo oksido rezistoriais saugo įrenginius nuo atmosferinių ir vidinių viršįtampių?",
+                                   "atsakymai": [
+                                       "Izoliatorius",
+                                       "Specialusis laidininkas",
+                                       "Saugiklis",
+                                       "Viršįtampių ribotuvas"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokio įrenginio konstrukcija pavaizduota pateiktame paveiksle?",
+                                   "atsakymai": [
+                                       "Nuolatinės srovės generatorius",
+                                       "Elektromagnetinės relės",
+                                       "Kintamosios srovės generatoriaus",
+                                       "Transformatoriaus"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image46.jpeg"
+                               },
+                               {
+                                   "klausimas": "Kokia principinė schema pavaizduota paveiksle?",
+                                   "atsakymai": [
+                                       "Vienfazio variklio prijungimo schema",
+                                       "Elektros įrenginio įžeminimo įrengimo schema",
+                                       "Trifazio asinchroninio variklio prijungimo schema",
+                                       "Tipinė elektros skaitiklio prijungimo schema"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image47.jpeg"
+                               },
+                               {
+                                   "klausimas": "Kodėl negalima remontuoti saugiklio įdėklų?",
+                                   "atsakymai": [
+                                       "Todėl, kad jie yra sukalibruoti tik tam tikrai srovei",
+                                       "Todėl, kad jie labai smulkūs",
+                                       "Todėl, kad jie yra užlituoti",
+                                       "Todėl, kad tai neįmanoma"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Iš kokių pagrindinių dalių sudarytas kintamosios srovės elektros variklis?",
+                                   "atsakymai": [
+                                       "Nejudamosios, vadinamos rotoriumi, ir judamosios, vadinamos statoriumi",
+                                       "Nejudamosios, vadinamos statoriumi, ir judamosios, vadinamos rotoriumi",
+                                       "Nejudamosios, vadinamos apvija, ir besisukančios, vadinamos smagračiu",
+                                       "Nejudamosios, vadinamos rite, ir judamosios, vadinamos magnetu"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kam yra naudojami diferenciniai automatai?",
+                                   "atsakymai": [
+                                       "Įrenginiams įjungti iš skirtingų vietų",
+                                       "Apsaugai nuo trumpo jungimo",
+                                       "Įrenginiam valdyti nuotoliniu būdu",
+                                       "Automatiniam įtampos atjungimui įvykus srovės nuotėkiui ir apsaugai nuo viršsrovių"
+                                   ],
+                                   "teisingas": [1, 3], 
+                               "tipas": "multiple",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Pažymėkite teisingą atsakymą.",
+                                   "atsakymai": [
+                                       "Įžemėjimo srovė mažiausia IT sistemoje",
+                                       "Įžemėjimo srovė mažiausia TN sistemoje",
+                                       "Įžemėjimo srovė didesnė IT sistemoje",
+                                       "Įžemėjimo srovė mažiausia TT sistemoje"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kaip apibūdinami žemosios įtampos elektros įrenginiai?",
+                                   "atsakymai": [
+                                       "Elektros įrenginiai, maitinami iki 1000 V kintama įtampa",
+                                       "Elektros įrenginiai, maitinami ne aukštesne kaip 230V įtampa",
+                                       "Elektros įrenginiai, maitinami ne aukštesne kaip 42 V įtampa",
+                                       "Elektros įrenginiai, maitinami aukštesne kaip 1000 V įtampa"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Nuo ko priklauso trifazio variklio rotoriaus sukimosi greitis?",
+                                   "atsakymai": [
+                                       "Nuo srovės stiprio",
+                                       "Nuo srovės dažnio",
+                                       "Nuo prijungtos įtampos dydžio",
+                                       "Nuo prijungtų fazių sekos"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Koks prisilietimas prie elektros srovės šaltinių yra pavojingiausias žmogui?",
+                                   "atsakymai": [
+                                       "Pavojingiausias prisilietimas yra „fazė – fazė“",
+                                       "Pavojingiausias prisilietimas yra „nulinis laidas – žemė“",
+                                       "Pavojingiausias prisilietimas yra „fazė – nulinis laidas“",
+                                       "Pavojingiausias prisilietimas yra „fazė – žemė“"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Elektros tinklų sistemų, kai visos maitinimo tinklo srovinės dalys yra izoliuotos nuo žemės, žymėjimo raidė yra:",
+                                   "atsakymai": [
+                                       "T",
+                                       "S",
+                                       "I",
+                                       "C"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokia seka išdėstytos trifazės srovės transformatorių prijungimo schemos?",
+                                   "atsakymai": [
+                                       "1 - Pagal žvaigždės – trikampio schemą su N laidu, 2 – pagal žvaigždės – žvaigždės schemą ne N laido, 3 – pagal žvaigždės – žvaigždės schemą su N laidu",
+                                       "Pagal žvaigždės – žvaigždės schemą be N laido, 2 – pagal žvaigždės – žvaigždės schema su N laidu, 3 – pagal žvaigždės – trikampio schemą su N laidu",
+                                       "1 – pagal žvaigždės – trikampio schemą su N laidu, 2 – pagal žvaigždės – žvaigždės schemą su N laidu, 3 – pagal žvaigždės – žvaigždės schemą be N laido",
+                                       "Pagal žvaigždės – žvaigždės schemą su N laidu, 2 – pagal žvaigždės – žvaigždės schemą be N laido, 3 – pagal žvaigždės – trikampio schema su N laidu"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image48.png"
+                               },
+                               {
+                                   "klausimas": "Kokio žadinimo tipo yra variklis, jei didėjant nuolatinės srovės variklio apkrovai, jo sūkių dažnis mažėja labai nežymiai?",
+                                   "atsakymai": [
+                                       "Mišraus žadinimo elektros variklis",
+                                       "Periodinio žadinimo elektros variklis",
+                                       "Lygiagretaus žadinimo elektros variklis",
+                                       "Nuoseklaus žadinimo elektros variklis"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Magnetiniai nuostoliai transformatoriuje – tai nuostoliai:",
+                                   "atsakymai": [
+                                       "Susidarę transformatoriaus korpuse",
+                                       "Susidarę dėl magnetolaidžio vagystės",
+                                       "Transformatoriaus magnetolaidyje, susidedantys iš nuostolių dėl histerezės ir dėl sūkurinių srovių",
+                                       "Transformatoriaus apvijose, susidarę dėl jų įšilimo"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Ką reiškia elektros schemoje pavaizduotas šis simbolis?",
+                                   "atsakymai": [
+                                       "Skirstymo dėžutė",
+                                       "Elektros skaitiklis",
+                                       "Elektros sirena",
+                                       "Generatorius"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image49.png"
+                               },
+                               {
+                                   "klausimas": "Kuriame paveiksle pavaizduota nuolatinės srovės lygiagretaus (nepriklausomo) žadinimo elektros variklio schema?",
+                                   "atsakymai": [
+                                       "C",
+                                       "A",
+                                       "D",
+                                       "B"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image50.jpeg"
+                               },
+                               {
+                                   "klausimas": "Kuriame paveiksle parodytas tinkamas visos grandinės įtampos matavimas?",
+                                   "atsakymai": [
+                                       "D",
+                                       "B",
+                                       "A",
+                                       "C"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image51.jpeg"
+                               },
+                               {
+                                   "klausimas": "Kas pateiktoje srovės nuotėkio grandinės išjungiklio schemoje yra pažymėta 3 numeriu?",
+                                   "atsakymai": [
+                                       "Bendras srovės keitiklis",
+                                       "Suveikimo stabdymo magnetas",
+                                       "Ritės tvirtinimo elementas",
+                                       "Perjungiklio užraktas"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image52.jpeg"
+                               },
+                               {
+                                   "klausimas": "Kokią įtampą vadiname linijine?",
+                                   "atsakymai": [
+                                       "Įtampą tarp nulio ir įžeminimo laidų",
+                                       "Įtampą tarp bet kurių dviejų linijos fazių",
+                                       "Įtampą tarp bet kurios fazės ir nulio",
+                                       "Įtampą tarp bet kurios fazės ir įžeminimo laido"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kaip tiesiami kabeliai perėjimuose per sienas ir perdangas?",
+                                   "atsakymai": [
+                                       "Jungiami per specialius skydelius",
+                                       "Kabelius galima tiesiog užmūryti",
+                                       "Tokiose vietose kabeliai turi būti apsaugoti",
+                                       "Laisvai per skylutę"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kuo pagrįstas transformatoriaus veikimo principas?",
+                                   "atsakymai": [
+                                       "Magnetiniu rezonansu",
+                                       "Dielektrine skvarba",
+                                       "Elektromagnetinių bangų sklidimu",
+                                       "Elektromagnetine indukcija"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokia elektromagnetinės relės dalis pavaizduota 2–uoju numeriu schemoje?",
+                                   "atsakymai": [
+                                       "Šerdis",
+                                       "Inkaras",
+                                       "Kontaktas",
+                                       "Stūmiklis"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image53.jpeg"
+                               },
+                               {
+                                   "klausimas": "Kas yra diferencinis automatas?",
+                                   "atsakymai": [
+                                       "Automatinis jungiklis ir nuotėkio relė viename korpuse",
+                                       "Automatinis jungiklis ir saugiklis viename korpuse",
+                                       "Saugiklis ir nuotėkio relė viename korpuse",
+                                       "Universalus skirtingose sistemose naudojamas automatinis jungiklis"
+                                   ],
+                                   "teisingas": [0, 1], 
+                               "tipas": "multiple",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokia yra bendra visos mišriai sujungtų vartotojų grandinės varža, jeigu R1=2Ω, R2=1Ω, R3=2Ω, R4=2Ω (kai R3||R4)?",
+                                   "atsakymai": [
+                                       "5 Ω",
+                                       "3 Ω",
+                                       "4 Ω",
+                                       "6.5 Ω"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image54.png"
+                               },
+                               {
+                                   "klausimas": "Ką reiškia elektros schemoje pavaizduotas šis simbolis?",
+                                   "atsakymai": [
+                                       "Stabilitronas",
+                                       "Kondensatorius",
+                                       "Galvaninis elementas",
+                                       "Diodas"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image55.png"
+                               },
+                               {
+                                   "klausimas": "Kuo matuojama kintamosios srovės elektros variklių izoliacijos varža, esant vardinei apvijos įtampai iki 500V?",
+                                   "atsakymai": [
+                                       "230 V megommetru",
+                                       "1000V megommetru",
+                                       "2000 V megommetru",
+                                       "500 V megommetru"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kas yra termorezistoriai?",
+                                   "atsakymai": [
+                                       "Apkrovos pokyčiui jautrūs puslaidininkiai elementai",
+                                       "Temperatūros pokyčiui jautrūs puslaidininkiai elementai",
+                                       "Įtampos pokyčiui jautrūs puslaidininkiai elementai",
+                                       "Šviesai jautrūs puslaidininkiai elementai"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kuriame paveikslėlyje pavaizduotas termistoriaus simbolis?",
+                                   "atsakymai": [
+                                       "C",
+                                       "B",
+                                       "D",
+                                       "A"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image56.png"
+                               },
+                               {
+                                   "klausimas": "Kokia maitinimo įtampa, esant nuosekliajam varžų jungimui?",
+                                   "atsakymai": [
+                                       "Proporcingai dalinasi tarp varžų, priklausomai nuo varžų dydžio",
+                                       "Lieka ta pati kiekvienojoje varžoje",
+                                       "Lieka ta pati kiekvienoje varžoje, jei grandinėje yra ne daugiau dviejų varžų",
+                                       "Dalijasi tarp varžų lygiomis dalimis"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kaip turi būti sujungtos varžos, kad bendroji varža visada būtų mažesnė nei mažiausia dalinė varža?",
+                                   "atsakymai": [
+                                       "Lygiagrečiai",
+                                       "Mišriai",
+                                       "Nuosekliai",
+                                       "Toks jungimas neįmanomas"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kas yra transformatoriaus pirminės apvijos gnybtuose esančios įtampos santykis su antrinės apvijos įtampa laisvąja eiga?",
+                                   "atsakymai": [
+                                       "Santykinė pereinamoji įtampa",
+                                       "Transformatoriaus efektyvumas",
+                                       "Vardinis transformacijos koeficientas",
+                                       "Naudingumo koeficientas"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokį apsaugos aparatą būtina naudoti įrengiant elektros instaliaciją elektrai pavojingose patalpose?",
+                                   "atsakymai": [
+                                       "Lydžiuosius saugiklius",
+                                       "Fazių sekos indikatorių",
+                                       "Automatinius jungiklius",
+                                       "Skirtumines (nuotėkio srovės) reles"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokie prietaisai naudojami srovei riboti elektrinėse grandinėse?",
+                                   "atsakymai": [
+                                       "Saugikliai",
+                                       "Diodai",
+                                       "Kondensatoriai",
+                                       "Rezistoriai"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokia elektros tiekimo tinklo sistemos schema pavaizduota paveiksle?",
+                                   "atsakymai": [
+                                       "TT sistemos",
+                                       "TN – C sistemos",
+                                       "TS sistemos",
+                                       "IT sistemos"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image60.jpeg"
+                               },
+                               {
+                                   "klausimas": "Kaip jungiamos trifazio transformatoriaus apvijos?",
+                                   "atsakymai": [
+                                       "Tik nuosekliai",
+                                       "Tik lygiagrečiai",
+                                       "Nuosekliai arba lygiagrečiai",
+                                       "Žvaigžde arba trikampiu"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Ką reiškia elektros schemoje pavaizduotas šis simbolis (stačiakampis)?",
+                                   "atsakymai": [
+                                       "Rezistorius",
+                                       "Ritė su šerdimi",
+                                       "Kontaktoriaus ritė",
+                                       "Saugiklis"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image61.png"
+                               },
+                               {
+                                   "klausimas": "Kas yra įrenginio remontas?",
+                                   "atsakymai": [
+                                       "Periodinė įrenginio būklės apžiūra",
+                                       "Darbai, kurių metu iš dalies arba visiškai keičiamos ar atstatomos atskiros įrenginio dalys",
+                                       "Įrenginio profilaktiniai darbai",
+                                       "Elektros įrenginio kontrolė"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kas turi tiesioginę įtaką srovės stiprumui, srovei tekant per žmogaus kūną prie fiksuotos įtampos?",
+                                   "atsakymai": [
+                                       "Kontakto trukmė",
+                                       "Žmogaus amžius",
+                                       "Kūno temperatūra",
+                                       "Kūno varža"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kas yra pavaizduota pateiktame paveiksle?",
+                                   "atsakymai": [
+                                       "Transformatoriaus matavimų schema",
+                                       "Rezervo apšvietimo schema",
+                                       "Kintamosios srovės lygintuvo schema",
+                                       "Elektros instaliacijos schema"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image62.jpeg"
+                               },
+                               {
+                                   "klausimas": "Kaip vadinamas plazmos stulpas tarp dviejų elektrodų, susidaręs dėl smūginės jonizacijos komutacijos metu?",
+                                   "atsakymai": [
+                                       "Elektros lanku",
+                                       "Trumpuoju jungimu",
+                                       "Elektrine kibirkštimi",
+                                       "Jonizacijos kanalu"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Koks statinis įrenginys keičia kintamosios srovės grandinės įtampą ir stiprį?",
+                                   "atsakymai": [
+                                       "Variklis",
+                                       "Generatorius",
+                                       "Transformatorius",
+                                       "Skyriklis"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokiu tikslu paleidimo reostatas jungiamas prie elektros variklio?",
+                                   "atsakymai": [
+                                       "Siekiant padidinti variklio paleidimo srovę",
+                                       "Siekiant reguliuoti variklio apsukas",
+                                       "Siekiant sumažinti variklio paleidimo srovę",
+                                       "Siekiant apsaugoti variklį nuo trumpojo jungimo"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Koks yra jėgos, veikiančios tam tikrame lauko taške į ten esantį elektros krūvį, matas?",
+                                   "atsakymai": [
+                                       "Elektrinio lauko stipris",
+                                       "Elektros įtampa",
+                                       "Elektrovaros jėga",
+                                       "Elektros krūvis"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokia yra srovė ir įtampa U2 esant nuosekliajam jungimui?",
+                                   "atsakymai": [
+                                       "B)",
+                                       "C)",
+                                       "A)",
+                                       "D)"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image63.png"
+                               },
+                               {
+                                   "klausimas": "Kas yra katodas?",
+                                   "atsakymai": [
+                                       "Teigiamai įelektrintas elektrodas",
+                                       "Neigiamai įelektrintas elektrodas",
+                                       "Elektronikos prietaisas",
+                                       "Laidžioji medžiaga"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Koks įrenginys keičia kintamosios srovės grandinės įtampą ir stiprį?",
+                                   "atsakymai": [
+                                       "Transformatorius",
+                                       "Variklis",
+                                       "Skyriklis",
+                                       "Generatorius"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokios priemonės taikomos elektros energijos skaitiklių vardiniams parametrams praplėsti?",
+                                   "atsakymai": [
+                                       "Srovės ir įtampos matavimo transformatoriai",
+                                       "Srovės ir įtampos rezistoriai",
+                                       "Papildomi pridėtiniai skaitikliai",
+                                       "Papildomi skaitmeniniai indikatoriai ir blokai"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kas yra elektros srovė?",
+                                   "atsakymai": [
+                                       "Kryptingas atomų judėjimas",
+                                       "Chaotiškas atomų judėjimas",
+                                       "Kryptingas molekulių judėjimas",
+                                       "Kryptingas elektronų judėjimas"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Ką reiškia elektros schemoje pavaizduotas šis simbolis?",
+                                   "atsakymai": [
+                                       "Saugiklis",
+                                       "Transformatorius",
+                                       "Ritė su šerdimi",
+                                       "Kontaktoriaus ritė"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image64.jpg"
+                               },
+                               {
+                                   "klausimas": "Kaip elektros grandinėje jungiamas voltmetras ir ampermetras?",
+                                   "atsakymai": [
+                                       "Abu jungiami nuosekliai",
+                                       "Abu jungiami lygiagrečiai",
+                                       "Voltmetras jungiamas nuosekliai, o ampermetras lygiagrečiai",
+                                       "Voltmetras jungiamas lygiagrečiai, o ampermetras nuosekliai"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kaip vadinami rezistoriai, kurių elektrinė varža kinta veikiama šviesos srauto?",
+                                   "atsakymai": [
+                                       "Termorezistoriais",
+                                       "Rezistoriais",
+                                       "Fotorezistoriais",
+                                       "Pozistoriais"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kas yra elektrinė galia?",
+                                   "atsakymai": [
+                                       "Tai įtampos ir srovės stiprumo sandauga",
+                                       "Tai varžos ir srovės stiprumo sandauga",
+                                       "Tai varžos ir įtampos sandauga",
+                                       "Tai dažnio ir srovės stiprumo sandauga"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Ką reiškia AC žymėjimas elektriniuose matavimo įrenginiuose?",
+                                   "atsakymai": [
+                                       "Aukštąją įtampą",
+                                       "Kintamąją srovę",
+                                       "Nuolatinę srovę",
+                                       "Alternatyviąją energiją"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "30 Ω varžos rezistorius prijungtas prie įtampos šaltinio. Rezistoriumi teka 0,8 A stiprio srovė. Kokia yra šaltinio įtampa?",
+                                   "atsakymai": [
+                                       "24 V",
+                                       "240 V",
+                                       "2,4 V",
+                                       "34 V"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokios apsaugos nuo elektros kategorijos gali būti suteiktos elektrotechnikos darbuotojui?",
+                                   "atsakymai": [
+                                       "Aukščiausia kategorija (AK); Vidutinė kategorija (VK); Žemesnė kategorija (žk)",
+                                       "Atsakingo asmens kategorija (AK); vadovo kategorija (VK); padėjėjo kategorija (PK)",
+                                       "Pirma kategorija (PK); antra kategorija (AK); trečia kategorija (TK)",
+                                       "Aukšta kategorija (AK); vidutinė kategorija (VK); pradinė kategorija (PK)"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokios elektros tiekimo tinklo sistemos schema pavaizduota paveiksle?",
+                                   "atsakymai": [
+                                       "TS sistemos",
+                                       "TT sistemos",
+                                       "TN – C sistemos",
+                                       "TN – S sistemos"
+                                   ],
+                                   "teisingas": [2], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image65.jpg"
+                               },
+                               {
+                                   "klausimas": "Ką reikia padaryti, norint pakeisti asinchroninio variklio rotoriaus sukimosi kryptį?",
+                                   "atsakymai": [
+                                       "Tarp vienos (bet kurios) fazės laidininko ir variklio gnybto įjungti reostatą",
+                                       "Sukeisti vietomis bet kurią statorių su tinklu jungiančią laidų porą (dvi fazes)",
+                                       "Tarp kiekvienos fazės laidininko ir nulinio laido prijungti po atitinkamos talpos kondensatorių",
+                                       "Tarp I ir II bei II ir III fazių laidininkų įjungti po kondensatorių"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Šis prietaisas naudojamas apsaugai nuo trumpojo jungimo, kai grandinės srovė neturi būti didesnė už tam tikrą ribą. Koks tai prietaisas?",
+                                   "atsakymai": [
+                                       "Maksimalios srovės relė",
+                                       "Komutacinė relė",
+                                       "Elektromagnetinis paleidiklis",
+                                       "Bimetalinė šiluminė relė"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image66.jpg"
+                               },
+                               {
+                                   "klausimas": "Kuriame paveiksle pavaizduotas transformatorių prijungimas pagal „trikampio–žvaigždės“ schemą su N laidu?",
+                                   "atsakymai": [
+                                       "B",
+                                       "C",
+                                       "A",
+                                       "D"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image67.jpeg"
+                               },
+                               {
+                                   "klausimas": "Kiek apvijų iš viso yra trifaziame transformatoriuje?",
+                                   "atsakymai": [
+                                       "Šešios",
+                                       "Keturios",
+                                       "Trys",
+                                       "Devynios"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kam yra naudojamos nuotėkio relės?",
+                                   "atsakymai": [
+                                       "Apsaugai nuo trumpojo jungimo",
+                                       "Įrenginiams įjungti iš skirtingų vietų",
+                                       "Įrenginiams valdyti nuotoliniu būdu",
+                                       "Įtampai atjungti įvykus srovės nuotėkiui"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kokia raide žymima elektros tinklų sistema, kurios visos tinklo srovinės dalys yra izoliuotos nuo žemės?",
+                                   "atsakymai": [
+                                       "T",
+                                       "I",
+                                       "S",
+                                       "C"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Ką reiškia elektros schemoje pavaizduotas šis simbolis?",
+                                   "atsakymai": [
+                                       "Variklio apsaugos relės kaitinimo elementas",
+                                       "Tripolis automatinis jungiklis",
+                                       "Tarpinės relės kontaktai",
+                                       "Kontaktoriaus jėgos kontaktai"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image68.jpg"
+                               },
+                               {
+                                   "klausimas": "Kokie laidai jungiami apšvietimo tinkle prie vienpolio jungiklio?",
+                                   "atsakymai": [
+                                       "Fazės ir nulinis laidai",
+                                       "Fazės laidas ir laidas nuo lempos",
+                                       "Du fazės laidai",
+                                       "Nulinis laidas ir lempos nulinis laidas"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kur susidaro transformatoriaus magnetiniai nuostoliai?",
+                                   "atsakymai": [
+                                       "Transformatoriaus korpuse",
+                                       "Transformatoriaus magnetolaidyje",
+                                       "Transformatoriaus apvijose",
+                                       "Dėl magnetolaidžio vagystės"
+                                   ],
+                                   "teisingas": [1], 
+                               "tipas": "single",
+                               "vaizdas": ""
+                           },
+                               {
+                                   "klausimas": "Kas pavaizduota pateiktame paveiksle?",
+                                   "atsakymai": [
+                                       "Skirstymo skydas",
+                                       "Apskaitos skydas",
+                                       "Variklio pajungimo skydas",
+                                       "Valdymo skydas"
+                                   ],
+                                   "teisingas": [0], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image69.jpg"
+                               },
+                               {
+                                   "klausimas": "Kas yra žymima pateiktame paveikslėlyje nurodytais ženklinimais?",
+                                   "atsakymai": [
+                                       "Įžeminimo laidininkas, jo skerspjūvis ir skaičiuojamoji srovė",
+                                       "Vienfazis laidininkas, jo skerspjūvis ir skaičiuojamoji srovė",
+                                       "Trifazis laidininkas ir jo specifinė varža",
+                                       "Trifazis laidininkas, jo skerspjūvis ir skaičiuojamoji srovė"
+                                   ],
+                                   "teisingas": [3], 
+                               "tipas": "single",
+                                   "vaizdas": "media/image70.jpeg"
+                               },
+                           {
+                               "klausimas": "Kada suveikia trumpojo jungimo srovės atkabiklis?",
+                               "atsakymai": [
+                                   "Kai dažnis gerokai didesnis už nuostato srovės vertę",
+                                   "Kai įtampa gerokai didesnė už nuostato įtampos vertę",
+                                   "Kai srovė gerokai mažesnė už nuostato srovės vertę",
+                                   "Kai srovė gerokai didesnė už nuostato srovės vertę"
+                               ],
+                               "teisingas": [3], 
+                               "tipas": "single"
+                           },
+                           {
+                               "klausimas": "Ar galima avarinio apšvietimo tinkle jungti kištukinius lizdus?",
+                               "atsakymai": [
+                                   "Galima",
+                                   "Negalima",
+                                   "Galima tik ribotam naudojimui iki 1 val.",
+                                   "Galima prijungti kilnojamiems elektros įrankiams"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single"
+                           },
+                           {
+                               "klausimas": "  Ar galima avarinį ir darbinį apšvietimą prijungti prie to paties elektros šaltinio?",
+                               "atsakymai": [
+                                   "Galima vienfaziame tinkle, jei jungiama prie skirtingų fazių",
+                                   "Galima",
+                                   "Galima ribotos galios",
+                                   "Negalima"
+                               ],
+                               "teisingas": [3], 
+                               "tipas": "single"
+                           },
+                           {
+                               "klausimas": "Iš kokių metalų vielos sudaromi daugiavieliai aukštos įtampos laidai?",
+                               "atsakymai": [
+                                   "Iš plieno ir aliuminio",
+                                   "Iš vario ir aliuminio",
+                                   "Iš plieno ir vario",
+                                   "Iš volframo ir plieno"
+                               ],
+                               "teisingas": [0], 
+                               "tipas": "single"
+                           },
+                           {
+                               "klausimas": "Kas yra sinchroninių mašinų induktorius?",
+                               "atsakymai": [
+                                   "Rotorius",
+                                   "Statorius",
+                                   "Žadinimo srautas",
+                                   "Prijungtų gnybtų kaladėlė"
+                               ],
+                               "teisingas": [0], 
+                               "tipas": "single"
+                           },
+                           {
+                               "klausimas": "Kaip turi būti žymimos trifazės srovės šynos?",
+                               "atsakymai": [
+                                   "L1 fazė raudona spalva, L2 – fazė žalia spalva, L3 – fazė geltona spalva, N – melyna spalva, PEN  - žalios spalvos juostomis",
+                                   "L1- fazė pilka spalva, L2 fazė – ruda spalva. L3 fazė – juoda spalva, N  - geltonos, žalios spalvos juostelėm, PEN- mėlyna spalva",
+                                   "L1 fazė – geltona spalva, L2 fazė – žalia spalva, L3 fazė – raudona spalva, N -  mėlyna spalva, PEN – geltonos ir žalios spalvos juostelėm",
+                                   "L1 fazė- ruda spalva, L2 fazė – pilka spalva, L3 fazė – juoda spalva, N – melyna spalva, PEN – geltonos spalvos juostelėm"
+                               ],
+                               "teisingas": [2], 
+                               "tipas": "single"
+                           },
+                           {
+                               "klausimas": "Kokia įtampa laikoma vidutine įtampa?",
+                               "atsakymai": [
+                                   "Nuo 230 V iki 400 V imtinai kintamosios srovės įtampa",
+                                   "Nuo 10 Kv iki 110 kV imtinai kintamosios srovės įtampa",
+                                   "Nuo 400 V iki 6 kV imtinai kintamosios srovės įtampa",
+                                   "Nuo 1000V iki 35 kV imtinai kintamosios srovės įtampa"
+                               ],
+                               "teisingas": [3], 
+                               "tipas": "single"
+                           },
+                           {
+                               "klausimas": "Kokia įtampa yra laikoma fazine įtampa?",
+                               "atsakymai": [
+                                   "Įtampa tarp dviejų fazių įrenginio perkrovos metu",
+                                   "Įtampa tarp bet kurios fazės ir nulinio laido",
+                                   "Įtampa tarp bet kurių dviejų linijos fazių",
+                                   "Įtampa tarp nulinio ir įžeminimo laidų"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single"
+                           },
+                           {
+                               "klausimas": "Kokio amžiaus asmenys gali dirbti veikiančiuose elektros įrenginiuose?",
+                               "atsakymai": [
+                                   "Ne jaunesni kaip 20 metų",
+                                   "Ne jaunesni kaip 19 metų",
+                                   "Ne jaunesni kaip 18 metų",
+                                   "Nuo 16 metų"
+                               ],
+                               "teisingas": [2], 
+                               "tipas": "single"
+                           },
+                           {
+                               "klausimas": "Kaip sumažinti nuolatinės srovės variklio paleidimo srovę?",
+                               "atsakymai": [
+                                   "Jungiant su transformatorium",
+                                   "Jungiant su paleidimo reostatu",
+                                   "Jungiant su kondensatoriumi",
+                                   "Jungiant per induktyvumo ritę"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single"
+                           },
+                           {
+                               "klausimas": "Kaip vadinama elektros tinklo sistema, kurioje maitinimo tinklas ir elektros įrenginių aktyviosios dalys neturi tiesioginio ryšio su žeme, o elektros įrenginių pasyvios dalys yra sujungtos su vietiniu įžeminimo įrenginiu?",
+                               "atsakymai": [
+                                   "TN",
+                                   "TT",
+                                   "IT",
+                                   "IP"
+                               ],
+                               "teisingas": [2], 
+                               "tipas": "single"
+                           },
+                           {
+                               "klausimas": "Kuris teiginys yra teisingas?",
+                               "atsakymai": [
+                                   "Įžemėjimo srovė mažiausia TN sistemoje",
+                                   "Įžemėjimo srovė mažiausia TT sistemoje",
+                                   "Įžemėjimo srovė didesne IT sistemoje",
+                                   "Įžemėjimo srovė mažiausia IT sistemoje"
+                               ],
+                               "teisingas": [3], 
+                               "tipas": "single"
+                           },
+                           {
+                               "klausimas": "Koks yra asinchroninio trifazio variklio magnetinio lauko sukimosi greitis, jeigu jame yra po dvi polių poras kiekvienai fazei ir jis prijungtas prie 50 Hz tinklo?",
+                               "atsakymai": [
+                                   "1500 aps/min",
+                                   "1000 aps/min",
+                                   "3000 aps/min",
+                                   "750 aps/min"
+                               ],
+                               "teisingas": [0], 
+                               "tipas": "single"
+                           },
+                           {
+                               "klausimas": "Kokia įtampa laikoma aukštąja įtampa?",
+                               "atsakymai": [
+                                   "Didesnė nei 35 kV kintamosios srovės ir didesnė nei 10 kV  nuolatinės srovės įtampa",
+                                   "Didesnė nei 1000V kintamosios srovės ir didesnė nei 1500V  nuolatinės srovės įtampa",
+                                   "Didesnė nei 400V kintamosios srovės ir didesnė nei 1000V  nuolatinės srovės įtampa",
+                                   "Didesnė nei 10 kV kintamosios srovės ir didesnė nei 10 kV  nuolatinės srovės įtampa"
+                               ],
+                               "teisingas": [0], 
+                               "tipas": "single"
+                           },
+                           {
+                               "klausimas": "Kokiu parametru įvertinamas medžiagos elektrinis laidumas?",
+                               "atsakymai": [
+                                   "Medžiagos specifinė ir pilnutine varža",
+                                   "Medžiagos atsparumu įšilimui",
+                                   "Medžiagos pilnutinė elektrinė varža",
+                                   "Medžiagos specifinė elektrinė varža"
+                               ],
+                               "teisingas": [3], 
+                               "tipas": "single"
+                           },
+                           {
+                               "klausimas": "Kuris teiginys tinkamai apibūdina diodą?",
+                               "atsakymai": [
+                                   "Diodas skirtas grandinės srovei riboti",
+                                   "Kadangi diodas yra pusiau laidus, jis yra puslaidininkis",
+                                   "Diodas schemose jungiamas bet kuria puse",
+                                   "Diodas yra su trimis poliais"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single"
+                           },
+                           {
+                               "klausimas": "Kas verčia kryptingai judėti elektronus?",
+                               "atsakymai": [
+                                   "Prijungti vartotojai",
+                                   "Mechaninės jėgos",
+                                   "Šilumos šaltinis",
+                                   "Elektros srovės šaltinis"
+                               ],
+                               "teisingas": [3], 
+                               "tipas": "single"
+                           },
+                           {
+                               "klausimas": "Prie kokių tinklo laidų turi būti prijungta variklio valdymo grandinė?",
+                               "atsakymai": [
+                                   "Prie fazinio ir nulinio",
+                                   "Prie įžeminimo ir fazinio",
+                                   "Tik per žeminantį transformatorių ir lygintuvą",
+                                   "Prie įžeminimo ir nulio"
+                               ],
+                               "teisingas": [0], 
+                               "tipas": "single"
+                           },
+                           {
+                               "klausimas": "Kokia yra pagrindinė laidų izoliavimo paskirtis?",
+                               "atsakymai": [
+                                   "Siekiant sušvelninti trumpojo jungimo padarinius",
+                                   "Siekiant užkirsti kelią prisiliesti prie daiktų, kuriuose yra elektros įtampa",
+                                   "Siekiant užkirsti kelią pažeidimams",
+                                   "Trifazis"
+                               ],
+                               "teisingas": [1], 
+                               "tipas": "single"
+                           }
+]

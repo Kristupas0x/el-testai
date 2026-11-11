@@ -1,0 +1,50 @@
+{
+  "subjects": [
+    {
+      "id": "prof",
+      "title": "Profesinės mokyklos klausimai",
+      "file": "prof_egzaminas.json"
+    },
+    {
+      "id": "medziagos",
+      "title": "Elektrotechninės medžiagos",
+      "file": "elektrotechnines_medziagos_klausimai.json",
+      "groups": [
+        {
+          "title": "1 atsiskaitymas",
+          "topics": [
+            "Bendros žinios apie elektrotechnines medžiagas",
+            "Laidininkinės medžiagos",
+            "Superlaidininkai ir kriolaidininkai",
+            "Laidai ir kabeliai"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "energetika",
+      "title": "Elektros energijos gamybos technologijos",
+      "file": "elektros_energetika.json",
+      "groups": [
+        {
+          "title": "1 atsiskaitymas",
+          "topics": [
+            "Šiluminės elektrinės",
+            "Vandens elektrinės",
+            "Atominės elektrinės",
+            "Elektrinių savosios reikmės"
+          ]
+        },
+        {
+          "title": "2 atsiskaitymas",
+          "topics": [
+            "Dyzelinės elektrinės",
+            "Saulės elektrinės",
+            "Vėjo jėgainės",
+            "Ateities energetikos technologijos"
+          ]
+        }
+      ]
+    }
+  ]
+}
