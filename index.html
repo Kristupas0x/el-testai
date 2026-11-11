@@ -1,1464 +1,284 @@
 <!DOCTYPE html>
 <html lang="lt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elektrikų mokymosi testai</title>
-    <style>
-        /* Universali taisyklė, apsauganti nuo išsiliejimo į šonus */
-        * {
-            box-sizing: border-box;
-        }
-
-        :root {
-            /* Šviesios temos spalvos */
-            --bg-color: #f5f5f7;
-            --container-bg: #ffffff;
-            --text-main: #1d1d1f;
-            --text-muted: #86868b;
-            --primary: #007aff;
-            --primary-hover: #005bb5;
-            --success: #34c759;
-            --danger: #ff3b30;
-            --warning: #ffcc00;
-            --warning-text: #5c4900;
-            --border: #d2d2d7;
-            --selected: #e1f0ff;
-            --nav-bg: #f0f0f5;
-        }
-
-        /* Tamsios temos (Dark Mode) spalvos */
-        body.dark-mode {
-            --bg-color: #121212;
-            --container-bg: #1e1e1e;
-            --text-main: #f5f5f7;
-            --text-muted: #a1a1a6;
-            --primary: #0a84ff;
-            --primary-hover: #0060d1;
-            --border: #333336;
-            --selected: #003366;
-            --nav-bg: #2c2c2e;
-            --warning: #cca300;
-            --warning-text: #ffffff;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            padding: 20px;
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        .theme-toggle {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background: var(--container-bg);
-            border: 1px solid var(--border);
-            color: var(--text-main);
-            font-size: 20px;
-            border-radius: 50%;
-            width: 45px;
-            height: 45px;
-            cursor: pointer;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            transition: all 0.3s;
-            z-index: 10;
-        }
-
-        .container {
-            background-color: var(--container-bg);
-            border-radius: 18px;
-            box-shadow: 0 4px 24px rgba(0,0,0,0.1);
-            width: 100%;
-            max-width: 900px;
-            padding: 30px;
-            transition: background-color 0.3s, box-shadow 0.3s;
-        }
-
-        .layout {
-            display: flex;
-            gap: 30px;
-            margin-top: 20px;
-        }
-
-        .main-content { flex: 3; }
-        
-        .sidebar { 
-            flex: 1; 
-            min-width: 200px; 
-            position: sticky; 
-            top: 20px;
-            align-self: start; 
-        }
-
-        h1, h2 { margin-top: 0; text-align: center; }
-        .screen { display: none; }
-        .screen.active { display: block; }
-
-        /* Nustatymų ir statistikos panelės */
-        .settings-panel {
-            background: var(--nav-bg);
-            padding: 15px;
-            border-radius: 12px;
-            margin: 20px auto;
-            max-width: 500px;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 15px;
-        }
-        .settings-panel label {
-            display: flex;
-            flex-direction: column;
-            font-size: 14px;
-            font-weight: 600;
-            color: var(--text-muted);
-            gap: 5px;
-        }
-        .settings-panel select {
-            padding: 10px;
-            border-radius: 8px;
-            border: 1px solid var(--border);
-            background: var(--container-bg);
-            color: var(--text-main);
-            font-size: 15px;
-        }
-
-        .stats-panel {
-            margin: 30px auto;
-            max-width: 500px;
-        }
-
-        /* NAUJAS GRUPAVIMO DIZAINAS PRADŽIOS EKRANUI */
-        .topic-panel {
-            padding: 0;
-            margin: 20px auto;
-            max-width: 650px;
-        }
-
-        .topic-title {
-            font-size: 18px;
-            font-weight: 700;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        /* Pirmo ir antro lygio išskleidžiami meniu */
-        .subject-dropdown,
-        .nested-dropdown {
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            background: var(--nav-bg);
-            margin-bottom: 12px;
-            overflow: hidden;
-        }
-
-        .dropdown-header {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            background: transparent;
-            color: var(--text-main);
-            border: none;
-            border-radius: 0;
-            padding: 16px 18px;
-            font-size: 15px;
-            font-weight: 700;
-            cursor: pointer;
-            text-align: left;
-        }
-
-        .dropdown-header:hover {
-            background: rgba(127, 127, 127, 0.08);
-        }
-
-        .dropdown-header .chevron {
-            width: 18px;
-            flex: 0 0 18px;
-            text-align: center;
-            transition: transform 0.2s ease;
-        }
-
-        .subject-dropdown.open > .dropdown-header .chevron,
-        .nested-dropdown.open > .dropdown-header .chevron {
-            transform: rotate(90deg);
-        }
-
-        .dropdown-header .dropdown-label {
-            flex: 1;
-        }
-
-        .dropdown-header .dropdown-count {
-            color: var(--text-muted);
-            font-size: 12px;
-            font-weight: 600;
-            white-space: nowrap;
-        }
-
-        .dropdown-header .bulk-checkbox {
-            width: 18px;
-            height: 18px;
-            flex: 0 0 18px;
-            margin: 0 2px 0 0;
-            accent-color: var(--primary);
-            cursor: pointer;
-        }
-
-        .dropdown-header .bulk-checkbox:indeterminate {
-            accent-color: var(--primary);
-        }
-
-        .nested-dropdown .dropdown-header .bulk-checkbox {
-            width: 16px;
-            height: 16px;
-            flex-basis: 16px;
-        }
-
-        .dropdown-content {
-            display: none;
-            padding: 0 18px 18px;
-        }
-
-        .subject-dropdown.open > .dropdown-content,
-        .nested-dropdown.open > .dropdown-content {
-            display: block;
-        }
-
-        .subject-dropdown > .dropdown-content {
-            padding-top: 4px;
-        }
-
-        .nested-dropdown {
-            margin: 4px 0 10px;
-            background: var(--container-bg);
-        }
-
-        .nested-dropdown .dropdown-header {
-            padding: 13px 14px;
-            font-size: 14px;
-            color: var(--primary);
-        }
-
-        .nested-dropdown .dropdown-content {
-            padding: 0 12px 12px;
-        }
-
-        .topic-list + .topic-list {
-            margin-top: 8px;
-        }
-
-        .topic-section-label {
-            font-size: 12px;
-            color: var(--text-muted);
-            font-weight: 600;
-            margin: 8px 0 8px;
-        }
-
-        .subject-group {
-            background: var(--nav-bg);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 18px;
-            margin-bottom: 15px;
-        }
-
-        .subject-group-title {
-            font-size: 15px;
-            font-weight: 700;
-            color: var(--primary);
-            margin-bottom: 12px;
-            border-bottom: 2px solid var(--border);
-            padding-bottom: 8px;
-        }
-
-        .topic-list {
-            display: grid;
-            gap: 8px;
-        }
-
-        .topic-checkbox {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            padding: 10px 12px;
-            border: 1px solid var(--border);
-            border-radius: 9px;
-            background: var(--container-bg);
-            cursor: pointer;
-            user-select: none;
-        }
-
-        .topic-checkbox:hover {
-            border-color: var(--primary);
-        }
-
-        .topic-checkbox input {
-            transform: scale(1.2);
-            accent-color: var(--primary);
-            margin: 0;
-        }
-
-        .topic-checkbox.disabled {
-            opacity: 0.55;
-            cursor: not-allowed;
-        }
-
-        .topic-count {
-            margin-left: auto;
-            color: var(--text-muted);
-            font-size: 12px;
-        }
-
-        .selection-summary {
-            margin-top: 15px;
-            font-size: 14px;
-            text-align: center;
-            color: var(--text-muted);
-            line-height: 1.4;
-        }
-
-        .selection-actions {
-            display: flex;
-            justify-content: center;
-            gap: 12px;
-            margin-top: 20px;
-        }
-
-        .mini-btn {
-            background: var(--container-bg);
-            color: var(--text-main);
-            border: 1px solid var(--border);
-            padding: 10px 16px;
-            font-size: 14px;
-            font-weight: 600;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-
-        .mini-btn:hover:not(:disabled) {
-            background: var(--selected);
-            border-color: var(--primary);
-            color: var(--primary);
-        }
-
-        .stats-title {
-            font-size: 14px;
-            font-weight: 600;
-            color: var(--text-muted);
-            text-align: center;
-            margin-bottom: 15px;
-        }
-        .chart {
-            display: flex;
-            justify-content: center;
-            align-items: flex-end;
-            height: 120px;
-            gap: 15px;
-            border-bottom: 2px solid var(--border);
-            padding-bottom: 10px;
-        }
-        .bar-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-end;
-            height: 100%;
-            width: 40px;
-        }
-        .bar {
-            width: 100%;
-            background-color: var(--primary);
-            border-radius: 4px 4px 0 0;
-            transition: height 0.5s;
-            display: flex;
-            align-items: flex-start;
-            justify-content: center;
-            padding-top: 5px;
-            color: white;
-            font-size: 11px;
-            font-weight: bold;
-        }
-        .bar.pass { background-color: var(--success); }
-        .bar.fail { background-color: var(--danger); }
-        .bar-label {
-            font-size: 10px;
-            color: var(--text-muted);
-            margin-top: 5px;
-        }
-
-        .nav-grid {
-            display: grid;
-            grid-template-columns: repeat(5, minmax(0, 1fr));
-            gap: 8px;
-            margin-bottom: 20px;
-            max-height: 380px; 
-            overflow-y: auto; 
-            overflow-x: hidden; 
-            padding-right: 15px;
-        }
-
-        .nav-grid::-webkit-scrollbar {
-            width: 6px;
-        }
-        .nav-grid::-webkit-scrollbar-track {
-            background: transparent;
-        }
-        .nav-grid::-webkit-scrollbar-thumb {
-            background-color: var(--border);
-            border-radius: 10px;
-        }
-        .nav-grid::-webkit-scrollbar-thumb:hover {
-            background-color: var(--text-muted);
-        }
-
-        .nav-item {
-            background-color: var(--nav-bg);
-            border: 2px solid transparent;
-            border-radius: 8px;
-            padding: 10px 0;
-            text-align: center;
-            font-weight: 600;
-            cursor: pointer;
-            user-select: none;
-            transition: all 0.2s;
-        }
-
-        .nav-item.current { border-color: var(--primary); }
-        .nav-item.answered { background-color: var(--primary); color: white; }
-        .nav-item.flagged { background-color: var(--warning); color: var(--warning-text); border-color: var(--warning); }
-        .nav-item.correct { background-color: var(--success); color: white; border-color: var(--success); }
-        .nav-item.wrong { background-color: var(--danger); color: white; border-color: var(--danger); }
-
-        button {
-            appearance: none;
-            background-color: var(--primary);
-            color: white;
-            border: none;
-            border-radius: 10px;
-            padding: 12px 20px;
-            font-size: 15px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: background-color 0.2s;
-        }
-
-        button:hover:not(:disabled) { background-color: var(--primary-hover); }
-        button:disabled { background-color: var(--border); cursor: not-allowed; color: var(--text-muted); }
-
-        .nav-controls {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 25px;
-            gap: 10px;
-        }
-        
-        .flag-btn {
-            background-color: var(--nav-bg);
-            color: var(--text-main);
-            border: 1px solid var(--border);
-        }
-        .flag-btn:hover:not(:disabled) { background-color: var(--warning); color: var(--warning-text); }
-        .flag-btn.active { background-color: var(--warning); color: var(--warning-text); border-color: var(--warning); }
-
-        .submit-btn { background-color: #ff9500; width: 100%; margin-top: 15px; }
-        .submit-btn:hover { background-color: #e08500; }
-
-        .option-btn {
-            background-color: var(--container-bg);
-            color: var(--text-main);
-            border: 1px solid var(--border);
-            text-align: left;
-            margin-top: 10px;
-            font-weight: 400;
-            width: 100%;
-            border-radius: 10px;
-            padding: 14px 20px;
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            transition: all 0.2s;
-            cursor: pointer;
-        }
-        
-        .option-btn input {
-            transform: scale(1.3);
-            pointer-events: none; 
-            margin: 0;
-            accent-color: var(--primary);
-        }
-
-        .option-btn:hover:not(:disabled) { background-color: var(--nav-bg); }
-        .option-btn.selected { background-color: var(--selected); border-color: var(--primary); font-weight: 500; }
-        .option-btn.correct { background-color: var(--success); color: white; border-color: var(--success); }
-        .option-btn.wrong { background-color: var(--danger); color: white; border-color: var(--danger); }
-        .option-btn.correct input, .option-btn.wrong input { display: none; }
-        
-        .multi-hint {
-            font-size: 13px;
-            color: var(--primary);
-            font-weight: 600;
-            margin-bottom: 15px;
-            display: none;
-        }
-
-        .header-stats {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 16px;
-            font-weight: 600;
-            padding-bottom: 15px;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .progress-container { width: 100%; background-color: var(--border); border-radius: 4px; height: 6px; margin-top: 10px; overflow: hidden; }
-        .progress-bar { height: 100%; background-color: var(--primary); width: 0%; transition: width 0.3s; }
-
-        .question-img {
-            display: none;
-            max-width: 100%;
-            max-height: 280px;
-            margin: 0 auto 20px auto;
-            border-radius: 8px;
-            border: 1px solid var(--border);
-            object-fit: contain;
-        }
-
-        #question-text { font-size: 18px; font-weight: 600; margin-bottom: 5px; line-height: 1.4; }
-        .result-circle { width: 120px; height: 120px; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 32px; font-weight: bold; margin: 20px auto; color: white; }
-        .pass { background-color: var(--success); }
-        .fail { background-color: var(--danger); }
-
-        @media (max-width: 768px) {
-            .layout { flex-direction: column; }
-            .sidebar { position: static; width: 100%; align-self: stretch; margin-top: 30px; }
-            .nav-grid { max-height: 220px; padding-right: 15px; }
-            .nav-controls button { white-space: nowrap; flex: 1; text-align: center; font-size: 14px; padding: 12px 5px; }
-            .header-stats { padding-right: 60px; }
-            .theme-toggle { top: 15px; right: 15px; }
-            .selection-actions { flex-direction: column; }
-            .topic-checkbox { align-items: flex-start; }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Elektrikų testai</title>
+<style>
+:root{--bg:#f4f1ea;--card:#fffdf8;--ink:#1b1d22;--mut:#6b6f78;--line:#e3ddd0;--ac:#c2410c;--on:#fff;--ok:#15803d;--okb:#dcfce7;--bad:#b91c1c;--badb:#fee2e2;--r:14px}
+[data-theme=dark]{--bg:#101216;--card:#181b21;--ink:#ecebe6;--mut:#9a9ea8;--line:#2a2e37;--ac:#ffb454;--on:#1a1100;--ok:#4ade80;--okb:#12301f;--bad:#f87171;--badb:#3a1618}
+*{box-sizing:border-box}[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:20px 16px 60px}
+h1,h2,.serif{font-family:"Iowan Old Style",Georgia,serif;letter-spacing:-.01em}
+h1{font-size:2rem;margin:0}.sub{color:var(--mut);margin:4px 0 0}
+.top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px;margin-bottom:16px}
+.card h3{margin:0 0 10px;font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--mut)}
+button{font:inherit;cursor:pointer;color:var(--ink)}
+.btn{background:var(--ac);color:var(--on);border:0;border-radius:10px;padding:12px 20px;font-weight:600}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+.ghost{background:none;border:1px solid var(--line);border-radius:10px;padding:10px 16px}
+.ghost:hover{border-color:var(--ac)}
+.icon{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--card);font-size:1.1rem}
+details.node{border-top:1px solid var(--line)}details.node:first-child{border-top:0}
+details.node details.node{margin-left:18px}
+summary{display:flex;align-items:center;gap:10px;padding:10px 4px;cursor:pointer;list-style:none;font-weight:600}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"›";color:var(--mut);transition:transform .15s;width:12px}
+details[open]>summary::before{transform:rotate(90deg)}
+summary span,.row span{flex:1}
+em{font-style:normal;color:var(--mut);font-size:.85rem;font-weight:400}
+.kids{padding:0 0 6px 22px}
+.row{display:flex;gap:10px;align-items:center;padding:7px 4px;cursor:pointer}
+input[type=checkbox],input[type=radio]{accent-color:var(--ac);width:18px;height:18px;margin:0}
+.opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px}
+.opts label{display:flex;flex-direction:column;gap:4px;font-size:.85rem;color:var(--mut)}
+select{font:inherit;padding:9px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.seg{display:flex;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.seg label{flex:1;flex-direction:row;align-items:center;justify-content:center;gap:6px;padding:9px;cursor:pointer;color:var(--ink)}
+.seg label:has(:checked){background:var(--ac);color:var(--on)}.seg input{display:none}
+.bars{display:flex;gap:8px;align-items:flex-end;height:80px}
+.bars div{flex:1;background:var(--ac);border-radius:6px 6px 0 0;min-height:4px;position:relative;opacity:.85}
+.bars span{position:absolute;top:-18px;left:0;right:0;text-align:center;font-size:.7rem;color:var(--mut)}
+.bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden;flex:1}.bar i{display:block;height:100%;background:var(--ac);transition:width .3s}
+.hd{display:flex;align-items:center;gap:14px;margin-bottom:14px;font-size:.9rem;color:var(--mut)}
+.clock{font-variant-numeric:tabular-nums;font-weight:700;color:var(--ink)}
+.layout{display:grid;grid-template-columns:1fr 230px;gap:16px;align-items:start}
+@media(max-width:760px){.layout{grid-template-columns:1fr}}
+.q{font-size:1.3rem;line-height:1.4;margin:6px 0 16px}
+.tp{font-size:.78rem;color:var(--ac);font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+.hint{color:var(--mut);font-size:.88rem;margin:-8px 0 12px}
+#img img{max-width:100%;max-height:340px;border-radius:10px;background:#fff;display:block;margin-bottom:14px}
+.opt{display:flex;gap:12px;width:100%;text-align:left;background:none;border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px;align-items:flex-start}
+.opt b{min-width:26px;height:26px;border-radius:7px;background:var(--line);display:grid;place-items:center;font-size:.8rem}
+.opt:hover{border-color:var(--ac)}.opt.sel{border-color:var(--ac);background:color-mix(in srgb,var(--ac) 10%,transparent)}
+.opt.ok{border-color:var(--ok);background:var(--okb)}.opt.bad{border-color:var(--bad);background:var(--badb)}
+.nav{display:flex;gap:10px;justify-content:space-between;flex-wrap:wrap;margin-top:8px}
+.map{display:grid;grid-template-columns:repeat(auto-fill,minmax(36px,1fr));gap:6px;max-height:340px;overflow:auto;margin-bottom:12px}
+.map button{height:36px;border-radius:8px;border:1px solid var(--line);background:none;font-size:.8rem}
+.map .ans{background:var(--line)}.map .ok{background:var(--okb);border-color:var(--ok)}.map .bad{background:var(--badb);border-color:var(--bad)}
+.map .flag{box-shadow:inset 0 -3px var(--ac)}.map .cur{outline:2px solid var(--ac);outline-offset:1px}
+.ring{--p:0;width:150px;height:150px;border-radius:50%;margin:20px auto;display:grid;place-items:center;background:conic-gradient(var(--ac) calc(var(--p)*1%),var(--line) 0)}
+.ring div{width:118px;height:118px;border-radius:50%;background:var(--card);display:grid;place-items:center;font:700 2rem Georgia,serif}
+.center{text-align:center}.row2{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+</style>
 </head>
 <body>
+<div class="wrap">
 
-<button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()" title="Keisti temą">🌙</button>
-
-<div class="container">
-    <div id="start-screen" class="screen active">
-        <h1>Elektrikų mokymosi testai</h1>
-        <p id="db-status" style="text-align: center; color: var(--text-muted); margin: 10px auto;">
-            Kraunami klausimai...
-        </p>
-        
-        <div class="topic-panel">
-            <div class="topic-title">Pasirinkite, iš kurių temų norite sudaryti testą</div>
-
-            <!-- 1 lygis: Profesinės mokyklos klausimai -->
-            <div class="subject-dropdown" id="prof-subject-dropdown">
-                <div class="dropdown-header" role="button" tabindex="0" onclick="toggleDropdown(this)" onkeydown="handleDropdownKeydown(event, this)" aria-expanded="false">
-                    <input type="checkbox" class="bulk-checkbox" id="mano-master" title="Pažymėti visas profesinės mokyklos klausimų temas" onclick="event.stopPropagation()" onchange="toggleProfessionalSource(this.checked)">
-                    <span class="chevron">›</span>
-                    <span class="dropdown-label">Profesinės mokyklos klausimai</span>
-                    <span class="dropdown-count" id="mano-count">0 klaus.</span>
-                </div>
-                <div class="dropdown-content">
-                    <div class="topic-list">
-                        <label class="topic-checkbox" id="mano-label">
-                            <input type="checkbox" id="source-mano">
-                            <span>Profesinės mokyklos klausimai</span>
-                        </label>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 1 lygis: Elektrotechninės medžiagos -->
-            <div class="subject-dropdown" id="materials-subject-dropdown">
-                <div class="dropdown-header" role="button" tabindex="0" onclick="toggleDropdown(this)" onkeydown="handleDropdownKeydown(event, this)" aria-expanded="false">
-                    <input type="checkbox" class="bulk-checkbox" id="materials-master" title="Pažymėti visas elektrotechninių medžiagų temas" onclick="event.stopPropagation()" onchange="toggleSubjectTopics('materials-topic', this.checked)">
-                    <span class="chevron">›</span>
-                    <span class="dropdown-label">Elektrotechninės medžiagos</span>
-                    <span class="dropdown-count" id="materials-total-count">0 klaus.</span>
-                </div>
-                <div class="dropdown-content">
-                    <div id="materials-topic-groups"></div>
-                </div>
-            </div>
-
-            <!-- 1 lygis: Elektros energijos gamybos technologijos -->
-            <div class="subject-dropdown" id="energy-subject-dropdown">
-                <div class="dropdown-header" role="button" tabindex="0" onclick="toggleDropdown(this)" onkeydown="handleDropdownKeydown(event, this)" aria-expanded="false">
-                    <input type="checkbox" class="bulk-checkbox" id="lecture-master" title="Pažymėti visas elektros energijos gamybos technologijų temas" onclick="event.stopPropagation()" onchange="toggleSubjectTopics('lecture-topic', this.checked)">
-                    <span class="chevron">›</span>
-                    <span class="dropdown-label">Elektros energijos gamybos technologijos</span>
-                    <span class="dropdown-count" id="lecture-total-count">0 klaus.</span>
-                </div>
-                <div class="dropdown-content">
-                    <div id="lecture-topic-groups"></div>
-                </div>
-            </div>
-
-            <div class="selection-actions">
-                <button type="button" class="mini-btn" onclick="selectAllSources(true)">Pažymėti viską</button>
-                <button type="button" class="mini-btn" onclick="selectAllSources(false)">Išvalyti pasirinkimą</button>
-            </div>
-
-            <div class="selection-summary" id="selection-summary">Pasirinkite bent vieną šaltinį.</div>
-        </div>
-
-        <div class="settings-panel">
-            <label>Klausimų kiekis:
-                <select id="setting-q-count">
-                    <option value="10">10 klausimų</option>
-                    <option value="30" selected>30 klausimų</option>
-                    <option value="50">50 klausimų</option>
-                    <option value="100">100 klausimų</option>
-                    <option value="all">Visi</option>
-                </select>
-            </label>
-            <label>Laiko trukmė:
-                <select id="setting-time">
-                    <option value="10">10 min.</option>
-                    <option value="30" selected>30 min.</option>
-                    <option value="60">60 min.</option>
-                    <option value="0">Be laiko</option>
-                </select>
-            </label>
-        </div>
-
-        <button id="start-btn" style="width: 100%; padding: 16px; font-size: 18px;" onclick="startTest()" disabled>Prašome palaukti...</button>
-
-        <div class="stats-panel" id="stats-panel" style="display: none;">
-            <div class="stats-title">Paskutinių 5 bandymų progresas</div>
-            <div class="chart" id="stats-chart"></div>
-        </div>
+<section id="home" class="screen">
+  <div class="top">
+    <div><h1>Elektrikų testai</h1><p class="sub" id="status">Kraunami klausimai…</p></div>
+    <button class="icon" id="theme" title="Šviesi / tamsi tema">◐</button>
+  </div>
+  <div class="card"><h3>1. Ką mokysimės</h3>
+    <div id="tree"></div>
+    <div class="row2" style="justify-content:space-between;margin-top:10px">
+      <span id="sel" class="sub">Pasirinkite bent vieną temą</span>
+      <span><button class="ghost" id="all">Viskas</button> <button class="ghost" id="none">Išvalyti</button></span>
     </div>
-
-    <div id="test-screen" class="screen">
-        <div class="header-stats">
-            <span id="test-mode-title">Egzaminas vykdymui</span>
-            <span id="timer" style="color: var(--danger);">30:00</span>
-        </div>
-        <div class="progress-container">
-            <div id="progress-bar" class="progress-bar"></div>
-        </div>
-
-        <div class="layout">
-            <div class="main-content">
-                <img id="question-image" class="question-img" src="" alt="Schema">
-                <div id="question-text">Kraunasi klausimas...</div>
-                <div id="multi-hint" class="multi-hint">(Pažymėkite visus teisingus variantus)</div>
-                <div id="options-container"></div>
-                
-                <div class="nav-controls">
-                    <button id="prev-btn" onclick="prevQuestion()">← Atgal</button>
-                    <button id="flag-btn" class="flag-btn" onclick="toggleFlag()">🚩 Atsidėti</button>
-                    <button id="next-btn" onclick="nextQuestion()">Pirmyn →</button>
-                </div>
-            </div>
-
-            <div class="sidebar">
-                <div style="font-size: 13px; font-weight: 600; margin-bottom: 8px; color: var(--text-muted);">Klausimų sąrašas:</div>
-                <div id="nav-grid" class="nav-grid"></div>
-                <button id="submit-exam-btn" class="submit-btn" onclick="handleSidebarClick()">Baigti testą</button>
-            </div>
-        </div>
+  </div>
+  <div class="card"><h3>2. Nustatymai</h3>
+    <div class="opts">
+      <label>Režimas<div class="seg">
+        <label><input type="radio" name="mode" value="practice" checked>Mokymasis</label>
+        <label><input type="radio" name="mode" value="exam">Egzaminas</label></div></label>
+      <label>Klausimų<select id="cnt"><option>10</option><option selected>30</option><option>50</option><option>100</option><option value="all">Visi</option></select></label>
+      <label>Laikas (egzaminui)<select id="mins"><option value="0">Be laiko</option><option>10</option><option selected>30</option><option>60</option></select></label>
+      <label>Atsakymų tvarka<select id="shuf"><option value="0">Kaip faile</option><option value="1">Maišyti</option></select></label>
     </div>
+  </div>
+  <button class="btn" id="start" style="width:100%;font-size:1.1rem" disabled>Pradėti</button>
+  <div class="card" id="histcard" style="margin-top:16px" hidden><h3>Paskutiniai bandymai</h3><div class="bars" id="hist"></div></div>
+</section>
 
-    <div id="result-screen" class="screen">
-        <h2>Egzamino Rezultatas</h2>
-        <div id="result-circle" class="result-circle">0%</div>
-        <h3 id="result-message" style="text-align: center;"></h3>
-        <p style="text-align: center; color: var(--text-muted);" id="result-details"></p>
-        <div style="display: flex; gap: 15px; margin-top: 30px;">
-            <button style="flex: 1; background-color: #5856d6;" onclick="enterReviewMode()">Peržiūrėti klaidas</button>
-            <button style="flex: 1;" onclick="resetTest()">Grįžti į pradžią</button>
-        </div>
+<section id="test" class="screen" hidden>
+  <div class="hd"><span id="qn"></span><div class="bar"><i id="bar"></i></div><span class="clock" id="clock"></span></div>
+  <div class="layout">
+    <div class="card">
+      <div class="tp" id="topic"></div><div id="img"></div>
+      <h2 class="q serif" id="qt"></h2><div class="hint" id="hint">Pažymėkite visus teisingus variantus</div>
+      <div id="opts"></div>
+      <div class="nav">
+        <button class="ghost" id="prev">← Atgal</button>
+        <button class="ghost" id="flag">🚩 Atidėti</button>
+        <button class="btn" id="check">Patikrinti</button>
+        <button class="ghost" id="next">Pirmyn →</button>
+      </div>
     </div>
+    <div class="card"><h3>Klausimai</h3><div class="map" id="map"></div>
+      <button class="btn" id="finish" style="width:100%">Baigti testą</button></div>
+  </div>
+</section>
+
+<section id="result" class="screen center" hidden>
+  <h2 class="serif" style="font-size:1.8rem;margin-top:30px">Rezultatas</h2>
+  <div class="ring" id="ring"><div id="pct">0%</div></div>
+  <p id="res" class="sub"></p>
+  <div class="row2" style="margin-top:24px">
+    <button class="btn" id="rev">Peržiūrėti atsakymus</button>
+    <button class="btn" id="retry">Kartoti klaidas</button>
+    <button class="ghost" id="back">Į pradžią</button>
+  </div>
+</section>
+
 </div>
-
 <script>
-    let manoKlausimai = [];
-    let paskaituKlausimai = [];
-    let medziaguKlausimai = [];
-    let paskaituTemos = [];
-    let medziaguTemos = [];
-    let testKlausimai = [];
-    let pasirinktiAtsakymai = [];
-    let pazymetiKlausimai = []; 
-    
-    let dabartinisIndeksas = 0;
-    let laikoLimitSec = 1800;
-    let laikasLiko = 0;
-    let laikmacioIntervalas;
-    let isBaigta = false;
-    let ramusRezimas = false;
-
-    document.addEventListener("DOMContentLoaded", async () => {
-        initTheme();
-        renderStats();
-        bindSourceSelectionEvents();
-        await loadQuestionSources();
-    });
-
-    async function loadJsonFirstAvailable(paths) {
-        for (const path of paths) {
-            try {
-                const response = await fetch(path);
-                if (!response.ok) continue;
-                const data = await response.json();
-                if (Array.isArray(data)) {
-                    return { data, path };
-                }
-            } catch (error) {
-                console.warn(`Nepavyko užkrauti ${path}:`, error);
-            }
-        }
-        return null;
-    }
-
-    async function loadQuestionSources() {
-        const status = document.getElementById('db-status');
-        const startBtn = document.getElementById('start-btn');
-
-        const [manoRez, paskaituRez, medziaguRez] = await Promise.all([
-            loadJsonFirstAvailable(['prof_egzaminas.json']),
-            loadJsonFirstAvailable(['elektros_energetika.json']),
-            loadJsonFirstAvailable(['elektrotechnines_medziagos_klausimai.json'])
-        ]);
-
-        manoKlausimai = manoRez ? manoRez.data : [];
-        paskaituKlausimai = paskaituRez ? paskaituRez.data : [];
-        medziaguKlausimai = medziaguRez ? medziaguRez.data : [];
-
-        const numatytaTvarka = [
-            'Šiluminės elektrinės',
-            'Vandens elektrinės',
-            'Atominės elektrinės',
-            'Elektrinių savosios reikmės'
-        ];
-
-        const rastosTemos = [...new Set(paskaituKlausimai.map(q => q.tema).filter(Boolean))];
-        paskaituTemos = [
-            ...numatytaTvarka.filter(t => rastosTemos.includes(t)),
-            ...rastosTemos.filter(t => !numatytaTvarka.includes(t))
-        ];
-
-        medziaguTemos = [...new Set(medziaguKlausimai.map(q => q.tema).filter(Boolean))];
-
-        document.getElementById('mano-count').innerText = `${manoKlausimai.length} klaus.`;
-        document.getElementById('mano-label').classList.toggle('disabled', manoKlausimai.length === 0);
-        document.getElementById('source-mano').disabled = manoKlausimai.length === 0;
-
-        document.getElementById('materials-total-count').innerText = `${medziaguKlausimai.length} klaus.`;
-        document.getElementById('lecture-total-count').innerText = `${paskaituKlausimai.length} klaus.`;
-
-        renderTopicGroups({
-            containerId: 'materials-topic-groups',
-            topics: medziaguTemos,
-            questions: medziaguKlausimai,
-            checkboxClass: 'materials-topic',
-            idPrefix: 'materials-topic',
-            groups: [
-                { title: '1 atsiskaitymas', start: 0, end: 4 }
-            ]
-        });
-
-        renderTopicGroups({
-            containerId: 'lecture-topic-groups',
-            topics: paskaituTemos,
-            questions: paskaituKlausimai,
-            checkboxClass: 'lecture-topic',
-            idPrefix: 'lecture-topic',
-            groups: [
-                { title: '1 atsiskaitymas', start: 0, end: 4 },
-                { title: '2 atsiskaitymas', start: 4, end: 8 }
-            ]
-        });
-
-        updateParentCheckboxes();
-        updateSelectionSummary();
-
-        // Leisime pradėti testą tik jei vartotojas aktyviai kažką pažymės.
-        // Numatytasis mygtuko statusas – "Pasirinkite klausimų šaltinį".
-        startBtn.disabled = true;
-        startBtn.innerText = 'Pasirinkite klausimų šaltinį';
-        
-        if (manoKlausimai.length > 0 || paskaituKlausimai.length > 0 || medziaguKlausimai.length > 0) {
-            status.innerText = `Užkrauta: ${manoKlausimai.length} bendros bazės + ${paskaituKlausimai.length} elektros energetikos + ${medziaguKlausimai.length} medžiagų klausimų.`;
-        } else {
-            status.innerHTML = `<span style="color:var(--danger);">Nepavyko užkrauti nė vieno klausimų šaltinio.</span>`;
-        }
-    }
-
-    function toggleDropdown(header) {
-        const dropdown = header.parentElement;
-        const isOpen = dropdown.classList.toggle('open');
-        header.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-    }
-
-    function handleDropdownKeydown(event, header) {
-        if (event.target !== header) return;
-        if (event.key === 'Enter' || event.key === ' ') {
-            event.preventDefault();
-            toggleDropdown(header);
-        }
-    }
-
-    function toggleProfessionalSource(checked) {
-        const source = document.getElementById('source-mano');
-        if (source && !source.disabled) {
-            source.checked = checked;
-        }
-        updateSelectionSummary();
-    }
-
-    function toggleSubjectTopics(checkboxClass, checked) {
-        document.querySelectorAll(`.${checkboxClass}:not(:disabled)`).forEach(input => {
-            input.checked = checked;
-        });
-        updateParentCheckboxes();
-        updateSelectionSummary();
-    }
-
-    function toggleTopicRange(checkboxClass, topics, start, end, checked) {
-        for (let i = start; i < end; i++) {
-            const input = document.querySelector(`.${checkboxClass}[id$="-${i}"]`);
-            if (input && !input.disabled) input.checked = checked;
-        }
-        updateParentCheckboxes();
-    }
-
-    function syncCheckboxState(master, inputs) {
-        const enabled = [...inputs].filter(input => !input.disabled);
-        const checked = enabled.filter(input => input.checked);
-        master.checked = enabled.length > 0 && checked.length === enabled.length;
-        master.indeterminate = checked.length > 0 && checked.length < enabled.length;
-        if (enabled.length === 0) {
-            master.checked = false;
-            master.indeterminate = false;
-            master.disabled = true;
-        } else {
-            master.disabled = false;
-        }
-    }
-
-    function updateParentCheckboxes() {
-        const materialsInputs = document.querySelectorAll('.materials-topic');
-        const lectureInputs = document.querySelectorAll('.lecture-topic');
-        const materialsMaster = document.getElementById('materials-master');
-        const lectureMaster = document.getElementById('lecture-master');
-        if (materialsMaster) syncCheckboxState(materialsMaster, materialsInputs);
-        if (lectureMaster) syncCheckboxState(lectureMaster, lectureInputs);
-
-        document.querySelectorAll('.nested-dropdown').forEach(wrapper => {
-            const master = wrapper.querySelector('.group-master');
-            if (!master) return;
-            const inputs = wrapper.querySelectorAll('.topic-checkbox input[type="checkbox"]');
-            syncCheckboxState(master, inputs);
-        });
-
-        const profMaster = document.getElementById('mano-master');
-        const profSource = document.getElementById('source-mano');
-        if (profMaster && profSource) {
-            profMaster.checked = profSource.checked;
-            profMaster.indeterminate = false;
-            profMaster.disabled = profSource.disabled;
-        }
-    }
-
-    function createTopicCheckbox(tema, count, checkboxClass, id) {
-        const label = document.createElement('label');
-        label.className = 'topic-checkbox' + (count === 0 ? ' disabled' : '');
-        label.innerHTML = `
-            <input type="checkbox" id="${id}" class="${checkboxClass}" value="${escapeHtmlAttribute(tema)}" ${count === 0 ? 'disabled' : ''}>
-            <span>${escapeHtml(tema)}</span>
-            <span class="topic-count">${count} klaus.</span>
-        `;
-        return label;
-    }
-
-    function renderTopicGroups({ containerId, topics, questions, checkboxClass, idPrefix, groups }) {
-        const container = document.getElementById(containerId);
-        container.innerHTML = '';
-
-        const groupedIndexes = new Set();
-
-        groups.forEach((group, groupIndex) => {
-            const start = Math.max(0, group.start);
-            const end = Math.min(topics.length, group.end);
-            if (start >= end) return;
-
-            const wrapper = document.createElement('div');
-            wrapper.className = 'nested-dropdown';
-
-            const header = document.createElement('div');
-            header.className = 'dropdown-header';
-            header.setAttribute('role', 'button');
-            header.setAttribute('tabindex', '0');
-            header.setAttribute('aria-expanded', 'false');
-
-            const groupCount = topics.slice(start, end).reduce((sum, tema) => {
-                return sum + questions.filter(q => q.tema === tema).length;
-            }, 0);
-
-            header.innerHTML = `
-                <input type="checkbox" class="bulk-checkbox group-master" title="Pažymėti visas ${escapeHtml(group.title)} temas" onclick="event.stopPropagation()">
-                <span class="chevron">›</span>
-                <span class="dropdown-label">${escapeHtml(group.title)}</span>
-                <span class="dropdown-count">${groupCount} klaus.</span>
-            `;
-            const groupMaster = header.querySelector('.group-master');
-            groupMaster.dataset.checkboxClass = checkboxClass;
-            groupMaster.dataset.start = String(start);
-            groupMaster.dataset.end = String(end);
-            groupMaster.addEventListener('change', () => {
-                toggleTopicRange(checkboxClass, topics, start, end, groupMaster.checked);
-                updateSelectionSummary();
-            });
-            header.onclick = (event) => { if (!event.target.closest('.bulk-checkbox')) toggleDropdown(header); };
-            header.onkeydown = (event) => handleDropdownKeydown(event, header);
-
-            const content = document.createElement('div');
-            content.className = 'dropdown-content';
-
-            const list = document.createElement('div');
-            list.className = 'topic-list';
-
-            for (let i = start; i < end; i++) {
-                const tema = topics[i];
-                const count = questions.filter(q => q.tema === tema).length;
-                const id = `${idPrefix}-${i}`;
-                list.appendChild(createTopicCheckbox(tema, count, checkboxClass, id));
-                groupedIndexes.add(i);
-            }
-
-            content.appendChild(list);
-            wrapper.appendChild(header);
-            wrapper.appendChild(content);
-            container.appendChild(wrapper);
-        });
-
-        const remaining = topics
-            .map((tema, index) => ({ tema, index }))
-            .filter(item => !groupedIndexes.has(item.index));
-
-        if (remaining.length > 0) {
-            const wrapper = document.createElement('div');
-            wrapper.className = 'nested-dropdown';
-
-            const header = document.createElement('div');
-            header.className = 'dropdown-header';
-            header.setAttribute('role', 'button');
-            header.setAttribute('tabindex', '0');
-            header.setAttribute('aria-expanded', 'false');
-            header.innerHTML = `
-                <input type="checkbox" class="bulk-checkbox group-master" title="Pažymėti visas kitas temas" onclick="event.stopPropagation()">
-                <span class="chevron">›</span>
-                <span class="dropdown-label">Kitos temos</span>
-                <span class="dropdown-count">${remaining.reduce((sum, item) => sum + questions.filter(q => q.tema === item.tema).length, 0)} klaus.</span>
-            `;
-            const groupMaster = header.querySelector('.group-master');
-            groupMaster.addEventListener('change', () => {
-                remaining.forEach(({ index }) => {
-                    const input = document.getElementById(`${idPrefix}-${index}`);
-                    if (input && !input.disabled) input.checked = groupMaster.checked;
-                });
-                updateSelectionSummary();
-            });
-            header.onclick = (event) => { if (!event.target.closest('.bulk-checkbox')) toggleDropdown(header); };
-            header.onkeydown = (event) => handleDropdownKeydown(event, header);
-
-            const content = document.createElement('div');
-            content.className = 'dropdown-content';
-            const list = document.createElement('div');
-            list.className = 'topic-list';
-
-            remaining.forEach(({ tema, index }) => {
-                const count = questions.filter(q => q.tema === tema).length;
-                list.appendChild(createTopicCheckbox(tema, count, checkboxClass, `${idPrefix}-${index}`));
-            });
-
-            content.appendChild(list);
-            wrapper.appendChild(header);
-            wrapper.appendChild(content);
-            container.appendChild(wrapper);
-        }
-    }
-
-    function escapeHtml(value) {
-        return String(value)
-            .replace(/&/g, '&amp;')
-            .replace(/</g, '&lt;')
-            .replace(/>/g, '&gt;')
-            .replace(/"/g, '&quot;')
-            .replace(/'/g, '&#039;');
-    }
-
-    function escapeHtmlAttribute(value) {
-        return escapeHtml(value);
-    }
-
-    function bindSourceSelectionEvents() {
-        document.getElementById('source-mano').addEventListener('change', () => {
-            updateParentCheckboxes();
-            updateSelectionSummary();
-        });
-        document.getElementById('lecture-topic-groups').addEventListener('change', () => {
-            updateParentCheckboxes();
-            updateSelectionSummary();
-        });
-        document.getElementById('materials-topic-groups').addEventListener('change', () => {
-            updateParentCheckboxes();
-            updateSelectionSummary();
-        });
-    }
-
-    function selectAllSources(checked) {
-        const mano = document.getElementById('source-mano');
-        if (mano && !mano.disabled) mano.checked = checked;
-        
-        document.querySelectorAll('.lecture-topic:not(:disabled), .materials-topic:not(:disabled)').forEach(input => {
-            input.checked = checked;
-        });
-        updateParentCheckboxes();
-        updateSelectionSummary();
-    }
-
-    function getSelectedLectureTopics() {
-        return [...document.querySelectorAll('.lecture-topic:checked')].map(input => input.value);
-    }
-
-    function getSelectedMaterialsTopics() {
-        return [...document.querySelectorAll('.materials-topic:checked')].map(input => input.value);
-    }
-
-    function getSelectedQuestionPool() {
-        const pool = [];
-        const useMano = document.getElementById('source-mano')?.checked;
-        const selectedTopics = getSelectedLectureTopics();
-
-        if (useMano) pool.push(...manoKlausimai.map(q => ({ ...q, saltinis: 'Profesinės mokyklos klausimai', pasirinkimoTema: 'Profesinės mokyklos klausimai' })));
-
-        selectedTopics.forEach(tema => {
-            paskaituKlausimai
-                .filter(q => q.tema === tema)
-                .forEach(q => pool.push({ ...q, saltinis: 'Elektros energijos gamybos technologijos – paskaitų temos', pasirinkimoTema: tema }));
-        });
-
-        getSelectedMaterialsTopics().forEach(tema => {
-            medziaguKlausimai
-                .filter(q => q.tema === tema)
-                .forEach(q => pool.push({ ...q, saltinis: 'Elektrotechninės medžiagos', pasirinkimoTema: tema }));
-        });
-
-        return pool;
-    }
-
-    function updateSelectionSummary() {
-        const parts = [];
-        if (document.getElementById('source-mano')?.checked && manoKlausimai.length) {
-            parts.push(`Profesinė bazė (${manoKlausimai.length})`);
-        }
-
-        getSelectedLectureTopics().forEach(tema => {
-            const count = paskaituKlausimai.filter(q => q.tema === tema).length;
-            parts.push(`${tema} (${count})`);
-        });
-
-        getSelectedMaterialsTopics().forEach(tema => {
-            const count = medziaguKlausimai.filter(q => q.tema === tema).length;
-            parts.push(`${tema} (${count})`);
-        });
-
-        const total = getSelectedQuestionPool().length;
-        const summary = document.getElementById('selection-summary');
-        const startBtn = document.getElementById('start-btn');
-
-        if (parts.length === 0) {
-            summary.innerText = 'Pasirinkite bent vieną klausimų šaltinį.';
-            startBtn.disabled = true;
-            startBtn.innerText = 'Pasirinkite klausimų šaltinį';
-            return;
-        }
-
-        summary.innerText = `Pasirinkta: ${parts.join(' + ')}. Iš viso galima rinktis iš ${total} klausimų.`;
-        startBtn.disabled = total === 0;
-        startBtn.innerText = total > 0 ? 'Pradėti testą' : 'Nėra klausimų';
-    }
-
-    function initTheme() {
-        const savedTheme = localStorage.getItem('elektrikTheme');
-        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        
-        if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
-            document.body.classList.add('dark-mode');
-            document.getElementById('theme-toggle').innerText = '☀️';
-        }
-    }
-
-    function toggleTheme() {
-        document.body.classList.toggle('dark-mode');
-        const isDark = document.body.classList.contains('dark-mode');
-        localStorage.setItem('elektrikTheme', isDark ? 'dark' : 'light');
-        document.getElementById('theme-toggle').innerText = isDark ? '☀️️' : '🌙';
-    }
-
-    function renderStats() {
-        let stats = JSON.parse(localStorage.getItem('elektrikStats')) || [];
-        const panel = document.getElementById('stats-panel');
-        const chart = document.getElementById('stats-chart');
-        
-        if (stats.length === 0) {
-            panel.style.display = 'none';
-            return;
-        }
-
-        panel.style.display = 'block';
-        chart.innerHTML = '';
-
-        stats.forEach((stat, index) => {
-            let proc = stat.score;
-            let cssClass = proc >= 50 ? 'pass' : 'fail';
-            let heightProc = proc < 15 ? 15 : proc; 
-
-            chart.innerHTML += `
-                <div class="bar-container" title="Data: ${stat.date}\nRezultatas: ${proc}%">
-                    <div class="bar ${cssClass}" style="height: ${heightProc}%">${proc}%</div>
-                    <div class="bar-label">#${index + 1}</div>
-                </div>
-            `;
-        });
-    }
-
-    function saveStat(score) {
-        let stats = JSON.parse(localStorage.getItem('elektrikStats')) || [];
-        let dateStr = new Date().toLocaleDateString('lt-LT');
-        stats.push({ date: dateStr, score: score });
-        
-        if (stats.length > 5) {
-            stats.shift(); 
-        }
-        localStorage.setItem('elektrikStats', JSON.stringify(stats));
-    }
-
-    function startTest() {
-        const pasirinktasBase = getSelectedQuestionPool();
-        if (pasirinktasBase.length === 0) {
-            alert('Pasirinkite bent vieną klausimų šaltinį.');
-            return;
-        }
-
-        let qCountSetting = document.getElementById('setting-q-count').value;
-        let limitas = qCountSetting === 'all' ? pasirinktasBase.length : parseInt(qCountSetting);
-        
-        let timeSetting = parseInt(document.getElementById('setting-time').value);
-        if (timeSetting === 0) {
-            ramusRezimas = true;
-            document.getElementById('timer').style.display = 'none';
-        } else {
-            ramusRezimas = false;
-            laikoLimitSec = timeSetting * 60;
-            laikasLiko = laikoLimitSec;
-            document.getElementById('timer').style.display = 'inline';
-        }
-
-        let sumaisytiKlausimai = [...pasirinktasBase].sort(() => 0.5 - Math.random());
-        let atrinkti = sumaisytiKlausimai.slice(0, Math.min(limitas, sumaisytiKlausimai.length));
-        
-        testKlausimai = [];
-        
-        atrinkti.forEach((q, index) => {
-            try {
-                let originalusTeisingi = Array.isArray(q.teisingas) ? q.teisingas : 
-                                        (q.teisingas !== undefined ? [q.teisingas] : []);
-                
-                let originalusAtsakymai = q.atsakymai || [];
-
-                let variantai = originalusAtsakymai.map((ats, idx) => ({
-                    tekstas: ats,
-                    arTeisingas: originalusTeisingi.includes(idx)
-                }));
-                
-                variantai.sort(() => 0.5 - Math.random());
-                let naujiTeisingi = variantai.map((v, i) => v.arTeisingas ? i : -1).filter(i => i !== -1);
-                
-                testKlausimai.push({
-                    klausimas: q.klausimas || "Klaida: Nėra klausimo teksto",
-                    atsakymai: variantai.map(v => v.tekstas),
-                    teisingas: naujiTeisingi,
-                    vaizdas: q.vaizdas || "",
-                    tipas: q.tipas || "single",
-                    saltinis: q.saltinis || 'Nežinomas',
-                    pasirinkimoTema: q.pasirinkimoTema || q.tema || 'Nepriskirta'
-                });
-            } catch (error) {
-                console.error(`Klaida apdorojant klausimą:`, q);
-            }
-        });
-        
-        pasirinktiAtsakymai = Array.from({ length: testKlausimai.length }, () => []);
-        pazymetiKlausimai = Array.from({ length: testKlausimai.length }, () => false);
-        dabartinisIndeksas = 0;
-        isBaigta = false;
-        
-        document.getElementById('test-mode-title').innerText = "Egzaminas vykdymui";
-        let submitBtn = document.getElementById('submit-exam-btn');
-        submitBtn.innerText = "Baigti testą";
-        submitBtn.style.backgroundColor = "#ff9500";
-        submitBtn.style.display = 'block';
-        document.getElementById('flag-btn').style.display = 'inline-block';
-        
-        rodytiEkrana('test-screen');
-        if (!ramusRezimas) startTimer();
-        rodytiKlausima();
-    }
-
-    function rodytiKlausima() {
-        let q = testKlausimai[dabartinisIndeksas];
-        document.getElementById('question-text').innerText = `${dabartinisIndeksas + 1}. ${q.klausimas}`;
-        document.getElementById('test-mode-title').innerText = `${q.pasirinkimoTema}`;
-        
-        let img = document.getElementById('question-image');
-        if (q.vaizdas && q.vaizdas.trim() !== "") {
-            img.src = q.vaizdas;
-            img.style.display = 'block';
-        } else {
-            img.style.display = 'none';
-        }
-
-        let hint = document.getElementById('multi-hint');
-        hint.style.display = (q.tipas === 'multiple') ? 'block' : 'none';
-
-        let flagBtn = document.getElementById('flag-btn');
-        if (pazymetiKlausimai[dabartinisIndeksas]) {
-            flagBtn.classList.add('active');
-            flagBtn.innerText = "📍 Atsidėtas";
-        } else {
-            flagBtn.classList.remove('active');
-            flagBtn.innerText = "🚩 Atsidėti";
-        }
-
-        let container = document.getElementById('options-container');
-        container.innerHTML = '';
-        let dabartiniaiPasirinkimai = pasirinktiAtsakymai[dabartinisIndeksas];
-
-        q.atsakymai.forEach((ats, idx) => {
-            let btn = document.createElement('button');
-            btn.className = 'option-btn';
-            
-            let isChecked = dabartiniaiPasirinkimai.includes(idx);
-            let inputType = q.tipas === 'multiple' ? 'checkbox' : 'radio';
-            
-            btn.innerHTML = `<input type="${inputType}" ${isChecked ? 'checked' : ''}> <span>${ats}</span>`;
-
-            if (isBaigta) {
-                btn.disabled = true;
-                if (q.teisingas.includes(idx)) {
-                    btn.classList.add('correct');
-                } else if (isChecked) {
-                    btn.classList.add('wrong');
-                }
-            } else {
-                if (isChecked) btn.classList.add('selected');
-                btn.onclick = () => pasirinktiAtsakyma(idx, q.tipas);
-            }
-            container.appendChild(btn);
-        });
-
-        document.getElementById('prev-btn').disabled = (dabartinisIndeksas === 0);
-        document.getElementById('next-btn').disabled = (dabartinisIndeksas === testKlausimai.length - 1);
-
-        atnaujintiMeniu();
-        atnaujintiProgresa();
-    }
-
-    function pasirinktiAtsakyma(idx, tipas) {
-        let esamiPasirinkimai = pasirinktiAtsakymai[dabartinisIndeksas];
-
-        if (tipas === 'multiple') {
-            if (esamiPasirinkimai.includes(idx)) {
-                pasirinktiAtsakymai[dabartinisIndeksas] = esamiPasirinkimai.filter(i => i !== idx);
-            } else {
-                esamiPasirinkimai.push(idx);
-            }
-        } else {
-            pasirinktiAtsakymai[dabartinisIndeksas] = [idx];
-        }
-        
-        rodytiKlausima();
-    }
-
-    function toggleFlag() {
-        if(isBaigta) return;
-        pazymetiKlausimai[dabartinisIndeksas] = !pazymetiKlausimai[dabartinisIndeksas];
-        rodytiKlausima();
-    }
-
-    function nextQuestion() {
-        if (dabartinisIndeksas < testKlausimai.length - 1) {
-            dabartinisIndeksas++;
-            rodytiKlausima();
-        }
-    }
-
-    function prevQuestion() {
-        if (dabartinisIndeksas > 0) {
-            dabartinisIndeksas--;
-            rodytiKlausima();
-        }
-    }
-
-    function masyvaiVienodi(arr1, arr2) {
-        if (arr1.length !== arr2.length) return false;
-        let sorted1 = [...arr1].sort();
-        let sorted2 = [...arr2].sort();
-        return sorted1.every((val, index) => val === sorted2[index]);
-    }
-
-    function atnaujintiMeniu() {
-        let grid = document.getElementById('nav-grid');
-        grid.innerHTML = '';
-
-        testKlausimai.forEach((q, idx) => {
-            let item = document.createElement('div');
-            item.className = 'nav-item';
-            item.innerText = idx + 1;
-
-            if (idx === dabartinisIndeksas) item.classList.add('current');
-
-            if (isBaigta) {
-                let vartotojo = pasirinktiAtsakymai[idx];
-                if (masyvaiVienodi(vartotojo, q.teisingas)) {
-                    item.classList.add('correct');
-                } else {
-                    item.classList.add('wrong');
-                }
-            } else {
-                if (pazymetiKlausimai[idx]) {
-                    item.classList.add('flagged');
-                } else if (pasirinktiAtsakymai[idx].length > 0) {
-                    item.classList.add('answered');
-                }
-            }
-
-            item.onclick = () => {
-                dabartinisIndeksas = idx;
-                rodytiKlausima();
-            };
-            grid.appendChild(item);
-        });
-    }
-
-    function atnaujintiProgresa() {
-        let atsakyti = pasirinktiAtsakymai.filter(a => a.length > 0).length;
-        let proc = (atsakyti / testKlausimai.length) * 100;
-        document.getElementById('progress-bar').style.width = proc + '%';
-    }
-
-    function startTimer() {
-        clearInterval(laikmacioIntervalas);
-        updateTimerText();
-        laikmacioIntervalas = setInterval(() => {
-            laikasLiko--;
-            updateTimerText();
-            if (laikasLiko <= 0) {
-                clearInterval(laikmacioIntervalas);
-                skaiciuotiRezultatus();
-            }
-        }, 1000);
-    }
-
-    function updateTimerText() {
-        let min = Math.floor(laikasLiko / 60);
-        let sec = laikasLiko % 60;
-        document.getElementById('timer').innerText = `${min.toString().padStart(2, '0')}:${sec.toString().padStart(2, '0')}`;
-    }
-
-    function handleSidebarClick() {
-        if (isBaigta) resetTest(); 
-        else triggerSubmit(); 
-    }
-
-    function triggerSubmit() {
-        let neatsakyti = pasirinktiAtsakymai.filter(a => a.length === 0).length;
-        let pranesimas = "Ar tikrai norite baigti egzaminą?";
-        if (neatsakyti > 0) {
-            pranesimas = `Jūs neatsakėte į ${neatsakyti} klausimų (-us)! Ar tikrai norite baigti egzaminą?`;
-        }
-        if (confirm(pranesimas)) {
-            skaiciuotiRezultatus();
-        }
-    }
-
-    function skaiciuotiRezultatus() {
-        if (!ramusRezimas) clearInterval(laikmacioIntervalas);
-        isBaigta = true;
-
-        let teisingi = 0;
-        testKlausimai.forEach((q, idx) => {
-            if (masyvaiVienodi(pasirinktiAtsakymai[idx], q.teisingas)) {
-                teisingi++;
-            }
-        });
-
-        let procentai = Math.round((teisingi / testKlausimai.length) * 100);
-        
-        let circle = document.getElementById('result-circle');
-        circle.innerText = procentai + '%';
-        
-        let msg = document.getElementById('result-message');
-        if (procentai >= 50) {
-            circle.className = "result-circle pass";
-            msg.innerText = "Egzaminas IŠLAIKYTAS!";
-        } else {
-            circle.className = "result-circle fail";
-            msg.innerText = "Egzaminas NEIŠLAIKYTAS.";
-        }
-
-        document.getElementById('result-details').innerText = `Teisingai atsakėte į ${teisingi} iš ${testKlausimai.length} klausimų.`;
-        
-        saveStat(procentai);
-        rodytiEkrana('result-screen');
-    }
-
-    function enterReviewMode() {
-        document.getElementById('test-mode-title').innerText = "Klaidų peržiūra";
-        
-        let submitBtn = document.getElementById('submit-exam-btn');
-        submitBtn.innerText = "Grįžti į pradžią";
-        submitBtn.style.backgroundColor = "var(--primary)";
-        
-        document.getElementById('timer').style.display = 'none';
-        document.getElementById('flag-btn').style.display = 'none'; 
-        
-        dabartinisIndeksas = 0;
-        rodytiEkrana('test-screen');
-        rodytiKlausima();
-    }
-
-    function resetTest() {
-        renderStats(); 
-        rodytiEkrana('start-screen');
-    }
-
-    function rodytiEkrana(id) {
-        document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
-        document.getElementById(id).classList.add('active');
-    }
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const LS={get:(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch{return d}},set:(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch{}}};
+const DEF='Bendri klausimai';
+let SUBJ=[],T=null,timer=null;
+
+/* ---------- Pagalbinės ---------- */
+const show=id=>$$('.screen').forEach(s=>s.hidden=s.id!==id);
+const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
+const theme=t=>{document.documentElement.dataset.theme=t;LS.set('etest.theme',t)};
+$('#theme').onclick=()=>theme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+theme(LS.get('etest.theme',matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'));
+
+/* ---------- Duomenų įkėlimas: data/manifest.json -> kiekvieno dalyko failas ---------- */
+(async function init(){
+  try{
+    const m=await (await fetch('data/manifest.json')).json();
+    SUBJ=await Promise.all(m.subjects.map(async s=>{
+      const qs=await (await fetch('data/'+s.file)).json();
+      qs.forEach(q=>q.tema=q.tema||DEF);
+      return {...s,qs,topics:[...new Set(qs.map(q=>q.tema))]};
+    }));
+    $('#status').textContent=`Užkrauta ${SUBJ.reduce((n,s)=>n+s.qs.length,0)} klausimų iš ${SUBJ.length} dalykų`;
+    renderTree();renderHist();
+  }catch(e){
+    $('#status').innerHTML='Nepavyko užkrauti klausimų. Atidarykite per serverį (pvz. <code>python3 -m http.server</code>), ne tiesiai iš failo. <code>'+esc(e.message)+'</code>';
+  }
+})();
+
+/* ---------- Temų medis (dalykas → grupė → tema), viskas iš manifest ir JSON ---------- */
+const cnt=(s,ts)=>s.qs.filter(q=>ts.includes(q.tema)).length;
+const row=(s,t)=>`<label class="row"><input type="checkbox" class="t" data-s="${esc(s.id)}" data-t="${esc(t)}"><span>${esc(t)}</span><em>${cnt(s,[t])}</em></label>`;
+const node=(title,n,inner,open)=>`<details class="node"${open?' open':''}><summary><input type="checkbox" class="p"><span>${esc(title)}</span><em>${n} kl.</em></summary><div class="kids">${inner}</div></details>`;
+function renderTree(){
+  $('#tree').innerHTML=SUBJ.map(s=>{
+    const used=new Set();
+    let inner=(s.groups||[]).map(g=>{
+      const ts=g.topics.filter(t=>s.topics.includes(t));ts.forEach(t=>used.add(t));
+      return ts.length?node(g.title,cnt(s,ts),ts.map(t=>row(s,t)).join('')):'';
+    }).join('');
+    inner+=s.topics.filter(t=>!used.has(t)).map(t=>row(s,t)).join('');
+    return node(s.title,s.qs.length,inner);
+  }).join('');
+  sync();
+}
+$('#tree').onchange=e=>{
+  const c=e.target;
+  if(c.classList.contains('p'))c.closest('.node').querySelectorAll('input').forEach(i=>i.checked=c.checked);
+  sync();
+};
+const setAll=v=>{$$('#tree input').forEach(i=>i.checked=v);sync()};
+$('#all').onclick=()=>setAll(true);$('#none').onclick=()=>setAll(false);
+function sync(){
+  $$('#tree .node').reverse().forEach(n=>{
+    const p=n.querySelector(':scope>summary>.p'),ts=[...n.querySelectorAll('input.t')],k=ts.filter(i=>i.checked).length;
+    p.checked=k>0&&k===ts.length;p.indeterminate=k>0&&k<ts.length;
+  });
+  const n=getPool().length;
+  $('#sel').textContent=n?`Pasirinkta ${n} klausimų`:'Pasirinkite bent vieną temą';
+  $('#start').disabled=!n;
+}
+const getPool=()=>$$('#tree input.t:checked').flatMap(i=>{
+  const s=SUBJ.find(x=>x.id===i.dataset.s);
+  return s.qs.filter(q=>q.tema===i.dataset.t);
+});
+
+/* ---------- Testo eiga ---------- */
+function begin(list,mode,mins,mix){
+  const qs=list.map(q=>{
+    let o=q.atsakymai.map((_,i)=>i);
+    if(mix&&!q.vaizdas)o=shuffle(o);
+    return {...q,o,multi:q.teisingas.length>1};
+  });
+  T={qs,ans:qs.map(()=>[]),flag:qs.map(()=>false),lock:qs.map(()=>false),i:0,mode,left:mins*60,done:false};
+  clearInterval(timer);
+  const timed=mode==='exam'&&mins>0;
+  $('#clock').hidden=!timed;
+  if(timed){tick();timer=setInterval(tick,1000)}
+  show('test');draw();
+}
+$('#start').onclick=()=>{
+  const pool=shuffle(getPool()),v=$('#cnt').value,n=v==='all'?pool.length:Math.min(+v,pool.length);
+  begin(pool.slice(0,n),$('input[name=mode]:checked').value,+$('#mins').value,$('#shuf').value==='1');
+};
+function tick(){
+  if(T.left<=0){finish(true);return}
+  $('#clock').textContent=`${String(T.left/60|0).padStart(2,'0')}:${String(T.left%60).padStart(2,'0')}`;
+  T.left--;
+}
+const isOk=k=>{const a=T.ans[k],t=T.qs[k].teisingas;return a.length===t.length&&t.every(x=>a.includes(x))};
+function draw(){
+  const i=T.i,q=T.qs[i],locked=T.done||T.lock[i];
+  $('#qn').textContent=`${i+1} / ${T.qs.length}`;
+  $('#bar').style.width=T.ans.filter(a=>a.length).length/T.qs.length*100+'%';
+  $('#topic').textContent=q.tema===DEF?'':q.tema;
+  $('#img').innerHTML=q.vaizdas?`<img src="${esc(q.vaizdas)}" alt="Iliustracija">`:'';
+  $('#qt').textContent=q.klausimas;
+  $('#hint').hidden=!q.multi;
+  $('#opts').innerHTML=q.o.map((oi,k)=>{
+    const sel=T.ans[i].includes(oi),ok=q.teisingas.includes(oi);
+    const c='opt'+(sel?' sel':'')+(locked?(ok?' ok':sel?' bad':''):'');
+    return `<button class="${c}" data-o="${oi}"><b>${k+1}</b><span>${esc(q.atsakymai[oi])}</span></button>`;
+  }).join('');
+  $('#check').hidden=!(T.mode==='practice'&&q.multi&&!locked);
+  $('#flag').hidden=T.done;$('#flag').textContent=T.flag[i]?'🚩 Atžymėti':'🚩 Atidėti';
+  $('#prev').disabled=i===0;$('#next').disabled=i===T.qs.length-1;
+  $('#finish').textContent=T.done?'Į rezultatą':'Baigti testą';
+  $('#map').innerHTML=T.qs.map((_,k)=>{
+    let c=T.done||T.lock[k]?(isOk(k)?'ok':'bad'):T.ans[k].length?'ans':'';
+    if(T.flag[k])c+=' flag';if(k===i)c+=' cur';
+    return `<button class="${c}" data-k="${k}">${k+1}</button>`;
+  }).join('');
+  $('#map .cur')?.scrollIntoView({block:'nearest'});
+}
+function pick(o){
+  if(T.done||T.lock[T.i])return;
+  const q=T.qs[T.i],a=T.ans[T.i];
+  if(q.multi)T.ans[T.i]=a.includes(o)?a.filter(x=>x!==o):[...a,o];
+  else{T.ans[T.i]=[o];if(T.mode==='practice')T.lock[T.i]=true}
+  draw();
+}
+const go=d=>{const n=T.i+d;if(n>=0&&n<T.qs.length){T.i=n;draw()}};
+$('#opts').onclick=e=>{const b=e.target.closest('.opt');if(b)pick(+b.dataset.o)};
+$('#map').onclick=e=>{const b=e.target.closest('button');if(b){T.i=+b.dataset.k;draw()}};
+$('#prev').onclick=()=>go(-1);$('#next').onclick=()=>go(1);
+$('#flag').onclick=()=>{T.flag[T.i]=!T.flag[T.i];draw()};
+$('#check').onclick=()=>{if(T.ans[T.i].length){T.lock[T.i]=true;draw()}};
+$('#finish').onclick=()=>T.done?show('result'):finish();
+document.addEventListener('keydown',e=>{
+  if($('#test').hidden||e.target.matches('select,input'))return;
+  if(e.key==='ArrowRight')go(1);else if(e.key==='ArrowLeft')go(-1);
+  else if(/^[1-9]$/.test(e.key)){const o=T.qs[T.i].o[+e.key-1];if(o!==undefined)pick(o)}
+});
+
+/* ---------- Rezultatai ---------- */
+function finish(force){
+  const un=T.ans.filter(a=>!a.length).length;
+  if(!force&&un&&!confirm(`Neatsakyta klausimų: ${un}. Baigti testą?`))return;
+  clearInterval(timer);T.done=true;
+  const ok=T.qs.filter((_,k)=>isOk(k)).length,n=T.qs.length,pct=Math.round(ok/n*100);
+  LS.set('etest.hist',[...LS.get('etest.hist',[]),{t:Date.now(),pct,ok,n,mode:T.mode}].slice(-8));
+  $('#pct').textContent=pct+'%';$('#ring').style.setProperty('--p',pct);
+  $('#res').textContent=`${ok} iš ${n} atsakyta teisingai`;
+  $('#retry').hidden=ok===n;
+  show('result');
+}
+$('#rev').onclick=()=>{const w=T.qs.findIndex((_,k)=>!isOk(k));T.i=w<0?0:w;show('test');draw()};
+$('#retry').onclick=()=>begin(T.qs.filter((_,k)=>!isOk(k)),'practice',0,false);
+$('#back').onclick=()=>{clearInterval(timer);renderHist();show('home')};
+function renderHist(){
+  const h=LS.get('etest.hist',[]);
+  $('#histcard').hidden=!h.length;
+  $('#hist').innerHTML=h.map(x=>`<div style="height:${Math.max(x.pct,4)}%" title="${new Date(x.t).toLocaleString('lt')} · ${x.ok}/${x.n}"><span>${x.pct}%</span></div>`).join('');
+}
 </script>
-
 </body>
 </html>
