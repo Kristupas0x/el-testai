@@ -43,6 +43,15 @@
             "Vėjo jėgainės",
             "Ateities energetikos technologijos"
           ]
+        },
+        {
+          "title": "3 atsiskaitymas-egzaminas",
+          "topics": [
+            "Dažnio, įtampos ir galios reguliavimas",
+            "Elektros tinklai, generatoriai ir sinchronizavimas",
+            "Lietuvos ir ES elektros rinka",
+            "Parama ir teisinis reglamentavimas"
+          ]
         }
       ]
     }
