@@ -85,42 +85,6 @@
   },
   {
     "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kokia pagrindinė laidininkų funkcija pagal medžiagų klasifikacijos lentelę?",
-    "atsakymai": [
-      "Elektrinių dalių atskyrimas ir srovės nuotėkio prevencija",
-      "Magnetinio lauko sutelkimas ir krypties keitimas",
-      "Elektros srovės praleidimas su minimaliais nuostoliais"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kurie iš šių yra dielektrikų pavyzdžiai?",
-    "atsakymai": [
-      "Varis, aliuminis, sidabras",
-      "Silicis, germanis, galio arsenidas",
-      "Keramika, stiklas, PVC, transformatorinė alyva"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kurie iš šių yra puslaidininkių pavyzdžiai?",
-    "atsakymai": [
-      "Varis, aliuminis, sidabras, auksas",
-      "Silicis, germanis, galio arsenidas",
-      "Keramika, stiklas, PVC"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
     "klausimas": "Kas būdinga magnetinėms medžiagoms pagal klasifikacijos lentelę?",
     "atsakymai": [
       "Didelis magnetinis skvarbumas",
@@ -133,11 +97,239 @@
   },
   {
     "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Nuo ko priklauso puslaidininkių laidumas?",
+    "klausimas": "Kokia savybė apibūdina medžiagos gebėjimą perduoti šilumą?",
     "atsakymai": [
-      "Tik nuo cheminio inertiškumo",
-      "Tik nuo mechaninio apdorojimo",
-      "Nuo temperatūros, šviesos ir priemaišų"
+      "Šiluminis laidumas λ",
+      "Paviršinė lyginamoji varža ρ_s",
+      "Dielektrinis tvirtumas E_at"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Bendros žinios apie elektrotechnines medžiagas",
+    "klausimas": "Kokia savybė apibūdina medžiagos matmenų kitimą keičiantis temperatūrai?",
+    "atsakymai": [
+      "Cheminis inertiškumas",
+      "Šiluminis plėtimasis α",
+      "Dielektrinė skvarba ε"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Bendros žinios apie elektrotechnines medžiagas",
+    "klausimas": "Kuris medžiagų tipas turi didelę lyginamąją varžą ir didelį dielektrinį tvirtumą?",
+    "atsakymai": [
+      "Dielektrikai",
+      "Puslaidininkiai",
+      "Laidininkai"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Bendros žinios apie elektrotechnines medžiagas",
+    "klausimas": "Kuri medžiagų grupė pasižymi laidumu tarp laidininkų ir dielektrikų?",
+    "atsakymai": [
+      "Laidininkai",
+      "Dielektrikai",
+      "Puslaidininkiai"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Bendros žinios apie elektrotechnines medžiagas",
+    "klausimas": "Kaip puslaidininkių laidumas kinta kylant temperatūrai?",
+    "atsakymai": [
+      "Laidumas visada tampa nulinis",
+      "Laidumas mažėja",
+      "Laidumas didėja"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Bendros žinios apie elektrotechnines medžiagas",
+    "klausimas": "Kokio dydžio yra lyginamojo laidumo σ matavimo vienetas?",
+    "atsakymai": [
+      "kV/mm",
+      "Ω·m",
+      "S/m"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Bendros žinios apie elektrotechnines medžiagas",
+    "klausimas": "Kuri formulė teisingai išreiškia lyginamąjį laidumą?",
+    "atsakymai": [
+      "σ = U/I",
+      "σ = 1/ρ",
+      "σ = ρ/d"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Bendros žinios apie elektrotechnines medžiagas",
+    "klausimas": "Koks yra ryšys tarp elektrinio laidumo ir lyginamosios varžos?",
+    "atsakymai": [
+      "Jie yra atvirkštiniai dydžiai",
+      "Jie neturi jokio ryšio",
+      "Jie visada vienodi"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Bendros žinios apie elektrotechnines medžiagas",
+    "klausimas": "Kas atsitinka dielektrikui pasiekus pramušimo sąlygą?",
+    "atsakymai": [
+      "Jis praranda izoliacines savybes",
+      "Jo tankis tampa nulinis",
+      "Jo laidumas tampa mažesnis nei vakuumo"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Bendros žinios apie elektrotechnines medžiagas",
+    "klausimas": "Kuo didesnis dielektriko dielektrinis tvirtumas, tuo jis gali atlaikyti...",
+    "atsakymai": [
+      "Didesnį elektros lauko stiprį iki pramušimo",
+      "Mažesnę temperatūrą",
+      "Mažesnį mechaninį tempimą"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Bendros žinios apie elektrotechnines medžiagas",
+    "klausimas": "Kuri savybė ypač svarbi skirtingų medžiagų jungtyse dėl temperatūros pokyčių?",
+    "atsakymai": [
+      "Šiluminis plėtimasis α",
+      "Tankis ρ",
+      "Kietumas"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Bendros žinios apie elektrotechnines medžiagas",
+    "klausimas": "Kokia savybė rodo medžiagos gebėjimą išlaikyti elektrines ir mechanines savybes aukštoje temperatūroje?",
+    "atsakymai": [
+      "Atsparumas karščiui (kaitrumas)",
+      "Higroskopiškumas",
+      "Trapumas"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Bendros žinios apie elektrotechnines medžiagas",
+    "klausimas": "Kokia savybė apibūdina drėgmės sugėrimą iš aplinkos?",
+    "atsakymai": [
+      "Higroskopiškumas",
+      "Šiluminis laidumas",
+      "Kietumas"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Bendros žinios apie elektrotechnines medžiagas",
+    "klausimas": "Kokie pagrindiniai krūvininkai pateikti puslaidininkiams?",
+    "atsakymai": [
+      "Tik neutronai",
+      "Elektronai ir skylės",
+      "Tik teigiami jonai"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Bendros žinios apie elektrotechnines medžiagas",
+    "klausimas": "Kuri savybė apibūdina atsparumą oksidacijai ir suirimui drėgnoje aplinkoje?",
+    "atsakymai": [
+      "Atsparumas korozijai",
+      "Tamprumas",
+      "Dielektriniai nuostoliai"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Bendros žinios apie elektrotechnines medžiagas",
+    "klausimas": "Kokia medžiagų grupė naudojama magnetiniam laukui sutelkti?",
+    "atsakymai": [
+      "Puslaidininkiai",
+      "Dielektrikai",
+      "Magnetinės medžiagos"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Bendros žinios apie elektrotechnines medžiagas",
+    "klausimas": "Ką reiškia mažesnė medžiagos lyginamoji varža ρ?",
+    "atsakymai": [
+      "Medžiaga geriau izoliuoja",
+      "Medžiaga turi didesnį tankį",
+      "Medžiaga geriau praleidžia srovę"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Bendros žinios apie elektrotechnines medžiagas",
+    "klausimas": "Kuri iš šių yra dielektriko elektrinė savybė?",
+    "atsakymai": [
+      "Tankis",
+      "Kietumas",
+      "Dielektrinė skvarba"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Bendros žinios apie elektrotechnines medžiagas",
+    "klausimas": "Kuri iš šių yra medžiagos mechaninė savybė?",
+    "atsakymai": [
+      "Savitasis laidumas",
+      "Dielektrinė skvarba",
+      "Kietumas"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Bendros žinios apie elektrotechnines medžiagas",
+    "klausimas": "Kuri iš šių yra medžiagos cheminė savybė?",
+    "atsakymai": [
+      "Tamprumas",
+      "Šiluminis laidumas",
+      "Cheminis inertiškumas"
     ],
     "teisingas": [
       2
@@ -205,30 +397,6 @@
   },
   {
     "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kas vyksta elektrolite tekant srovei?",
-    "atsakymai": [
-      "Susidaro superlaidumas",
-      "Medžiagos pernaša ir cheminės reakcijos (elektrolizė)",
-      "Niekas nevyksta, medžiaga lieka nepakitusi"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kas neša srovę dujose ir plazmoje?",
-    "atsakymai": [
-      "Tik neigiami jonai",
-      "Tik laisvieji elektronai",
-      "Elektronai ir jonai, atsirandantys vykstant jonizacijai"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
     "klausimas": "Kodėl metalai yra geri elektros srovės laidininkai?",
     "atsakymai": [
       "Jų laidumas didėja kylant temperatūrai",
@@ -265,30 +433,6 @@
   },
   {
     "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kaip žalvario (vario ir cinko lydinio) laidumas lyginant su grynu variu?",
-    "atsakymai": [
-      "Žalvario laidumas didesnis",
-      "Žalvario laidumas gerokai mažesnis",
-      "Laidumai vienodi"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kaip mechaninis apdorojimas (šaltas tempimas, valcavimas) veikia metalo laidumą?",
-    "atsakymai": [
-      "Laidumas nesikeičia",
-      "Laidumas šiek tiek sumažėja dėl defektų kristalinėje gardelėje",
-      "Laidumas visada padidėja"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
     "klausimas": "Kas vyksta laidininke tekant dideliam aukšto dažnio kintamosios srovės srautui?",
     "atsakymai": [
       "Elektronai nustumiami į paviršių, efektyvus laidumas krenta",
@@ -297,42 +441,6 @@
     ],
     "teisingas": [
       0
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kurie metalai pagal savo magnetines savybes yra diamagnetikai?",
-    "atsakymai": [
-      "Varis, sidabras, auksas",
-      "Aliuminis, platina, volframas",
-      "Geležis, nikelis, kobaltas"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kurie metalai yra paramagnetikai?",
-    "atsakymai": [
-      "Varis, sidabras, auksas",
-      "Aliuminis, platina, volframas",
-      "Geležis, nikelis, kobaltas"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kurie metalai yra feromagnetikai?",
-    "atsakymai": [
-      "Varis, sidabras, auksas",
-      "Geležis, nikelis, kobaltas",
-      "Aliuminis, platina, volframas"
-    ],
-    "teisingas": [
-      1
     ]
   },
   {
@@ -349,30 +457,6 @@
   },
   {
     "tema": "Laidininkinės medžiagos",
-    "klausimas": "Apytiksliai kiek kartų aliuminis yra lengvesnis už varį?",
-    "atsakymai": [
-      "Apie 1,5 karto",
-      "Apie 3,5 karto",
-      "Apie 10 kartų"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kiek procentų sudaro aliuminio laidumas lyginant su vario laidumu?",
-    "atsakymai": [
-      "Apie 95 %",
-      "Apie 30 %",
-      "Apie 61 %"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
     "klausimas": "Kuris metalas pasižymi didžiausiu elektriniu ir šiluminiu laidumu iš visų metalų?",
     "atsakymai": [
       "Sidabras",
@@ -381,30 +465,6 @@
     ],
     "teisingas": [
       0
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kodėl auksas naudojamas mikroelektronikos jungtims?",
-    "atsakymai": [
-      "Nes visiškai neoksiduojasi ir nerūdija",
-      "Nes yra pigiausias iš taurųjų metalų",
-      "Nes turi didžiausią laidumą"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kur naudojami didelės varžos lydiniai, tokie kaip nichromas ir fechralis?",
-    "atsakymai": [
-      "Mikroschemų jungtims",
-      "Aukštos įtampos oro linijoms",
-      "Kaitinimo elementams (tenams, virduliams)"
-    ],
-    "teisingas": [
-      2
     ]
   },
   {
@@ -433,30 +493,6 @@
   },
   {
     "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kas susidaro sujungimo vietoje dėl aliuminio korozijos?",
-    "atsakymai": [
-      "Vario oksido sluoksnis, pagerinantis laidumą",
-      "Baltos aliuminio oksido apnašos, veikiančios kaip izoliatorius",
-      "Sidabro nuosėdos"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kaip skiriasi vario ir aliuminio šiluminis plėtimasis?",
-    "atsakymai": [
-      "Varis plečiasi daugiau nei aliuminis",
-      "Aliuminis šildamas plečiasi gerokai daugiau nei varis",
-      "Abu metalai plečiasi vienodai"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
     "klausimas": "Kokiu būdu Al-Cu bimetalinės gilzės sujungiamos, kad išvengtų korozijos?",
     "atsakymai": [
       "Paprastu suvirinimu atviroje aplinkoje",
@@ -465,18 +501,6 @@
     ],
     "teisingas": [
       1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kaip nichromo spiralė elgiasi atvėsus po ilgo naudojimo?",
-    "atsakymai": [
-      "Praranda visą elektrinį laidumą",
-      "Tampa trapi kaip stiklas ir lūžta",
-      "Išlaiko plastiškumą, ją galima saugiai pataisyti"
-    ],
-    "teisingas": [
-      2
     ]
   },
   {
@@ -505,23 +529,11 @@
   },
   {
     "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kodėl elektrinių kontaktų medžiaga turi būti atspari suvirinimui (sulipimui)?",
+    "klausimas": "Kodėl kontaktams naudojami metalokeraminiai kompozitai, pvz. Ag-W?",
     "atsakymai": [
-      "Kad kontaktai nesuliptų tekant trumpojo jungimo ar paleidimo srovei",
-      "Kad kontaktai neįkaistų nuo saulės spindulių",
-      "Kad medžiaga neprarastų spalvos"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kur naudojamas auksas kaip kontaktų medžiaga?",
-    "atsakymai": [
-      "Galinguose kontaktoriuose iki 1000 A",
-      "Troleibusų srovės ėmikliuose",
-      "Mikroschemose, jautriuose jutikliuose, valdymo relėse"
+      "Nes jie pigiausi iš visų medžiagų",
+      "Nes jie turi mažiausią tankį",
+      "Nes joks vienas metalas nejungia didelio laidumo ir aukštos lydymosi temperatūros"
     ],
     "teisingas": [
       2
@@ -541,11 +553,11 @@
   },
   {
     "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kur naudojami Ag-Cu (sidabro-vario) kontaktai?",
+    "klausimas": "Kuris lydinys turi didesnę temperatūros atsparą – nichromas ar fechralis?",
     "atsakymai": [
-      "Buitinių prietaisų jungikliuose, automobilių relėse",
-      "Traukinių srovės ėmikliuose",
-      "Mikroschemose"
+      "Fechralis",
+      "Nichromas",
+      "Jų savybės vienodos"
     ],
     "teisingas": [
       0
@@ -553,98 +565,74 @@
   },
   {
     "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kodėl kontaktams naudojami metalokeraminiai kompozitai, pvz. Ag-W?",
+    "klausimas": "Kuris lydinys geriau išlaiko plastiškumą po daugkartinio kaitinimo?",
     "atsakymai": [
-      "Nes jie pigiausi iš visų medžiagų",
-      "Nes jie turi mažiausią tankį",
-      "Nes joks vienas metalas nejungia didelio laidumo ir aukštos lydymosi temperatūros"
+      "Fechralis",
+      "Nichromas",
+      "Manganinas"
     ],
     "teisingas": [
-      2
+      1
     ]
   },
   {
     "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kur naudojami Ag-W (sidabro-volframo) kontaktai?",
+    "klausimas": "Kuris lydinys ypač tinka etaloniniams rezistoriams?",
     "atsakymai": [
-      "Pramoniniuose kontaktoriuose ir automatiniuose išjungikliuose",
-      "Mikroschemų jungtyse",
-      "Elektrolitų tirpaluose"
+      "Fechralis",
+      "Manganinas",
+      "Nichromas"
     ],
     "teisingas": [
-      0
+      1
     ]
   },
   {
     "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuo pasižymi Ag-CdO ir Ag-SnO₂ kontaktų medžiagos?",
+    "klausimas": "Kuris lydinys naudojamas reostatams ir termoporoms?",
     "atsakymai": [
-      "Didžiausiu plastiškumu",
-      "Mažiausia kaina iš visų medžiagų",
-      "Puikiu atsparumu suvirinimui ir lanko erozijai"
+      "Fechralis",
+      "Konstantanas",
+      "Manganinas"
     ],
     "teisingas": [
-      2
+      1
     ]
   },
   {
     "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kur naudojami grafitas ir anglis kaip kontaktų medžiaga?",
+    "klausimas": "Kuris lydinys turi temperatūrinį varžos koeficientą, artimą nuliui?",
     "atsakymai": [
-      "Variklių šepetėliuose ir troleibusų/traukinių srovės ėmikliuose",
-      "Galios transformatorių apvijose",
-      "Mikroschemų jungtyse"
+      "Varis",
+      "Manganinas",
+      "Nichromas"
     ],
     "teisingas": [
-      0
+      1
     ]
   },
   {
     "tema": "Laidininkinės medžiagos",
-    "klausimas": "Pagal laidininkų klasifikaciją, kaip kinta kietųjų (I rūšies) laidininkų varža kylant temperatūrai?",
+    "klausimas": "Kuris sidabro lydinys naudojamas buitinių prietaisų jungikliuose?",
     "atsakymai": [
-      "Nesikeičia",
-      "Mažėja",
-      "Didėja"
+      "Ag-SnO₂",
+      "Ag-Cu",
+      "Ag-W"
     ],
     "teisingas": [
-      2
+      1
     ]
   },
   {
     "tema": "Laidininkinės medžiagos",
-    "klausimas": "Pagal laidininkų klasifikaciją, kaip kinta skystųjų (II rūšies) laidininkų varža kylant temperatūrai?",
+    "klausimas": "Kuris sidabro lydinys atsparus lanko erozijai ir naudojamas mažos galios kontaktoriuose?",
     "atsakymai": [
-      "Didėja",
-      "Nesikeičia",
-      "Mažėja"
+      "Cu-Mn-Ni",
+      "Ag-Ni",
+      "Ag-CdO"
     ],
     "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kada atsiranda laidumas dujiniuose (plazmos) laidininkuose?",
-    "atsakymai": [
-      "Esant pakankamam jonizacijos lygiui",
-      "Bet kokiomis sąlygomis be jonizacijos",
-      "Tik esant absoliučiam nuliui"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Pagal medžiagų pasirinkimo gidą, kokia medžiaga geriausiai tinka mikroelektronikai ir jutikliams?",
-    "atsakymai": [
-      "Auksas (Au)",
-      "Ag-W",
-      "Anglis, grafitas"
-    ],
-    "teisingas": [
-      0
+      1
     ]
   },
   {
@@ -661,14 +649,50 @@
   },
   {
     "tema": "Laidininkinės medžiagos",
-    "klausimas": "Pagal medžiagų pasirinkimo gidą, kokia medžiaga tinka variklių kolektoriams ir slystantiesiems kontaktams?",
+    "klausimas": "Koks WAGO elementas kompensuoja aliuminio judėjimą temperatūros ciklų metu?",
     "atsakymai": [
-      "Ag-Ni",
-      "Anglis, grafitas",
-      "Auksas"
+      "Spyruoklė",
+      "Plastikinis varžtas",
+      "Keraminis įdėklas"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Laidininkinės medžiagos",
+    "klausimas": "Kam WAGO jungtyje skirta speciali kontaktinė pasta jungiant aliuminį?",
+    "atsakymai": [
+      "Apsaugoti aliuminį nuo oksidacijos ir drėgmės",
+      "Atšaldyti laidą",
+      "Padidinti aliuminio varžą iki begalybės"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Laidininkinės medžiagos",
+    "klausimas": "Kuris iš šių metalų turi didžiausią savitąjį laidumą pateiktoje lentelėje?",
+    "atsakymai": [
+      "Auksas",
+      "Sidabras",
+      "Aliuminis"
     ],
     "teisingas": [
       1
+    ]
+  },
+  {
+    "tema": "Laidininkinės medžiagos",
+    "klausimas": "Kuris metalas pateiktoje lentelėje turi apie 5,96×10⁷ S/m laidumą?",
+    "atsakymai": [
+      "Varis",
+      "Volframas",
+      "Sidabras"
+    ],
+    "teisingas": [
+      0
     ]
   },
   {
@@ -733,35 +757,11 @@
   },
   {
     "tema": "Superlaidininkai ir kriolaidininkai",
-    "klausimas": "Kur naudojamas magnetinės levitacijos principas?",
-    "atsakymai": [
-      "Tik kosminėse stotyse",
-      "Maglev (skraidančiuose) traukiniuose",
-      "Tik branduoliniuose reaktoriuose"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Superlaidininkai ir kriolaidininkai",
     "klausimas": "Ką reiškia santrumpa SMES?",
     "atsakymai": [
       "Superlaidieji magnetiniai energijos kaupikliai",
       "Standartinis magnetinis energijos šaltinis",
       "Superlaidžios magnetinės elektros sistemos"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Superlaidininkai ir kriolaidininkai",
-    "klausimas": "Koks apytikslis SMES naudingumo koeficientas?",
-    "atsakymai": [
-      "Didesnis nei 95 %",
-      "Apie 50 %",
-      "Apie 20–30 %"
     ],
     "teisingas": [
       0
@@ -786,1122 +786,6 @@
       "Kaip pagrindinis izoliacinis sluoksnis",
       "Kaip „pagalvinis“ sluoksnis, perimantis srovę, jei superlaidininkas praranda savo savybes",
       "Kaip mechaninė apsauga nuo vibracijos"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Superlaidininkai ir kriolaidininkai",
-    "klausimas": "Kodėl kriolaidininkai tinka aukšto dažnio ir didelių impulsų įrangai?",
-    "atsakymai": [
-      "Jie visiškai neturi elektrinės varžos jokiomis sąlygomis",
-      "Jie neturi kritinės srovės ar kritinio magnetinio lauko ribos, ties kuria staiga prarastų savybes",
-      "Jie yra pigesni už visus kitus laidininkus"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kuo pagrindinis konstrukcinis skirtumas tarp laido ir kabelio?",
-    "atsakymai": [
-      "Kabelis turi kelis izoliuotus laidus bendrame sandariame apvalkale, o laidas gali būti be jo arba su lengva izoliacija",
-      "Laidas visada storesnis už kabelį",
-      "Kabelis niekada neturi izoliacijos"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Į kokias tris pagrindines grupes pagal paskirtį skirstomi laidai?",
-    "atsakymai": [
-      "Instaliacinius, montažinius ir apvijų",
-      "Aukštos, vidutinės ir žemos įtampos",
-      "Varinius, aliumininius ir sidabrinius"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kam naudojami montažiniai laidai?",
-    "atsakymai": [
-      "Požeminiams miesto tinklams",
-      "Aukštos įtampos oro linijoms",
-      "Prietaisų, aparatų, elektros skydų ir valdymo grandinių vidiniam sujungimui"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kodėl montažinių laidų izoliacija dažnai gaminama iš fluoroplasto ar silikono?",
-    "atsakymai": [
-      "Kad laidas taptų atsparus vandeniui",
-      "Kad izoliacija neišsilydytų lituojant ar prietaisui įkaitus",
-      "Kad laidas būtų kuo pigesnis"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kokia PVC izoliacijos savybė šaltyje?",
-    "atsakymai": [
-      "PVC visiškai netenka izoliacinių savybių",
-      "PVC sustingsta šaltyje",
-      "PVC tampa lankstesnis šaltyje"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kodėl XLPE (priešsiūtinis polietilenas) ypač populiarus aukštos įtampos linijose?",
-    "atsakymai": [
-      "Dėl puikių dielektrinių savybių ir atsparumo temperatūrai iki 90 °C",
-      "Dėl mažiausios kainos tarp visų izoliacijų",
-      "Dėl to, kad jis netirpsta net esant labai žemai temperatūrai"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kas būdinga LSZH kabeliams?",
-    "atsakymai": [
-      "Jie yra pigiausi iš visų izoliacijos tipų",
-      "Degdami neišskiria toksinių ar ardančių dūmų",
-      "Jie naudojami tik požeminiuose tinkluose"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Koks guma izoliuotų kabelių privalumas žemoje temperatūroje?",
-    "atsakymai": [
-      "Tampa kietesni ir atsparesni lūžimui",
-      "Nepraranda lankstumo net iki -40 °C ir žemiau",
-      "Praranda visą izoliacinę funkciją"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Koks pagrindinis guminės izoliacijos trūkumas?",
-    "atsakymai": [
-      "Laikui bėgant sensta (kietėja, trūkinėja nuo ozono ir UV)",
-      "Ji per sunki montuoti",
-      "Ji nepraleidžia elektros srovės"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kur dažniausiai naudojami guma izoliuoti kabeliai?",
-    "atsakymai": [
-      "Aukštos įtampos požeminiai tinklai",
-      "Mobilūs elektros prietaisai, statybvietės, suvirinimo aparatai",
-      "Mikroschemų jungtys"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kas yra PIK kabeliai?",
-    "atsakymai": [
-      "Polietilenu impregnuoti kontaktai",
-      "Plastiku izoliuoti kabeliai",
-      "Popieriumi impregnuoti kabeliai"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Koks pagrindinis PIK kabelių privalumas?",
-    "atsakymai": [
-      "Labai lengvi ir lankstūs",
-      "Nereikalauja jokios priežiūros",
-      "Labai ilgaamžiai, gali tarnauti 50 ir daugiau metų"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kas atsitinka PIK kabeliui, jei pažeidžiamas jo išorinis švino ar aliuminio apvalkalas?",
-    "atsakymai": [
-      "Popierius akimirksniu pritraukia drėgmę ir kabelis sudega",
-      "Kabelis tampa dar atsparesnis drėgmei",
-      "Nieko nevyksta, nes popierius vandeniui atsparus"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kodėl PIK kabelių negalima tiesti dideliu nuolydžiu?",
-    "atsakymai": [
-      "Nes izoliacija praranda spalvą",
-      "Nes alyvos impregnantas laikui bėgant suteka į žemiausią vietą",
-      "Nes kabelis per sunkus ir trūksta nuo savo svorio"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "DIN VDE žymėjimo sistemoje ką reiškia raidė „A“ gyslos medžiagai?",
-    "atsakymai": [
-      "Plieninę gyslą",
-      "Varinę gyslą",
-      "Aliumininę gyslą"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "DIN VDE žymėjimo sistemoje ką reiškia raidė „Y“?",
-    "atsakymai": [
-      "Šarvavimą plieno juostomis",
-      "PVC izoliaciją arba apvalkalą",
-      "Polietileno izoliaciją"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "DIN VDE žymėjimo sistemoje ką reiškia „2X“?",
-    "atsakymai": [
-      "PVC izoliaciją",
-      "Ekranavimą koncentriniu vario laidininku",
-      "Priešsiūtinio polietileno (XLPE) izoliaciją"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "DIN VDE žymėjimo sistemoje ką reiškia priesaga „-J“?",
-    "atsakymai": [
-      "Kabelis neturi įžeminimo gyslos",
-      "Kabelis turi žaliai/geltoną įžeminimo gyslą",
-      "Kabelis yra šarvuotas"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "DIN VDE žymėjimo sistemoje ką reiškia priesaga „-O“?",
-    "atsakymai": [
-      "Kabelis skirtas tik lauko instaliacijai",
-      "Kabelis turi įžeminimo gyslą",
-      "Kabelis neturi žaliai/geltonos įžeminimo gyslos"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kaip iššifruojamas žymėjimas NYM-J?",
-    "atsakymai": [
-      "Aliumininis, XLPE izoliacijos, be įžeminimo gyslos",
-      "Plieninis, guminės izoliacijos kabelis",
-      "Varinis, PVC izoliacijos ir apvalkalo, su pildikliu, su įžeminimo gysla"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "GOST žymėjimo sistemoje ką reiškia raidė „А“ pradžioje?",
-    "atsakymai": [
-      "Polietileną",
-      "Varį",
-      "Aliuminį (jei raidės nėra – varis)"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "GOST žymėjimo sistemoje ką reiškia raidė „Г“?",
-    "atsakymai": [
-      "Kabelis su PVC apvalkalu",
-      "Kabelis be išorinio apsauginio šarvo (nuogas)",
-      "Valdymo kabelis"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "GOST žymėjimo sistemoje ką reiškia raidė „К“?",
-    "atsakymai": [
-      "Valdymo kabelis",
-      "PVC izoliaciją",
-      "Aliumininę gyslą"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kokia savybė apibūdina medžiagos gebėjimą perduoti šilumą?",
-    "atsakymai": [
-      "Šiluminis laidumas λ",
-      "Paviršinė lyginamoji varža ρ_s",
-      "Dielektrinis tvirtumas E_at"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kokia savybė apibūdina medžiagos matmenų kitimą keičiantis temperatūrai?",
-    "atsakymai": [
-      "Cheminis inertiškumas",
-      "Šiluminis plėtimasis α",
-      "Dielektrinė skvarba ε"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kuri savybė ypač svarbi skirtingų medžiagų jungtyse dėl temperatūros pokyčių?",
-    "atsakymai": [
-      "Šiluminis plėtimasis α",
-      "Tankis ρ",
-      "Kietumas"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kokia savybė rodo medžiagos gebėjimą išlaikyti elektrines ir mechanines savybes aukštoje temperatūroje?",
-    "atsakymai": [
-      "Atsparumas karščiui (kaitrumas)",
-      "Higroskopiškumas",
-      "Trapumas"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kokia savybė apibūdina masės ir tūrio santykį?",
-    "atsakymai": [
-      "Tamprumas",
-      "Dielektrinė skvarba",
-      "Tankis"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kokia savybė apibūdina drėgmės sugėrimą iš aplinkos?",
-    "atsakymai": [
-      "Higroskopiškumas",
-      "Šiluminis laidumas",
-      "Kietumas"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kuris medžiagų tipas turi didelę lyginamąją varžą ir didelį dielektrinį tvirtumą?",
-    "atsakymai": [
-      "Dielektrikai",
-      "Puslaidininkiai",
-      "Laidininkai"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kuri medžiagų grupė pasižymi laidumu tarp laidininkų ir dielektrikų?",
-    "atsakymai": [
-      "Laidininkai",
-      "Dielektrikai",
-      "Puslaidininkiai"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kokie pagrindiniai krūvininkai pateikti puslaidininkiams?",
-    "atsakymai": [
-      "Tik neutronai",
-      "Elektronai ir skylės",
-      "Tik teigiami jonai"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kaip puslaidininkių laidumas kinta kylant temperatūrai?",
-    "atsakymai": [
-      "Laidumas visada tampa nulinis",
-      "Laidumas mažėja",
-      "Laidumas didėja"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kokio dydžio yra lyginamojo laidumo σ matavimo vienetas?",
-    "atsakymai": [
-      "kV/mm",
-      "Ω·m",
-      "S/m"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kuri savybė apibūdina atsparumą oksidacijai ir suirimui drėgnoje aplinkoje?",
-    "atsakymai": [
-      "Atsparumas korozijai",
-      "Tamprumas",
-      "Dielektriniai nuostoliai"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kas gali sukelti medžiagos senėjimą pagal pateiktą medžiagą?",
-    "atsakymai": [
-      "Tik elektros srovė",
-      "Tik mechaninis tempimas",
-      "Šiluma, UV, ozonas ir kiti veiksniai"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Koks dielektrikų privalumas pagal klasifikacijos lentelę?",
-    "atsakymai": [
-      "Didelis laisvųjų elektronų skaičius",
-      "Didelis magnetinis skvarbumas",
-      "Didelė lyginamoji varža"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kokia medžiagų grupė naudojama magnetiniam laukui sutelkti?",
-    "atsakymai": [
-      "Puslaidininkiai",
-      "Dielektrikai",
-      "Magnetinės medžiagos"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kuri formulė teisingai išreiškia lyginamąjį laidumą?",
-    "atsakymai": [
-      "σ = U/I",
-      "σ = 1/ρ",
-      "σ = ρ/d"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Ką reiškia mažesnė medžiagos lyginamoji varža ρ?",
-    "atsakymai": [
-      "Medžiaga geriau izoliuoja",
-      "Medžiaga turi didesnį tankį",
-      "Medžiaga geriau praleidžia srovę"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Koks yra ryšys tarp elektrinio laidumo ir lyginamosios varžos?",
-    "atsakymai": [
-      "Jie yra atvirkštiniai dydžiai",
-      "Jie neturi jokio ryšio",
-      "Jie visada vienodi"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kas atsitinka dielektrikui pasiekus pramušimo sąlygą?",
-    "atsakymai": [
-      "Jis praranda izoliacines savybes",
-      "Jo tankis tampa nulinis",
-      "Jo laidumas tampa mažesnis nei vakuumo"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kuo didesnis dielektriko dielektrinis tvirtumas, tuo jis gali atlaikyti...",
-    "atsakymai": [
-      "Didesnį elektros lauko stiprį iki pramušimo",
-      "Mažesnę temperatūrą",
-      "Mažesnį mechaninį tempimą"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kuri iš šių yra dielektriko elektrinė savybė?",
-    "atsakymai": [
-      "Tankis",
-      "Kietumas",
-      "Dielektrinė skvarba"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kuri iš šių yra medžiagos mechaninė savybė?",
-    "atsakymai": [
-      "Savitasis laidumas",
-      "Dielektrinė skvarba",
-      "Kietumas"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Bendros žinios apie elektrotechnines medžiagas",
-    "klausimas": "Kuri iš šių yra medžiagos cheminė savybė?",
-    "atsakymai": [
-      "Tamprumas",
-      "Šiluminis laidumas",
-      "Cheminis inertiškumas"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kokiai temperatūrai esant pateikiami pagrindinių metalų laidumo duomenys lentelėje?",
-    "atsakymai": [
-      "20 °C",
-      "0 °C",
-      "100 °C"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris iš šių metalų turi mažiausią savitąją varžą pateiktoje lentelėje?",
-    "atsakymai": [
-      "Geležis",
-      "Sidabras",
-      "Aliuminis"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris iš šių metalų turi didžiausią savitąją varžą pateiktoje lentelėje?",
-    "atsakymai": [
-      "Geležis",
-      "Sidabras",
-      "Varis"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris iš šių metalų turi didžiausią savitąjį laidumą pateiktoje lentelėje?",
-    "atsakymai": [
-      "Auksas",
-      "Sidabras",
-      "Aliuminis"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris metalas pateiktoje lentelėje turi apie 5,96×10⁷ S/m laidumą?",
-    "atsakymai": [
-      "Varis",
-      "Volframas",
-      "Sidabras"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris metalas pateiktoje lentelėje turi apie 3,50×10⁷ S/m laidumą?",
-    "atsakymai": [
-      "Geležis",
-      "Aliuminis",
-      "Auksas"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris metalas dažniau naudojamas dėl magnetinių, o ne dėl geriausio elektrinio laidumo?",
-    "atsakymai": [
-      "Sidabras",
-      "Varis",
-      "Geležis"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kodėl geras metalinis laidininkas dažniausiai gerai perduoda ir šilumą?",
-    "atsakymai": [
-      "Elektronai perneša ir elektros krūvį, ir šiluminę energiją",
-      "Dėl didelės dielektrinės skvarbos",
-      "Dėl didelio tankio"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Koks laidininkų privalumas svarbus oro linijoms, kai siekiama mažesnio svorio?",
-    "atsakymai": [
-      "Mažas tankis",
-      "Didelis dielektrinis nuostolis",
-      "Didelė savitoji varža"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris metalas yra lengvas ir pigesnis už varį, todėl naudojamas oro linijose?",
-    "atsakymai": [
-      "Aliuminis",
-      "Sidabras",
-      "Auksas"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris metalas pasižymi geru lituojamumu?",
-    "atsakymai": [
-      "Platina",
-      "Varis",
-      "Geležis"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kokia vario savybė leidžia gaminti plonus laidus?",
-    "atsakymai": [
-      "Didelis plastiškumas",
-      "Didelis trapumas",
-      "Didelis higroskopiškumas"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kodėl šaltai deformuotas metalas gali turėti mažesnį laidumą už atkaitintą?",
-    "atsakymai": [
-      "Dėl atsiradusio superlaidumo",
-      "Dėl didesnio kristalinės gardelės defektų skaičiaus",
-      "Dėl sumažėjusio tankio iki nulio"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kas nutinka efektyviajam laidininko skerspjūviui esant dideliam aukštos dažnio kintamosios srovės dažniui?",
-    "atsakymai": [
-      "Jis nesikeičia dėl paviršiaus efekto",
-      "Jis padvigubėja",
-      "Jis sumažėja, nes srovė telkiasi paviršiuje"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Koks yra pirmosios rūšies laidininkų srovės nešimo mechanizmas?",
-    "atsakymai": [
-      "Tik atomų branduolių judėjimas",
-      "Jonų judėjimas tirpale",
-      "Laisvųjų elektronų judėjimas"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Koks yra antrosios rūšies laidininkų pavyzdys?",
-    "atsakymai": [
-      "Druskos tirpalas",
-      "Aliuminio viela",
-      "Grynasis varis"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kokia elektrolizės priežastis tekant srovei elektrolitu?",
-    "atsakymai": [
-      "Tik laisvųjų elektronų judėjimas",
-      "Jonų judėjimas ir cheminės reakcijos",
-      "Magnetinio lauko išstūmimas"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuri medžiaga pagal pateiktą medžiagą praktiškai nesugeria oksidacinio poveikio ir naudojama jautrioms jungtims?",
-    "atsakymai": [
-      "Geležis",
-      "Aliuminis",
-      "Auksas"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kodėl aliuminio oksido sluoksnis apsunkina aliuminio laidų sujungimą?",
-    "atsakymai": [
-      "Jis padidina aliuminio plastiškumą",
-      "Jis labai gerai praleidžia srovę",
-      "Jis yra elektros izoliatorius"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kokios spalvos apnašos minimos dėl aliuminio korozijos vario-aliuminio jungtyje?",
-    "atsakymai": [
-      "Mėlynos",
-      "Baltos",
-      "Juodos"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris metalas galvaninėje Cu-Al poroje labiau ardomas?",
-    "atsakymai": [
-      "Varis",
-      "Sidabras",
-      "Aliuminis"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kokia medžiaga drėgmės sąlygomis gali veikti kaip elektrolitas tarp vario ir aliuminio?",
-    "atsakymai": [
-      "Sausas oras",
-      "Drėgmė / vanduo",
-      "Keramika"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuri jungties problema atsiranda dėl skirtingo vario ir aliuminio šiluminio plėtimosi?",
-    "atsakymai": [
-      "Varža visada tampa nuline",
-      "Jungtis gali atsilaisvinti",
-      "Kabelis tampa superlaidus"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Koks WAGO elementas kompensuoja aliuminio judėjimą temperatūros ciklų metu?",
-    "atsakymai": [
-      "Spyruoklė",
-      "Plastikinis varžtas",
-      "Keraminis įdėklas"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kam WAGO jungtyje skirta speciali kontaktinė pasta jungiant aliuminį?",
-    "atsakymai": [
-      "Apsaugoti aliuminį nuo oksidacijos ir drėgmės",
-      "Atšaldyti laidą",
-      "Padidinti aliuminio varžą iki begalybės"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Koks principas naudojamas Al-Cu bimetalinėse gilzėse?",
-    "atsakymai": [
-      "Metalas sulydomas su plastiku",
-      "Metalai tiesiog susukami vienas su kitu",
-      "Skirtingi metalai sujungiami kaip atskiros, tarpusavyje sandariai sujungtos dalys"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuo plieninė poveržlė padeda Cu-Al srieginiame sujungime?",
-    "atsakymai": [
-      "Izoliuoja visą grandinę nuo tinklo",
-      "Atskira varį nuo aliuminio",
-      "Padidina laidininko skerspjūvį"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris lydinys turi didesnę temperatūros atsparą – nichromas ar fechralis?",
-    "atsakymai": [
-      "Fechralis",
-      "Nichromas",
-      "Jų savybės vienodos"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris lydinys paprastai yra pigesnis?",
-    "atsakymai": [
-      "Fechralis",
-      "Nichromas",
-      "Sidabro-volframo lydinys"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris lydinys turi didesnę savitąją varžą pagal pateiktus duomenis?",
-    "atsakymai": [
-      "Varis",
-      "Fechralis",
-      "Nichromas"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris lydinys geriau išlaiko plastiškumą po daugkartinio kaitinimo?",
-    "atsakymai": [
-      "Fechralis",
-      "Nichromas",
-      "Manganinas"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kas nutinka fechralio spiralės plastiškumui po pirmo įkaitinimo ir atvėsimo?",
-    "atsakymai": [
-      "Ji tampa superlaidi",
-      "Ji tampa labai trapi",
-      "Ji tampa lankstesnė"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris lydinys ypač tinka etaloniniams rezistoriams?",
-    "atsakymai": [
-      "Fechralis",
-      "Manganinas",
-      "Nichromas"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris lydinys naudojamas reostatams ir termoporoms?",
-    "atsakymai": [
-      "Fechralis",
-      "Konstantanas",
-      "Manganinas"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris lydinys turi temperatūrinį varžos koeficientą, artimą nuliui?",
-    "atsakymai": [
-      "Varis",
-      "Manganinas",
-      "Nichromas"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris lydinys tinkamesnis aukštatemperatūrei pramoninei krosniai pagal pateiktą informaciją?",
-    "atsakymai": [
-      "Manganinas",
-      "Konstantanas",
-      "Fechralis"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris lydinys tinkamas buitiniams kaitinimo prietaisams, kai svarbus plastiškumas?",
-    "atsakymai": [
-      "Bronza",
-      "Nichromas",
-      "Fechralis"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuri savybė kontaktams svarbi, kad tekant srovei kontaktai per daug nekaistų?",
-    "atsakymai": [
-      "Maža perinamoji varža",
-      "Didelis trapumas",
-      "Didelė higroskopiškumo reikšmė"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuri savybė apsaugo kontaktą nuo greito susidėvėjimo dėl elektros lanko?",
-    "atsakymai": [
-      "Didelis plastiškumas vienintelis",
-      "Atsparumas elektros lankui ir erozijai",
-      "Didelė drėgmės absorbcija"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuri medžiaga ypač tinka silpnų srovių jautriems kontaktams?",
-    "atsakymai": [
-      "Ketaus geležis",
-      "Auksas",
-      "Fechralis"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris sidabro lydinys naudojamas buitinių prietaisų jungikliuose?",
-    "atsakymai": [
-      "Ag-SnO₂",
-      "Ag-Cu",
-      "Ag-W"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris sidabro lydinys atsparus lanko erozijai ir naudojamas mažos galios kontaktoriuose?",
-    "atsakymai": [
-      "Cu-Mn-Ni",
-      "Ag-Ni",
-      "Ag-CdO"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuris metalokeraminis kompozitas suteikia kontaktui atsparumą lankui ir dilimui?",
-    "atsakymai": [
-      "Al-Cu",
-      "Cu-Ni",
-      "Ag-W"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuo sidabras Ag-W kompozite daugiausia naudingas?",
-    "atsakymai": [
-      "Padidina izoliacijos varžą",
-      "Suteikia magnetinį Meisnerio efektą",
-      "Užtikrina gerą elektrinį laidumą"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kuo volframas Ag-W kompozite daugiausia naudingas?",
-    "atsakymai": [
-      "Padidina higroskopiškumą",
-      "Suteikia atsparumą elektros lankui ir dilimui",
-      "Sumažina lydymosi temperatūrą"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidininkinės medžiagos",
-    "klausimas": "Kokie kontaktai naudojami slystančiai srovei?",
-    "atsakymai": [
-      "Auksiniai ir sidabriniai",
-      "Anglies ir grafito",
-      "PVC ir XLPE"
     ],
     "teisingas": [
       1
@@ -1957,47 +841,11 @@
   },
   {
     "tema": "Superlaidininkai ir kriolaidininkai",
-    "klausimas": "Ką reiškia žemiau T_c esanti temperatūra?",
-    "atsakymai": [
-      "T < T_c",
-      "T = 0 visais atvejais",
-      "T > T_c"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Superlaidininkai ir kriolaidininkai",
     "klausimas": "Kokia svarbi superlaidininkų savybė leidžia praleisti labai didelio tankio sroves?",
     "atsakymai": [
       "Didelis dielektrinis nuostolis",
       "Didelė savitoji varža",
       "Nulinė elektrinė varža"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Superlaidininkai ir kriolaidininkai",
-    "klausimas": "Kuo superlaidininkai pasižymi magnetiniu požiūriu?",
-    "atsakymai": [
-      "Magnetinio lauko kaupimu be ribų",
-      "Meisnerio efektu",
-      "Feromagnetizmu"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Superlaidininkai ir kriolaidininkai",
-    "klausimas": "Kokia yra idealaus superlaidininko magnetinio lauko indukcija jo viduje pagal pateiktą medžiagą?",
-    "atsakymai": [
-      "B = 1 T visada",
-      "B = ∞",
-      "B = 0"
     ],
     "teisingas": [
       2
@@ -2029,18 +877,6 @@
   },
   {
     "tema": "Superlaidininkai ir kriolaidininkai",
-    "klausimas": "Kuri medžiaga minima kaip labai aukšto grynumo kriolaidininkas?",
-    "atsakymai": [
-      "PVC",
-      "Grynasis aliuminis",
-      "Guma"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Superlaidininkai ir kriolaidininkai",
     "klausimas": "Koks pagrindinis kriolaidininko privalumas, palyginti su superlaidininku avariniu režimu?",
     "atsakymai": [
       "Jis turi nulinę varžą bet kokioje temperatūroje",
@@ -2061,6 +897,42 @@
     ],
     "teisingas": [
       1
+    ]
+  },
+  {
+    "tema": "Superlaidininkai ir kriolaidininkai",
+    "klausimas": "Ką daro SFCL trumpojo jungimo metu?",
+    "atsakymai": [
+      "Apriboja avarinę srovę padidindamas superlaidininko varžą",
+      "Visiškai išjungia tinklą mechaniniu jungikliu",
+      "Padidina srovę iki maksimumo"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Superlaidininkai ir kriolaidininkai",
+    "klausimas": "Kur naudojamas magnetinės levitacijos principas?",
+    "atsakymai": [
+      "Tik kosminėse stotyse",
+      "Maglev (skraidančiuose) traukiniuose",
+      "Tik branduoliniuose reaktoriuose"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Superlaidininkai ir kriolaidininkai",
+    "klausimas": "Koks apytikslis SMES naudingumo koeficientas?",
+    "atsakymai": [
+      "Didesnis nei 95 %",
+      "Apie 50 %",
+      "Apie 20–30 %"
+    ],
+    "teisingas": [
+      0
     ]
   },
   {
@@ -2089,54 +961,6 @@
   },
   {
     "tema": "Superlaidininkai ir kriolaidininkai",
-    "klausimas": "Kodėl HTS kabeliai gali būti ypač kompaktiški?",
-    "atsakymai": [
-      "Dėl labai didelio leidžiamo srovės tankio",
-      "Dėl didelio kabelio svorio",
-      "Dėl storos PVC izoliacijos"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Superlaidininkai ir kriolaidininkai",
-    "klausimas": "Kur naudojama SMES sukaupta energija?",
-    "atsakymai": [
-      "Kabelių izoliacijai",
-      "Elektros tinklo dažnio stabilizavimui ir trumpalaikiams sutrikimams kompensuoti",
-      "Vandeniui šildyti"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Superlaidininkai ir kriolaidininkai",
-    "klausimas": "Ką daro SFCL trumpojo jungimo metu?",
-    "atsakymai": [
-      "Apriboja avarinę srovę padidindamas superlaidininko varžą",
-      "Visiškai išjungia tinklą mechaniniu jungikliu",
-      "Padidina srovę iki maksimumo"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Superlaidininkai ir kriolaidininkai",
-    "klausimas": "Kokia yra kriolaidininko paskirtis superlaidžiame HTS kabelyje avariniu atveju?",
-    "atsakymai": [
-      "Padidinti Meisnerio efektą",
-      "Pakeisti izoliaciją",
-      "Saugiai perimti srovę ir neleisti kabeliui išsilydyti"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Superlaidininkai ir kriolaidininkai",
     "klausimas": "Kuri technologija siejama su superlaidžių magnetų naudojimu branduolių sintezėje?",
     "atsakymai": [
       "ITER",
@@ -2148,48 +972,24 @@
     ]
   },
   {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Koks pagrindinis kabelio apvalkalo tikslas?",
+    "tema": "Superlaidininkai ir kriolaidininkai",
+    "klausimas": "Kuri medžiaga minima kaip labai aukšto grynumo kriolaidininkas?",
     "atsakymai": [
-      "Apsaugoti gyslas nuo aplinkos ir mechaninių poveikių",
-      "Sukurti Meisnerio efektą",
-      "Padidinti laidininko elektrinę varžą"
+      "PVC",
+      "Grynasis aliuminis",
+      "Guma"
     ],
     "teisingas": [
-      0
+      1
     ]
   },
   {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kuri laidų grupė skirta pastatų elektros tinklams?",
+    "tema": "Superlaidininkai ir kriolaidininkai",
+    "klausimas": "Kokia yra idealaus superlaidininko magnetinio lauko indukcija jo viduje pagal pateiktą medžiagą?",
     "atsakymai": [
-      "Apvijų",
-      "Montažiniai",
-      "Instaliaciniai"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kuri laidų grupė skirta prietaisų ir skydų vidiniams sujungimams?",
-    "atsakymai": [
-      "Montažiniai",
-      "Instaliaciniai",
-      "Apvijų"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kuri laidų grupė vyniojama į variklių ir transformatorių ritines?",
-    "atsakymai": [
-      "Montažiniai",
-      "Instaliaciniai",
-      "Apvijų"
+      "B = 1 T visada",
+      "B = ∞",
+      "B = 0"
     ],
     "teisingas": [
       2
@@ -2197,11 +997,59 @@
   },
   {
     "tema": "Laidai ir kabeliai",
-    "klausimas": "Koks pagrindinis instaliacinių kabelių darbo įtampos pavyzdys pateiktas?",
+    "klausimas": "Kuo pagrindinis konstrukcinis skirtumas tarp laido ir kabelio?",
     "atsakymai": [
-      "12/24 V",
-      "230/400 V",
-      "6/10 kV vien tik"
+      "Kabelis turi kelis izoliuotus laidus bendrame sandariame apvalkale, o laidas gali būti be jo arba su lengva izoliacija",
+      "Laidas visada storesnis už kabelį",
+      "Kabelis niekada neturi izoliacijos"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Laidai ir kabeliai",
+    "klausimas": "Į kokias tris pagrindines grupes pagal paskirtį skirstomi laidai?",
+    "atsakymai": [
+      "Instaliacinius, montažinius ir apvijų",
+      "Aukštos, vidutinės ir žemos įtampos",
+      "Varinius, aliumininius ir sidabrinius"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Laidai ir kabeliai",
+    "klausimas": "Kam naudojami montažiniai laidai?",
+    "atsakymai": [
+      "Požeminiams miesto tinklams",
+      "Aukštos įtampos oro linijoms",
+      "Prietaisų, aparatų, elektros skydų ir valdymo grandinių vidiniam sujungimui"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Laidai ir kabeliai",
+    "klausimas": "Kodėl XLPE (priešsiūtinis polietilenas) ypač populiarus aukštos įtampos linijose?",
+    "atsakymai": [
+      "Dėl puikių dielektrinių savybių ir atsparumo temperatūrai iki 90 °C",
+      "Dėl mažiausios kainos tarp visų izoliacijų",
+      "Dėl to, kad jis netirpsta net esant labai žemai temperatūrai"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Laidai ir kabeliai",
+    "klausimas": "Kas būdinga LSZH kabeliams?",
+    "atsakymai": [
+      "Jie yra pigiausi iš visų izoliacijos tipų",
+      "Degdami neišskiria toksinių ar ardančių dūmų",
+      "Jie naudojami tik požeminiuose tinkluose"
     ],
     "teisingas": [
       1
@@ -2209,11 +1057,23 @@
   },
   {
     "tema": "Laidai ir kabeliai",
-    "klausimas": "Kokia gysla gali būti instaliaciniame laide?",
+    "klausimas": "Koks pagrindinis guminės izoliacijos trūkumas?",
     "atsakymai": [
-      "Tik skysta",
-      "Tik anglies",
-      "Monolitinė arba lanksti daugiavielė"
+      "Laikui bėgant sensta (kietėja, trūkinėja nuo ozono ir UV)",
+      "Ji per sunki montuoti",
+      "Ji nepraleidžia elektros srovės"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Laidai ir kabeliai",
+    "klausimas": "Kas yra PIK kabeliai?",
+    "atsakymai": [
+      "Polietilenu impregnuoti kontaktai",
+      "Plastiku izoliuoti kabeliai",
+      "Popieriumi impregnuoti kabeliai"
     ],
     "teisingas": [
       2
@@ -2221,11 +1081,11 @@
   },
   {
     "tema": "Laidai ir kabeliai",
-    "klausimas": "Kokia gysla būdinga montažiniams laidams?",
+    "klausimas": "Koks pagrindinis PIK kabelių privalumas?",
     "atsakymai": [
-      "Tik aliumininė juosta",
-      "Tik monolitinė",
-      "Beveik visada lanksti daugiavielė"
+      "Labai lengvi ir lankstūs",
+      "Nereikalauja jokios priežiūros",
+      "Labai ilgaamžiai, gali tarnauti 50 ir daugiau metų"
     ],
     "teisingas": [
       2
@@ -2233,11 +1093,35 @@
   },
   {
     "tema": "Laidai ir kabeliai",
-    "klausimas": "Koks izoliacijos tipas dažnai naudojamas montažiniuose laiduose dėl atsparumo temperatūrai?",
+    "klausimas": "Kas atsitinka PIK kabeliui, jei pažeidžiamas jo išorinis švino ar aliuminio apvalkalas?",
     "atsakymai": [
-      "Grynas metalas",
-      "Fluoroplastas arba silikonas",
-      "Popierius su alyva"
+      "Popierius akimirksniu pritraukia drėgmę ir kabelis sudega",
+      "Kabelis tampa dar atsparesnis drėgmei",
+      "Nieko nevyksta, nes popierius vandeniui atsparus"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Laidai ir kabeliai",
+    "klausimas": "DIN VDE žymėjimo sistemoje ką reiškia raidė „A“ gyslos medžiagai?",
+    "atsakymai": [
+      "Plieninę gyslą",
+      "Varinę gyslą",
+      "Aliumininę gyslą"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Laidai ir kabeliai",
+    "klausimas": "DIN VDE žymėjimo sistemoje ką reiškia raidė „Y“?",
+    "atsakymai": [
+      "Šarvavimą plieno juostomis",
+      "PVC izoliaciją arba apvalkalą",
+      "Polietileno izoliaciją"
     ],
     "teisingas": [
       1
@@ -2245,11 +1129,23 @@
   },
   {
     "tema": "Laidai ir kabeliai",
-    "klausimas": "Kodėl montažinių laidų skerspjūvis dažnai mažesnis už instaliacinių?",
+    "klausimas": "DIN VDE žymėjimo sistemoje ką reiškia „2X“?",
     "atsakymai": [
-      "Nes jie visada turi didesnę įtampą",
-      "Jie skirti vidiniams prietaisų ir valdymo grandinių sujungimams",
-      "Nes jiems nereikia jokio laidumo"
+      "PVC izoliaciją",
+      "Ekranavimą koncentriniu vario laidininku",
+      "Priešsiūtinio polietileno (XLPE) izoliaciją"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Laidai ir kabeliai",
+    "klausimas": "DIN VDE žymėjimo sistemoje ką reiškia priesaga „-J“?",
+    "atsakymai": [
+      "Kabelis neturi įžeminimo gyslos",
+      "Kabelis turi žaliai/geltoną įžeminimo gyslą",
+      "Kabelis yra šarvuotas"
     ],
     "teisingas": [
       1
@@ -2257,11 +1153,11 @@
   },
   {
     "tema": "Laidai ir kabeliai",
-    "klausimas": "Kokia apvijų laido izoliacija užima mažiausiai vietos?",
+    "klausimas": "Kaip iššifruojamas žymėjimas NYM-J?",
     "atsakymai": [
-      "Storas metalinis šarvas",
-      "Storas PVC apvalkalas",
-      "Labai plonas lako sluoksnis"
+      "Aliumininis, XLPE izoliacijos, be įžeminimo gyslos",
+      "Plieninis, guminės izoliacijos kabelis",
+      "Varinis, PVC izoliacijos ir apvalkalo, su pildikliu, su įžeminimo gysla"
     ],
     "teisingas": [
       2
@@ -2269,182 +1165,14 @@
   },
   {
     "tema": "Laidai ir kabeliai",
-    "klausimas": "Kodėl apvijų laidams reikalinga gera izoliacija tarp vijų?",
+    "klausimas": "GOST žymėjimo sistemoje ką reiškia raidė „А“ pradžioje?",
     "atsakymai": [
-      "Nes vijų yra daug ir jos glaudžiai susiliečia",
-      "Nes laidas turi tekėti per vandenį",
-      "Nes reikia sumažinti tankį"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kuris kabelio tipas geriausiai tinka judantiems prietaisams pagal pateiktą medžiagą?",
-    "atsakymai": [
-      "Guma izoliuotas kabelis",
-      "Popieriumi izoliuotas kabelis",
-      "Standus PVC instaliacinis kabelis visais atvejais"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kokia medžiaga dažnai naudojama PVC kabelių gysloms?",
-    "atsakymai": [
-      "Varis arba aliuminis",
-      "Stiklas arba keramika",
-      "Grafitas arba guma"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kuri izoliacinė medžiaga sustingsta šaltyje?",
-    "atsakymai": [
-      "Guma",
-      "EPR visada išlieka vienoda",
-      "PVC"
+      "Polietileną",
+      "Varį",
+      "Aliuminį (jei raidės nėra – varis)"
     ],
     "teisingas": [
       2
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kuri medžiaga ypač populiari aukštos įtampos kabeliuose dėl gerų dielektrinių savybių?",
-    "atsakymai": [
-      "Natūralus popierius",
-      "PVC vien dėl kainos",
-      "XLPE"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Koks pagrindinis LSZH privalumas gaisro metu?",
-    "atsakymai": [
-      "Neskleidžia toksinių ar ardančių dūmų pagal pateiktą medžiagą",
-      "Išsilydo žemiausioje temperatūroje",
-      "Tampa superlaidus"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kuri kabelių izoliacija ypač atspari mechaniniams poveikiams ir lanksti?",
-    "atsakymai": [
-      "Stiklas",
-      "Guma",
-      "Popierius"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Koks guminių kabelių trūkumas dėl aplinkos poveikio?",
-    "atsakymai": [
-      "Jie visada yra trapūs net šilumoje",
-      "Senėjimas nuo ozono ir UV",
-      "Jie visiškai nepraleidžia srovės"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kokia medžiaga dažnai naudojama guminių kabelių izoliacijai?",
-    "atsakymai": [
-      "EPR arba neoprenas",
-      "Popierius su keramika",
-      "XLPE tik"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kuris kabelis pateiktas kaip gumos izoliacijos pavyzdys?",
-    "atsakymai": [
-      "AVVG",
-      "NYM-J",
-      "H07RN-F"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kodėl PIK kabeliai laikomi senesne technologija?",
-    "atsakymai": [
-      "Jie gaminami iš superlaidininkų",
-      "Juose nėra jokios izoliacijos",
-      "Juose naudojamas popierius, impregnuotas alyvos ir dervos mišiniu"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kokios gyslos gali būti PIK kabeliuose?",
-    "atsakymai": [
-      "Tik anglinės",
-      "Tik sidabrinės",
-      "Varinės arba aliumininės"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kuo uždengiamas PIK kabelio popierinis izoliacinis sluoksnis?",
-    "atsakymai": [
-      "Oro tarpu",
-      "Gofruotu PVC vamzdžiu tik",
-      "Nepralaidžiu švino arba aliuminio apvalkalu"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Koks PIK kabelio montavimo trūkumas susijęs su alyvos impregnantu?",
-    "atsakymai": [
-      "Negalima tiesti dideliu nuolydžiu",
-      "Negalima tiesti horizontaliai",
-      "Galima montuoti tik vertikaliai"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kokia PIK kabelių montavimo ypatybė lyginant su plastikiniais kabeliais?",
-    "atsakymai": [
-      "Jie montuojami be įrankių",
-      "Jiems reikia sudėtingesnių movų ir sandarinimo",
-      "Jiems nereikia jokios apsaugos"
-    ],
-    "teisingas": [
-      1
     ]
   },
   {
@@ -2473,6 +1201,78 @@
   },
   {
     "tema": "Laidai ir kabeliai",
+    "klausimas": "Koks skirtumas tarp NYM-J ir NYM-O?",
+    "atsakymai": [
+      "NYM-J turi žaliai/geltoną įžeminimo gyslą, NYM-O jos neturi",
+      "NYM-J guminis, NYM-O popierinis",
+      "NYM-J yra aliumininis, NYM-O varinis"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Laidai ir kabeliai",
+    "klausimas": "Kodėl montažinių laidų izoliacija dažnai gaminama iš fluoroplasto ar silikono?",
+    "atsakymai": [
+      "Kad laidas taptų atsparus vandeniui",
+      "Kad izoliacija neišsilydytų lituojant ar prietaisui įkaitus",
+      "Kad laidas būtų kuo pigesnis"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Laidai ir kabeliai",
+    "klausimas": "Kokia PVC izoliacijos savybė šaltyje?",
+    "atsakymai": [
+      "PVC visiškai netenka izoliacinių savybių",
+      "PVC sustingsta šaltyje",
+      "PVC tampa lankstesnis šaltyje"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Laidai ir kabeliai",
+    "klausimas": "Koks guma izoliuotų kabelių privalumas žemoje temperatūroje?",
+    "atsakymai": [
+      "Tampa kietesni ir atsparesni lūžimui",
+      "Nepraranda lankstumo net iki -40 °C ir žemiau",
+      "Praranda visą izoliacinę funkciją"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Laidai ir kabeliai",
+    "klausimas": "Kodėl PIK kabelių negalima tiesti dideliu nuolydžiu?",
+    "atsakymai": [
+      "Nes izoliacija praranda spalvą",
+      "Nes alyvos impregnantas laikui bėgant suteka į žemiausią vietą",
+      "Nes kabelis per sunkus ir trūksta nuo savo svorio"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Laidai ir kabeliai",
+    "klausimas": "Kuris kabelio tipas geriausiai tinka judantiems prietaisams pagal pateiktą medžiagą?",
+    "atsakymai": [
+      "Guma izoliuotas kabelis",
+      "Popieriumi izoliuotas kabelis",
+      "Standus PVC instaliacinis kabelis visais atvejais"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Laidai ir kabeliai",
     "klausimas": "Kokia įtampa žymima 05 HAR sistemoje?",
     "atsakymai": [
       "6/10 kV",
@@ -2497,30 +1297,6 @@
   },
   {
     "tema": "Laidai ir kabeliai",
-    "klausimas": "Ką reiškia B HAR izoliacijos žymėjime?",
-    "atsakymai": [
-      "Polietileną",
-      "PVC",
-      "EPR gumą"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Ką reiškia Z HAR izoliacijos žymėjime?",
-    "atsakymai": [
-      "Halogenų neturintį LSZH plastiką",
-      "Plieno šarvą",
-      "Gryną gumą"
-    ],
-    "teisingas": [
-      0
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
     "klausimas": "Ką reiškia Q HAR išorinio apvalkalo žymėjime?",
     "atsakymai": [
       "Poliuretaną (PU)",
@@ -2533,35 +1309,11 @@
   },
   {
     "tema": "Laidai ir kabeliai",
-    "klausimas": "Ką reiškia N HAR išorinio apvalkalo žymėjime?",
-    "atsakymai": [
-      "Polietileną",
-      "Neopreną / chloropreno gumą",
-      "PVC"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
     "klausimas": "Kuo skiriasi U ir R HAR sistemos gyslos?",
     "atsakymai": [
       "U – guminė, R – PVC",
       "U – monolitinė vientisa gysla, R – daugiavielė apvali susukta",
       "U – aliumininė, R – varinė"
-    ],
-    "teisingas": [
-      1
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Kuo skiriasi K ir F HAR sistemos gyslos?",
-    "atsakymai": [
-      "K – monolitinė, F – aliumininė",
-      "K – lanksti stacionariai instaliacijai, F – itin lanksti judantiems prietaisams",
-      "K – PVC, F – XLPE"
     ],
     "teisingas": [
       1
@@ -2580,75 +1332,1347 @@
     ]
   },
   {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Ką reiškia 2Y DIN VDE sistemoje?",
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Koks yra puslaidininkių elektrinis laidumas?",
     "atsakymai": [
-      "PVC izoliaciją",
-      "XLPE izoliaciją",
-      "PE izoliaciją"
+      "Lygus nuliui esant bet kokiai temperatūrai",
+      "Tarpinis tarp laidininkų ir izoliatorių",
+      "Didesnis nei metalų"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kaip galima valdyti puslaidininkio laidumą?",
+    "atsakymai": [
+      "Tik keičiant medžiagos spalvą",
+      "Keičiant temperatūrą, apšvietimą arba legiruojant",
+      "Tik didinant medžiagos masę"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kas yra legiravimas?",
+    "atsakymai": [
+      "Puslaidininkio aušinimas iki skysto azoto temperatūros",
+      "Puslaidininkio padengimas izoliaciniu lakų sluoksniu",
+      "Pašalinių cheminių elementų įterpimas į puslaidininkį laidumui keisti"
     ],
     "teisingas": [
       2
     ]
   },
   {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Ką reiškia C DIN VDE kabelio konstrukcijoje?",
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kurie iš šių yra vienetiniai (gryni elementai) puslaidininkiai?",
     "atsakymai": [
-      "Gumos izoliaciją",
-      "Kabelio valdymą",
-      "Ekranavimą koncentriniu vario laidininku"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Ką reiškia B DIN VDE kabelio konstrukcijoje?",
-    "atsakymai": [
-      "PVC apvalkalą",
-      "Aliumininę gyslą",
-      "Šarvavimą plieno juostomis"
-    ],
-    "teisingas": [
-      2
-    ]
-  },
-  {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Koks skirtumas tarp NYM-J ir NYM-O?",
-    "atsakymai": [
-      "NYM-J turi žaliai/geltoną įžeminimo gyslą, NYM-O jos neturi",
-      "NYM-J guminis, NYM-O popierinis",
-      "NYM-J yra aliumininis, NYM-O varinis"
+      "Silicis (Si) ir germanis (Ge)",
+      "Varis (Cu) ir aliuminis (Al)",
+      "Galio arsenidas (GaAs) ir galio nitridas (GaN)"
     ],
     "teisingas": [
       0
     ]
   },
   {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Ką GOST sistemoje reiškia V?",
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kuo ypatingi silicio karbidas (SiC) ir galio nitridas (GaN)?",
     "atsakymai": [
-      "Gryną varį",
-      "Šarvą",
-      "PVC izoliaciją arba apvalkalą"
+      "Tai superlaidininkai",
+      "Tai magnetiškai kietos medžiagos",
+      "Tai didelio energijos tarpo medžiagos aukštos įtampos, temperatūros ir galios elektronikai"
     ],
     "teisingas": [
       2
     ]
   },
   {
-    "tema": "Laidai ir kabeliai",
-    "klausimas": "Ką GOST sistemoje reiškia P pagal pateiktą medžiagą?",
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kokie krūvininkai vyrauja n-tipo puslaidininkyje?",
     "atsakymai": [
-      "Varinę gyslą",
-      "Valdymo kabelį",
-      "Plokščią laidą arba polietileną"
+      "Elektronai",
+      "Skylės",
+      "Teigiami jonai"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kokie krūvininkai vyrauja p-tipo puslaidininkyje?",
+    "atsakymai": [
+      "Elektronai",
+      "Neigiami jonai",
+      "Skylės"
     ],
     "teisingas": [
       2
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kokios priemaišos naudojamos n-tipo puslaidininkiui gauti?",
+    "atsakymai": [
+      "Akceptoriai – elementai su mažiau valentinių elektronų (pvz., boras)",
+      "Tik šarminiai metalai",
+      "Donorai – elementai su daugiau valentinių elektronų (pvz., fosforas, arsenas)"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kokios priemaišos naudojamos p-tipo puslaidininkiui gauti?",
+    "atsakymai": [
+      "Akceptoriai – elementai su mažiau valentinių elektronų (pvz., boras, galis)",
+      "Tik inertinės dujos",
+      "Donorai – fosforas ir arsenas"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kas susidaro sujungus p ir n tipo puslaidininkius?",
+    "atsakymai": [
+      "Superlaidi būsena",
+      "p-n sandūra – diodų, tranzistorių ir mikroprocesorių pagrindas",
+      "Feromagnetinė sritis"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kas yra skylė puslaidininkyje?",
+    "atsakymai": [
+      "Ertmė medžiagos paviršiuje",
+      "Neigiamas jonas kristalinėje gardelėje",
+      "Elektrono trūkumo vietoje susidaręs teigiamas krūvis"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kaip elektronai gauna galimybę pernešti srovę puslaidininkyje?",
+    "atsakymai": [
+      "Išeina iš medžiagos į orą",
+      "Gavę energijos peršoka draudžiamąją juostą iš valentinės į laidumo juostą",
+      "Praeina pro laidumo juostą į valentinę juostą be energijos"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kaip kylant temperatūrai kinta puslaidininkio varža?",
+    "atsakymai": [
+      "Mažėja, nes auga krūvininkų skaičius",
+      "Nekinta",
+      "Didėja, kaip metaluose"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kaip apšvietimas veikia puslaidininkį?",
+    "atsakymai": [
+      "Šviesos kvantai (fotoelektronai) sukuria papildomas elektronų-skylių poras (fotoelektrinis efektas)",
+      "Šviesa pakeičia puslaidininkio cheminę sudėtį",
+      "Šviesa visiškai sustabdo srovę"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Ką rodo draudžiamosios juostos plotis (Eg)?",
+    "atsakymai": [
+      "Energiją, kurios reikia elektronui peršokti į laidumo būseną",
+      "Medžiagos lydymosi temperatūrą",
+      "Medžiagos tankį"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kam naudojami diodai?",
+    "atsakymai": [
+      "Kaupia energiją magnetiniame lauke",
+      "Praleidžia srovę tik viena kryptimi (lygintuvai, apsaugos grandinės)",
+      "Praleidžia srovę abiem kryptimis be apribojimų"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kokias funkcijas atlieka tranzistoriai (BJT, MOSFET, IGBT)?",
+    "atsakymai": [
+      "Tik kaupia elektros krūvį",
+      "Tik šviečia",
+      "Veikia kaip elektriniai jungikliai arba signalo stiprintuvai"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kuri puslaidininkinė medžiaga dominuoja šiuolaikinėje mikrotechnikoje (procesoriai, saulės baterijos)?",
+    "atsakymai": [
+      "Germanis (Ge)",
+      "Silicio karbidas (SiC)",
+      "Silicis (Si)"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kur naudojamas germanis (Ge)?",
+    "atsakymai": [
+      "Nuolatiniuose magnetuose",
+      "Aukštos įtampos oro linijų izoliatoriuose",
+      "Infraraudonųjų spindulių optikoje ir didelio greičio jutikliuose"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kur naudojamas galio arsenidas (GaAs)?",
+    "atsakymai": [
+      "Transformatorių šerdyse",
+      "Kabelių izoliacijoje",
+      "RF įrenginiuose, optoelektronikoje ir šviesos dioduose (LED)"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kuri legiravimo kombinacija sukuria n-tipo puslaidininkį?",
+    "atsakymai": [
+      "Silicis + boras (B)",
+      "Silicis + galis (Ga)",
+      "Silicis + fosforas (P) arba arsenas (As)"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kuri legiravimo kombinacija sukuria p-tipo puslaidininkį?",
+    "atsakymai": [
+      "Silicis + boras (B) arba galis (Ga)",
+      "Silicis + fosforas (P)",
+      "Silicis + arsenas (As)"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kaip elgiasi grynas puslaidininkis esant absoliučiam nuliui (0 K)?",
+    "atsakymai": [
+      "Veikia kaip superlaidininkas",
+      "Veikia kaip izoliatorius",
+      "Veikia kaip geras laidininkas"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Ką reiškia μe ir μh formulėje σ = e·(n·μe + p·μh)?",
+    "atsakymai": [
+      "Elektronų ir skylių koncentraciją",
+      "Elektronų ir skylių judrumą (greitį elektriniame lauke)",
+      "Elektrono krūvį"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kuris puslaidininkis priskiriamas plačiajuosčiams (Eg ≈ 3,4 eV)?",
+    "atsakymai": [
+      "Germanis (Ge)",
+      "Silicis (Si)",
+      "Galio nitridas (GaN)"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kuri puslaidininkinė medžiaga naudojama IGBT ir MOSFET tranzistoriams bei elektromobilių įkrovikliams ir inverteriams?",
+    "atsakymai": [
+      "Grynas silicis be priemaišų",
+      "Germanis (Ge)",
+      "Silicio karbidas (SiC)"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kur naudojamas galio nitridas (GaN)?",
+    "atsakymai": [
+      "Nuolatiniai magnetai",
+      "Aukštos įtampos oro linijų izoliatoriai",
+      "Kompaktiški greiti įkrovikliai, 5G/6G stotys"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Puslaidininkių medžiagos",
+    "klausimas": "Kuri mikroschemų grupė priskiriama analoginėms?",
+    "atsakymai": [
+      "Atminties moduliai (RAM, Flash)",
+      "Operaciniai stiprintuvai, įtampos reguliatoriai, ADC/DAC keitikliai",
+      "Centriniai procesoriai (CPU)"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kodėl dielektrikai praktiškai nepraleidžia elektros srovės?",
+    "atsakymai": [
+      "Juose beveik nėra laisvųjų krūvininkų (elektronų ar jonų)",
+      "Jie turi labai daug laisvųjų elektronų",
+      "Jie visada yra skysti"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kuo dielektrikas skiriasi nuo elektroizoliacinės medžiagos sąvokos prasme?",
+    "atsakymai": [
+      "Dielektrikas – fizikinė sąvoka (gebėjimas poliarizuotis), izoliacinė medžiaga – techninė (laidininkų atskyrimas)",
+      "Dielektrikas visada skystas, o izoliacinė medžiaga – kieta",
+      "Tarp jų jokio skirtumo nėra, tai skirtingų kalbų terminai"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Ką parodo dielektrinė skvarba (ε)?",
+    "atsakymai": [
+      "Kiek kartų dielektrikas lengvesnis už vandenį",
+      "Kokia yra dielektriko lydymosi temperatūra",
+      "Kiek kartų elektrinis laukas dielektrike silpnesnis nei vakuume (kondensatoriaus talpa padidėja)"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Ką rodo dielektrinių nuostolių kampo tangentas tan δ?",
+    "atsakymai": [
+      "Elektros energijos dalį, virstančią šiluma kintamajame lauke (mažesnis – geresnė izoliacija)",
+      "Medžiagos tankį",
+      "Medžiagos mechaninį stiprumą"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Ką reiškia elektrinis tvirtumas (Eat)?",
+    "atsakymai": [
+      "Dielektriko šilumos laidumas",
+      "Dielektriko gebėjimas atlaikyti mechaninį smūgį",
+      "Lauko stipris, kurį pasiekus dielektrikas praranda izoliacines savybes ir pramušamas"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kas yra poliarizacija dielektrike?",
+    "atsakymai": [
+      "Teigiamų ir neigiamų krūvių poslinkis priešingomis kryptimis išoriniame elektriniame lauke",
+      "Laisvųjų elektronų tekėjimas per medžiagą",
+      "Medžiagos įkaitimas iki lydymosi"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kokios trys pagrindinės dielektrikų grupės išskiriamos pagal poliarizaciją?",
+    "atsakymai": [
+      "Nepoliniai, poliniai ir joniniai kristalai",
+      "Kieti, skysti ir dujiniai",
+      "Organiniai, neorganiniai ir mišrūs"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kas būdinga feroelektrikams (segnetoelektrikams)?",
+    "atsakymai": [
+      "Yra tik skysti",
+      "Pasižymi superlaidumu",
+      "Tam tikrame temperatūrų intervale pasižymi spontanine poliarizacija be išorinio lauko"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Ką daro pjezoelektrikai?",
+    "atsakymai": [
+      "Poliarizuojasi mechaniškai gniuždomi arba tempiami (pvz., kvarcas)",
+      "Praleidžia srovę be nuostolių",
+      "Išlaiko poliarizaciją be jokio poveikio kaip elektretai"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kas yra elektretai?",
+    "atsakymai": [
+      "Skystieji dielektrikai transformatoriams",
+      "Dielektrikų analogai pastoviųjų magnetų – ilgai išlaiko poliarizuotą būseną ir kuria aplink save elektrinį lauką",
+      "Medžiagos, kurios pramušamos esant 1 kV/mm"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kokia yra skystųjų izoliatorių taikymo sritis (pvz., transformatorių alyva)?",
+    "atsakymai": [
+      "Tik spausdintinių plokščių gamyba",
+      "Tik šildymo elementų izoliacija",
+      "Transformatoriai ir aukštos įtampos jungikliai – izoliacija ir aušinimo terpė"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kokia yra nauja arba išvalyta transformatorių alyva pagal pramušimo įtampą?",
+    "atsakymai": [
+      "Daugiau nei 60–70 kV",
+      "Apie 10 kV",
+      "Mažiau nei 30 kV"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kokios cheminės sudėties yra organinės elektroizoliacinės medžiagos?",
+    "atsakymai": [
+      "Anglies (C) junginiai su vandeniliu, azotu ar deguonimi",
+      "Tik metalų oksidai",
+      "Tik silikatai"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kokia yra organinių izoliacinių medžiagų darbinė temperatūra?",
+    "atsakymai": [
+      "Daugiau nei 1000 °C",
+      "Visada žemiau 0 °C",
+      "Dažniausiai 105–180 °C, greičiau sensta veikiamos UV ir ozono"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kokia temperatūrai atsparumo riba būdinga neorganinėms izoliacinėms medžiagoms?",
+    "atsakymai": [
+      "Nuo 300 °C iki daugiau nei 1000 °C",
+      "Iki 50 °C",
+      "Iki 105 °C"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kuris yra pagrindinis neorganinių izoliacinių medžiagų trūkumas?",
+    "atsakymai": [
+      "Degumas",
+      "Trapumas ir nelankstumas",
+      "Greitas senėjimas nuo UV"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kokios sudėties yra elektrotechninis porcelianas?",
+    "atsakymai": [
+      "Aliuminio oksidas",
+      "Kaolinas, molis, kvarcas ir lauko špatas",
+      "Talkas (magnio silikatas)"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kuo steatitas pranašesnis už porcelianą?",
+    "atsakymai": [
+      "Yra pigesnis ir glazūruojamas",
+      "Praleidžia daugiau srovės",
+      "Daug mažesni dielektriniai nuostoliai aukšto dažnio lauke ir didesnis tvirtumas"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Pagal kokį standartą atliekamas alyvos pramušimo įtampos (BDV) testas?",
+    "atsakymai": [
+      "DIN VDE 0276",
+      "HAR 07",
+      "IEC 60156"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Koks atstumas nustatomas tarp elektrodų BDV teste?",
+    "atsakymai": [
+      "25 mm",
+      "2,5 mm",
+      "0,25 mm"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kiek kartų kartojama BDV matavimo procedūra su tuo pačiu mėginiu?",
+    "atsakymai": [
+      "20 kartų, imama didžiausia reikšmė",
+      "Tik 1 kartą",
+      "6 kartus, rezultatas – šių matavimų vidurkis"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kokiu greičiu BDV teste kelia kintamąją įtampą?",
+    "atsakymai": [
+      "Apytiksliai 200 kV/s",
+      "Apytiksliai 2 kV/s",
+      "Apytiksliai 0,02 kV/s"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kokia pramušimo įtampa rodo kritinę alyvos būklę (reikia valyti arba keisti)?",
+    "atsakymai": [
+      "Daugiau nei 60 kV",
+      "Daugiau nei 40 kV",
+      "Mažiau nei 30 kV"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kaip dažnai eksploatacijos metu tikrinama transformatorių alyva?",
+    "atsakymai": [
+      "Kas 1–3 metus (priklausomai nuo įrenginio svarbos ir galios)",
+      "Kartą per 50 metų",
+      "Kiekvieną dieną"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kuri mineralinė alyva yra labiausiai paplitusi skystoji izoliacinė medžiaga?",
+    "atsakymai": [
+      "Transformatorių alyva",
+      "Kabelinė alyva",
+      "Kondensatorinė alyva"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kuo pasižymi kondensatorinė alyva?",
+    "atsakymai": [
+      "Itin gerai išvalyta, maži dielektriniai nuostoliai",
+      "Didesnis klampumas aukštos įtampos kabeliams",
+      "Aukšta užsiliepsnojimo temperatūra >300 °C"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kur naudojama aliuminio oksido keramika (Al₂O₃, korundas)?",
+    "atsakymai": [
+      "Aukštos įtampos kabelių apvalkalai",
+      "Automobilių uždegimo žvakės, mikroschemų substratai, lanko gesinimo kameros",
+      "Nuolatiniai magnetai"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Dielektrinės medžiagos",
+    "klausimas": "Kurios medžiagos ypatybė yra labai didelė dielektrinė skvarba (ε > 1000)?",
+    "atsakymai": [
+      "Steatitas",
+      "Kondensatorinė keramika (BaTiO₃)",
+      "Elektrotechninis porcelianas"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kas lemia medžiagos magnetines savybes?",
+    "atsakymai": [
+      "Medžiagos agregatinė būsena",
+      "Elektronų sukiniai ir orbitalinis judėjimas apie branduolį",
+      "Medžiagos spalva"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Ką parodo magnetinė skvarba (μr)?",
+    "atsakymai": [
+      "Kokia medžiagos lydymosi temperatūra",
+      "Kiek kartų medžiaga lengvesnė už orą",
+      "Kiek kartų magnetinis laukas medžiagoje stipresnis (arba silpnesnis) nei vakuume"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kas yra Kiuri temperatūra (Tc)?",
+    "atsakymai": [
+      "Temperatūra, kurioje medžiaga tampa superlaidininku",
+      "Medžiagos lydymosi temperatūra",
+      "Temperatūra, kurią pasiekus feromagnetinė medžiaga praranda spontaninį įmagnetėjimą ir tampa paramagnetiku"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kas yra histerezė?",
+    "atsakymai": [
+      "Pramušimas dielektrike",
+      "Medžiagos išsiplėtimas kaitinant",
+      "Feromagnetinių medžiagų įmagnetėjimo vėlavimas, kintant išoriniam magnetiniam laukui"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kaip elgiasi diamagnetikai išoriniame magnetiniame lauke?",
+    "atsakymai": [
+      "Silpnai stumiami iš magnetinio lauko",
+      "Silpnai traukiami",
+      "Stipriai traukiami ir išlaiko įmagnetėjimą"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kaip elgiasi paramagnetikai išoriniame magnetiniame lauke?",
+    "atsakymai": [
+      "Silpnai stumiami",
+      "Silpnai traukiami į magnetinį lauką",
+      "Stipriai traukiami ir išlaiko įmagnetėjimą"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kaip elgiasi feromagnetikai išoriniame magnetiniame lauke?",
+    "atsakymai": [
+      "Silpnai stumiami",
+      "Silpnai traukiami",
+      "Stipriai traukiami ir išlaiko įmagnetėjimą"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kas būdinga antiferomagnetikams?",
+    "atsakymai": [
+      "Gretimi momentai nukreipti ta pačia kryptimi",
+      "Gretimi atominiai magnetiniai momentai nukreipti priešingomis kryptimis ir vienas kitą visiškai kompensuoja (pvz., MnO)",
+      "Gretimi momentai priešingi, bet nelygūs"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kas būdinga ferimagnetikams (feritams)?",
+    "atsakymai": [
+      "Gretimi momentai nukreipti priešingai, bet nelygūs, todėl išlieka atstojamasis įmagnetėjimas (pvz., Fe₃O₄)",
+      "Visi momentai visiškai kompensuojami",
+      "Neturi jokių magnetinių savybių"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Į kokias dvi grupes pagal naudojimą skirstomos feromagnetinės medžiagos?",
+    "atsakymai": [
+      "Minkštąsias ir kietąsias",
+      "Skystąsias ir kietąsias",
+      "Organines ir neorganines"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kuo pasižymi magnetiškai minkštos medžiagos?",
+    "atsakymai": [
+      "Neturi magnetinių savybių",
+      "Sunkiai įmagnetinamos, plati histerezės kilpa",
+      "Lengvai įsimagnetina ir išsimagnetina, mažas koercinis laukas, siaura histerezės kilpa"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kur naudojamos magnetiškai minkštos medžiagos?",
+    "atsakymai": [
+      "Kabelių izoliacija",
+      "Nuolatiniai magnetai, duomenų laikmenos",
+      "Transformatorių šerdys, elektros varikliai, generatoriai"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kodėl minkštoms magnetinėms medžiagoms svarbi didelė elektrinė varža?",
+    "atsakymai": [
+      "Padidina koercinį lauką",
+      "Sumažina sūkurinių (Fuko) srovių sukeliamus nuostolius ir kaitimą",
+      "Padidina likutinį įmagnetėjimą"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kodėl į elektrotechninį plieną (Fe-Si) dedama silicio?",
+    "atsakymai": [
+      "Padidina plieno kainą ir svorį",
+      "Padidina elektrinę varžą ir sumažina sūkurinių srovių nuostolius",
+      "Paverčia plieną nuolatiniu magnetu"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kuo pasižymi magnetiškai kietos medžiagos?",
+    "atsakymai": [
+      "Didelis koercinis laukas, didelis liekamasis įmagnetėjimas, plati histerezės kilpa",
+      "Neįmagnetinamos",
+      "Mažas koercinis laukas, siaura kilpa"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kokia yra pagrindinė magnetiškai kietų medžiagų paskirtis?",
+    "atsakymai": [
+      "Izoliuoti laidininkus",
+      "Kurti stabilų pastovų magnetinį lauką be išorinio energijos šaltinio (nuolatiniai magnetai)",
+      "Mažinti sūkurines sroves šerdyse"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kur naudojami neodimio magnetai (NdFeB)?",
+    "atsakymai": [
+      "Transformatorių šerdys",
+      "Aukštos įtampos izoliatoriai",
+      "Elektromobilių varikliai, vėjo jėgainės, kietieji diskai, ausinės"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kur naudojamos magnetiškai kietos medžiagos?",
+    "atsakymai": [
+      "Transformatorių šerdys 50 Hz",
+      "BLDC varikliai, garsiakalbiai, duomenų saugojimas, MRT",
+      "Kabelių izoliacija"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kuo pasižymi permalojai (Fe-Ni lydiniai)?",
+    "atsakymai": [
+      "Aukšta Kiuri temperatūra iki 800 °C",
+      "Ypač didelė magnetinė skvarba silpnuose laukuose",
+      "Didelė koercinė jėga"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kur naudojami permalojai?",
+    "atsakymai": [
+      "Aukštos įtampos izoliatoriai",
+      "Nuolatiniai magnetai varikliams",
+      "Jautrūs jutikliai, magnetiniai ekranai, tikslieji transformatoriai"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kuo pasižymi minkštieji feritai (Mn-Zn, Ni-Zn)?",
+    "atsakymai": [
+      "Superlaidumas",
+      "Oksidinė keramika su labai didele elektrine varža, bet mažesne soties indukcija",
+      "Didelė koercinė jėga"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kur naudojami minkštieji feritai?",
+    "atsakymai": [
+      "Oro linijų laidai",
+      "Elektromobilių magnetai",
+      "Aukšto dažnio transformatoriai, impulsiniai maitinimo šaltiniai, RF ritės"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kuo išsiskiria amorfiniai ir nanokristaliniai lydiniai?",
+    "atsakymai": [
+      "Neturi kristalinės struktūros, itin maži nuostoliai ir aukštas efektyvumas",
+      "Labai didelė savitoji varža kaip nichromo",
+      "Labai didelė koercinė jėga"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kuo pasižymi samario-kobalto magnetai (SmCo)?",
+    "atsakymai": [
+      "Atsparūs tik iki 50 °C",
+      "Labai pigūs ir silpni",
+      "Didelis atsparumas temperatūrai (iki 300–350 °C) ir korozijai, bet brangūs"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kuo pasižymi alniko lydiniai (Al-Ni-Co)?",
+    "atsakymai": [
+      "Veikia tik žemiau 0 °C",
+      "Didžiausia koercinė jėga iš visų magnetų",
+      "Labai aukšta Kiuri temperatūra (iki 800 °C), stabilus laukas, maža koercinė jėga lyginant su NdFeB"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kuo pasižymi kietieji ferritai (Ba, Sr)?",
+    "atsakymai": [
+      "Brangūs ir labai stiprūs",
+      "Pigūs, atsparūs korozijai ir išmagnetinimui, tačiau silpnesnis laukas",
+      "Jautrūs korozijai"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Koks rodiklis apibūdina nuolatinio magneto kokybę?",
+    "atsakymai": [
+      "Savitoji varža ρ",
+      "Dielektrinė skvarba ε",
+      "Maksimali energinė sandauga (BH)max"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Magnetinės medžiagos",
+    "klausimas": "Kur dažniausiai naudojamas elektrotechninis plienas (Fe-Si)?",
+    "atsakymai": [
+      "Kaitinimo elementai",
+      "Garsiakalbių magnetai",
+      "Transformatorių šerdys, variklių ir generatorių statoriai/rotoriai"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Koks yra nanomedžiagų matmenų intervalas?",
+    "atsakymai": [
+      "1–100 milimetrų",
+      "Bent vienas matmuo 1–100 nanometrų",
+      "1–100 mikrometrų"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kuo pasižymi grafenas ir anglies nanotrubelės (CNT)?",
+    "atsakymai": [
+      "Superparamagnetizmu",
+      "Itin dideliu elektros laidumu ir mechaniniu tvirtumu",
+      "Didele elektrine varža"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kuo pasižymi nanodielektrikai ir nanokompozitai?",
+    "atsakymai": [
+      "Aukšta pramušimo įtampa, atsparumas elektriniam pramušimui, geresnė šilumos sklaida",
+      "Superlaidumas",
+      "Didelė elektrinė varža tik kaitinant"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kam naudojami kvantiniai taškai ir puslaidininkinės nanodalelės?",
+    "atsakymai": [
+      "Optoelektronika, saulės elementai, LED (tikslus energijos juostos tarpo valdymas)",
+      "Kabelių apvalkalai",
+      "Transformatorių šerdys"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kam skirti minkštieji magnetiniai nanokristalai?",
+    "atsakymai": [
+      "Nuolatiniams magnetams",
+      "Transformatorių šerdims ir elektros varikliams – sumažina nuostolius aukštuose dažniuose",
+      "Kabelių izoliacijai"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kaip CNT arba grafenu armuoti variniai ir aliumininiai laidininkai veikia elektrines savybes?",
+    "atsakymai": [
+      "Padidina varžą",
+      "Sumažina varžą ir leidžia praleisti didesnio tankio srovę be perkaitimo",
+      "Paverčia laidininką izoliatoriumi"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kuo pagrįsti superkondensatoriai su grafeno ar metalų oksidų nanostruktūromis?",
+    "atsakymai": [
+      "Didesnis elektrodų paviršiaus plotas – greitas įkrovimas ir didesnis energijos tankis",
+      "Mažesnis elektrodų plotas",
+      "Veikia tik žemiau Kiuri temperatūros"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Ką daro nanogeneratoriai su piezoelektrinėmis nanovielomis (pvz., ZnO)?",
+    "atsakymai": [
+      "Gamina šilumą",
+      "Verčia mechanines vibracijas ar judesį elektros energija mažos galios jutikliams ir IoT",
+      "Kaupia energiją magnetiniame lauke"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kas yra superparamagnetizmas magnetinėse nanodalelėse?",
+    "atsakymai": [
+      "Nesant lauko nėra liekamojo įmagnetėjimo (histerezės nuostoliai lygūs nuliui), įjungus lauką – akimirksniu stipriai įsimagnetina",
+      "Išlaiko stiprų įmagnetėjimą be lauko",
+      "Visiškai nereaguoja į magnetinį lauką"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kam medicinoje naudojamos SPION?",
+    "atsakymai": [
+      "Kabelių izoliacijai",
+      "Aukštos įtampos jungikliams",
+      "Targetiniam vaistų pernešimui ir magnetinei hipertermijai (vėžio ląstelių kaitinimui)"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kas yra sumanios medžiagos (smart materials)?",
+    "atsakymai": [
+      "Medžiagos, kurios nekinta jokiomis sąlygomis",
+      "Medžiagos, naudojamos tik kosmose",
+      "Medžiagos, kurios grįžtamai ir kontroliuojamai keičia savybes reaguodamos į išorinius dirgiklius"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Ką daro piezoelektrinės medžiagos?",
+    "atsakymai": [
+      "Grįžta į pradinę formą pakaitinus",
+      "Mechaninį spaudimą paverčia elektros srove ir atvirkščiai",
+      "Keičia spalvą nuo UV"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Ką daro formos atminties lydiniai (SMA)?",
+    "atsakymai": [
+      "Deformuoti grįžta į pradinę „įsimintą“ formą juos pakaitinus",
+      "Virsta kietu kūnu magnetiniame lauke",
+      "Keičia spalvą veikiami įtampos"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Ką daro elektrochrominės medžiagos?",
+    "atsakymai": [
+      "Keičia optines savybes (spalvą, pralaidumą) veikiamos elektros įtampos",
+      "Mechaninį spaudimą paverčia srove",
+      "Keičia klampumą magnetiniame lauke"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Ką daro fotochrominės medžiagos?",
+    "atsakymai": [
+      "Išstumia magnetinį lauką",
+      "Keičia spalvą veikiamos UV spindulių (pvz., tamsėjantys akinių lęšiai)",
+      "Kaupia krūvį"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kas vyksta su ER ir MR skysčiais veikiant elektriniam ar magnetiniam laukui?",
+    "atsakymai": [
+      "Visiškai išgaruoja",
+      "Per milisekundes iš skysčio virsta kietu kūnu (padidėja klampumas), išjungus lauką vėl tampa skysti",
+      "Tampa superlaidūs"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Ką daro magnetostrikcinės medžiagos (pvz., Terfenol-D)?",
+    "atsakymai": [
+      "Grįžta į formą pakaitintos",
+      "Keičia matmenis (ilgį, tūrį) patekusios į magnetinį lauką",
+      "Keičia spalvą nuo UV"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kas yra feroskysčiai (magnetiniai skysčiai)?",
+    "atsakymai": [
+      "Skystos izoliacinės alyvos",
+      "Stabilios koloidinės magnetinių nanodalelių suspensijos skystyje, veikiamos lauko keičia klampumą ir formą",
+      "Skystieji superlaidininkai"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kas yra SPION?",
+    "atsakymai": [
+      "Superparamagnetinės geležies oksidų nanodalelės (Fe₃O₄, γ-Fe₂O₃)",
+      "Superlaidūs magnetiniai laidai",
+      "Silicio puslaidininkių nanostruktūros"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kas yra FINEMET?",
+    "atsakymai": [
+      "Superlaidininkas",
+      "Feroelektrikas",
+      "Geležies, silicio, boro lydinys – magnetinė nanokristalinė medžiaga su didele skvarba ir mažais nuostoliais"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kur naudojami feroskysčiai?",
+    "atsakymai": [
+      "Aukštos įtampos izoliatoriai",
+      "Nesusidėvintys skysti sandarikliai vakuumo ir elektrotechnikos įrangoje",
+      "Laidų apvalkalai"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kokią naudą duoda kietieji magnetiniai nanokompozitai?",
+    "atsakymai": [
+      "Aukštesnė izoliacijos įtampa",
+      "Itin stiprūs permanentiniai magnetai be brangių retųjų žemių elementų",
+      "Mažesni nuostoliai transformatoriuose"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kurios medžiagos yra piezoelektrinės?",
+    "atsakymai": [
+      "Terfenol-D",
+      "PZT (švino cirkonato titanatas) ir kvarcas",
+      "Nitinolis"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kam naudojamos piezoelektrinės medžiagos?",
+    "atsakymai": [
+      "Ultragarsiniai varikliai, mikrofonai, energijos surinkėjai",
+      "Išmanieji langai",
+      "Adaptyvūs amortizatoriai"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kuris lydinys yra formos atminties lydinio pavyzdys?",
+    "atsakymai": [
+      "Nichromas",
+      "Permalojus",
+      "Nitinolis (Ni-Ti)"
+    ],
+    "teisingas": [
+      2
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kur naudojamos elektrochrominės medžiagos?",
+    "atsakymai": [
+      "Išmanieji pastatų stiklai, automatiškai tamsėjantys veidrodėliai",
+      "Termostatai",
+      "Ultragarsiniai varikliai"
+    ],
+    "teisingas": [
+      0
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kur naudojami ER ir MR skysčiai?",
+    "atsakymai": [
+      "Mikroschemų korpusai",
+      "Adaptyvūs amortizatoriai, išmanieji stabdžiai, robotikos sąnariai",
+      "Kabelių izoliacija"
+    ],
+    "teisingas": [
+      1
+    ]
+  },
+  {
+    "tema": "Nanomedžiagos ir sumanios medžiagos",
+    "klausimas": "Kur dažniausiai naudojamos magnetostrikcinės medžiagos?",
+    "atsakymai": [
+      "Išmanieji langai",
+      "Didelės galios ultragarso generatoriai ir pramoniniai vibratoriai",
+      "Termostatai"
+    ],
+    "teisingas": [
+      1
     ]
   }
 ]
